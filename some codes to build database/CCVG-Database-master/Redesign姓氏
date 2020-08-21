@@ -1,0 +1,22 @@
+SELECT * FROM last_names_original;
+
+#创建updated表格
+DROP TABLE IF EXISTS last_names_updated;
+CREATE TABLE last_names_updated (
+id INT(4) AUTO_INCREMENT PRIMARY KEY,
+g_id INT(4), 
+`Total Number of LAST NAMES_姓氏总数` VARCHAR(100),
+`Five Most Common LAST NAMES - Chinese Characters_前五大姓氏 - 汉字` VARCHAR(100),
+`Five Most Common LAST NAMES - Hanyu Pinyin_前五大姓氏 - 汉语拼音` VARCHAR(100)
+);
+
+#导入数据
+INSERT INTO last_names_updated (g_id, `Total Number of LAST NAMES_姓氏总数`, `Five Most Common LAST NAMES - Chinese Characters_前五大姓氏 - 汉字`, `Five Most Common LAST NAMES - Hanyu Pinyin_前五大姓氏 - 汉语拼音`)
+SELECT lno.`Gazetteer CODE_村志代码`, lno.`Total Number of LAST NAMES_姓氏总数`, lno.`Five Most Common LAST NAMES - Chinese Characters_前五大姓氏 - 汉字`, lno.`Five Most Common LAST NAMES - Hanyu Pinyin_前五大姓氏 - 汉语拼音`
+FROM last_names_original lno
+
+#删除original表格
+DROP TABLE IF EXISTS last_names_original;
+
+
+SELECT * FROM last_names_updated;

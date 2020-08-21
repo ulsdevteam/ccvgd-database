@@ -1,0 +1,125 @@
+##创建姓氏原表格
+DROP TABLE IF EXISTS last_names_original;
+CREATE TABLE last_names_original (
+`Gazetteer CODE_村志代码` INT(4),
+`Gazetteer Title_村志书名` VARCHAR(100),
+`Total Number of LAST NAMES_姓氏总数` VARCHAR(100),
+`Five Most Common LAST NAMES - Chinese Characters_前五大姓氏 - 汉字` VARCHAR(100),
+`Five Most Common LAST NAMES - Hanyu Pinyin_前五大姓氏 - 汉语拼音` VARCHAR(100)
+);
+
+SELECT * FROM last_names_original;
+
+#导入csv数据
+LOAD DATA LOCAL INFILE 'C:/Users/Administrator/Desktop/ccvg2/last_names.csv' 
+INTO TABLE last_names_original 
+FIELDS TERMINATED BY  ','  
+ENCLOSED BY '"'
+LINES TERMINATED BY '\r\n'
+IGNORE 1 ROWS;
+
+##创建自然灾害原表格
+DROP TABLE IF EXISTS natural_disasters;
+CREATE TABLE natural_disasters_original (
+`Gazetteer CODE_村志代码` INT(4),
+`Gazetteer Title_村志书名` VARCHAR(100),
+`TYPES of NATURAL Disasters_自然灾害种类` VARCHAR(100),
+`Years_年份` VARCHAR(100)
+);
+
+#导入csv数据
+LOAD DATA LOCAL INFILE 'C:/Users/Administrator/Desktop/ccvg2/natural_disasters.csv' 
+INTO TABLE natural_disasters_original 
+FIELDS TERMINATED BY  ','  
+ENCLOSED BY '"'
+LINES TERMINATED BY '\r\n'
+IGNORE 1 ROWS;
+
+SELECT * FROM natural_disasters_original;
+
+#将年份拆分为多行
+SELECT a.`Gazetteer CODE_村志代码`, a.`Gazetteer Title_村志书名`, a.`TYPES of NATURAL Disasters_自然灾害种类`, SUBSTRING_INDEX(SUBSTRING_INDEX(a.`Years_年份` ,',',b.help_topic_id+1),',',-1) `Years_年份` 
+FROM natural_disasters_original a 
+JOIN mysql.help_topic b
+ON b.help_topic_id < (LENGTH(a.`Years_年份`) - LENGTH(REPLACE(a.`Years_年份`,',',''))+1)
+
+##创建首次出现年份原表格
+DROP TABLE IF EXISTS first_year_original;
+CREATE TABLE first_year_original (
+`Gazetteer CODE_村志代码` INT(4),
+`Gazetteer Title_村志书名` VARCHAR(100),
+`Liquefied Gas_液化气`  YEAR,
+`Pipeline Gas_管道燃气` YEAR,
+`NATURAL Gas_天然气` YEAR,
+`Tap Water_自来水` YEAR,
+`Electricity Service_供电` YEAR,
+`Television SET_电视机` YEAR,
+`Telephone_电话机` YEAR,
+`Wired-line Broadcasting_有线广播` YEAR
+);
+
+#导入数据
+LOAD DATA LOCAL INFILE 'C:/Users/Administrator/Desktop/ccvg2/first_year.csv' 
+INTO TABLE first_year_original 
+FIELDS TERMINATED BY  ','  
+ENCLOSED BY '"'
+LINES TERMINATED BY '\r\n'
+IGNORE 1 ROWS;
+
+SELECT * FROM first_year_original;
+
+##创建自然环境原表
+DROP TABLE IF EXISTS natural_environment_original;
+CREATE TABLE natural_environment_original (
+`Gazetteer CODE_村志代码` INT(4),
+`Gazetteer Title_村志书名` VARCHAR(100),
+`Altitude_海拔 (米)` FLOAT,
+`Average Yearly Precipitation Unit_平均降水量单位` VARCHAR(100),
+`Average Yearly Precipitation Amount_平均降水量` FLOAT,
+`Average Yearly Temperature Unit_平均温度单位` VARCHAR(100),
+`Average Yearly Temperature_平均温度` FLOAT
+);
+
+#导入数据
+LOAD DATA LOCAL INFILE 'C:/Users/Administrator/Desktop/ccvg2/natural_environment.csv' 
+INTO TABLE natural_environment_original 
+FIELDS TERMINATED BY  ','  
+ENCLOSED BY '"'
+LINES TERMINATED BY '\r\n'
+IGNORE 1 ROWS;
+
+SELECT * FROM natural_environment_original;
+
+
+##创建村庄信息原表
+DROP TABLE IF EXISTS village_information_original;
+CREATE TABLE village_information_original (
+`Gazetteer CODE_村志代码` INT(4),
+`Gazetteer Title_村志书名` VARCHAR(100),
+`Village CODE_村庄代码` VARCHAR(100),
+`Village NAME - Chinese Characters_村名 - 汉字` VARCHAR(100),
+`Village NAME - Hanyu Pinyin_村名 - 汉语拼音` VARCHAR(100),
+`Province - Chinese Characters_省 - 汉字` VARCHAR(100),
+`Province - Hanyu Pinyin_省 - 汉语拼音` VARCHAR(100),
+`City - Chinese Characters_市 - 汉字` VARCHAR(100),
+`City - Hanyu Pinyin_市 - 汉语拼音` VARCHAR(100),
+`County / District - Chinese Characters_县 / 区 - 汉字` VARCHAR(100),
+`County / District - Hanyu Pinyin_县 / 区 - 汉语拼音` VARCHAR(100),
+`Total AREA Unit_村庄总面积单位` VARCHAR(100),
+`Total AREA_村庄总面积` FLOAT,
+`Latitude AND Longitude - FORMAT_经纬度 - 格式` VARCHAR(100),
+`Latitude_纬度` VARCHAR(100),
+`Longitude_经度` VARCHAR(100),
+`Distance TO Affiliated TO the county town - Unit_距隶属县城距离单位` VARCHAR(100),
+`Distance TO Affiliated TO the county town_距隶属县城距离` FLOAT
+);
+
+#导入数据
+LOAD DATA LOCAL INFILE 'C:/Users/Administrator/Desktop/ccvg2/village_information.csv' 
+INTO TABLE village_information_original 
+FIELDS TERMINATED BY  ','  
+ENCLOSED BY '"'
+LINES TERMINATED BY '\r\n'
+IGNORE 1 ROWS;
+
+SELECT * FROM village_information_original;

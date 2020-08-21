@@ -1,0 +1,159 @@
+SELECT * FROM village_information_original;
+
+#村名有769个，村志有781个
+
+/*
+0. 分别建立village，county，city，province表格
+1. 建立village_gazetteer表格，存储id, village_id, village_name, gazetteer_id, gazetteer_name
+2. 建立province_village表格
+3. 建立city_village表格
+4. 建立county_village表格
+5. 建立village_county_city_province表格
+*/
+
+##0. 分别建立village，county，city，province表格
+
+#village表格
+DROP TABLE IF EXISTS village;
+CREATE TABLE village (
+id INT(4) AUTO_INCREMENT PRIMARY KEY,
+village_name_characters VARCHAR(100),
+village_name_pinyin VARCHAR(100)
+);
+
+#插入village数据
+INSERT INTO village(village_name_characters, village_name_pinyin)
+SELECT vio.`Village NAME - Chinese Characters_村名 - 汉字`, vio.`Village NAME - Hanyu Pinyin_村名 - 汉语拼音`
+FROM village_information_original vio
+GROUP BY vio.`Village NAME - Chinese Characters_村名 - 汉字`
+ORDER BY vio.`Gazetteer CODE_村志代码`
+
+SELECT * FROM village;
+
+#county表格
+DROP TABLE IF EXISTS county;
+CREATE TABLE county (
+id INT(4) AUTO_INCREMENT PRIMARY KEY,
+county_name_characters VARCHAR(100),
+county_name_pinyin VARCHAR(100)
+);
+
+#插入county数据
+INSERT INTO county(county_name_characters, county_name_pinyin)
+SELECT vio.`County / District - Chinese Characters_县 / 区 - 汉字`, vio.`County / District - Hanyu Pinyin_县 / 区 - 汉语拼音`
+FROM village_information_original vio
+GROUP BY vio.`County / District - Chinese Characters_县 / 区 - 汉字`
+ORDER BY vio.`Gazetteer CODE_村志代码`
+
+#city表格
+DROP TABLE IF EXISTS city;
+CREATE TABLE city (
+id INT(4) AUTO_INCREMENT PRIMARY KEY,
+city_name_characters VARCHAR(100),
+city_name_pinyin VARCHAR(100)
+);
+
+#插入city数据
+INSERT INTO city(city_name_characters, city_name_pinyin)
+SELECT vio.`City - Chinese Characters_市 - 汉字`, vio.`City - Hanyu Pinyin_市 - 汉语拼音`
+FROM village_information_original vio
+GROUP BY vio.`City - Chinese Characters_市 - 汉字`
+ORDER BY vio.`Gazetteer CODE_村志代码`
+
+#province表格
+DROP TABLE IF EXISTS province;
+CREATE TABLE province (
+id INT(4) AUTO_INCREMENT PRIMARY KEY,
+province_name_characters VARCHAR(100),
+province_name_pinyin VARCHAR(100)
+);
+
+INSERT INTO province (province_name_characters, province_name_pinyin)
+SELECT vio.`Province - Chinese Characters_省 - 汉字`, vio.`Province - Hanyu Pinyin_省 - 汉语拼音`
+FROM village_information_original vio
+GROUP BY vio.`Province - Chinese Characters_省 - 汉字`
+ORDER BY vio.`Gazetteer CODE_村志代码`
+
+SELECT * FROM province;
+
+##1. 建立village_gazetteer表格，存储id, village_id, village_name, gazetteer_id, gazetteer_name
+DROP TABLE IF EXISTS village_gazetteer;
+CREATE TABLE village_gazetteer (
+id INT(4) AUTO_INCREMENT PRIMARY KEY,
+v_id INT(4),
+v_name VARCHAR(100),
+g_id INT(4),
+g_name VARCHAR(100)
+);
+
+#导入数据
+INSERT INTO village_gazetteer (v_id, v_name, g_id, g_name)
+SELECT v.`id`, v.`village_name_characters`, vio.`Gazetteer CODE_村志代码`, vio.`Gazetteer Title_村志书名`
+FROM village_information_original vio, village v
+WHERE v.`village_name_characters` = vio.`Village NAME - Chinese Characters_村名 - 汉字`
+
+SELECT * FROM village_gazetteer;
+
+##2. 建立province_village表格
+DROP TABLE IF EXISTS province_village;
+CREATE TABLE province_village (
+id INT(4) AUTO_INCREMENT PRIMARY KEY,
+p_id INT(4),
+v_id INT(4)
+);
+
+#插入数据
+INSERT INTO province_village (p_id, v_id)
+SELECT p.`id`, v.`id`
+FROM village_information_original vio, province p, village v
+WHERE vio.`Province - Chinese Characters_省 - 汉字` = p.`province_name_characters`
+AND vio.`Village NAME - Chinese Characters_村名 - 汉字` = v.`village_name_characters`
+
+##3. 建立city_village表格
+DROP TABLE IF EXISTS city_village;
+CREATE TABLE city_village (
+id INT(4) AUTO_INCREMENT PRIMARY KEY,
+c_id INT(4),
+v_id INT(4)
+);
+
+#导入数据
+INSERT INTO city_village (c_id, v_id)
+SELECT c.`id`, v.`id`
+FROM village_information_original vio, city c, village v
+WHERE vio.`City - Chinese Characters_市 - 汉字` = c.`city_name_characters`
+AND vio.`Village NAME - Chinese Characters_村名 - 汉字` = v.`village_name_characters`
+
+##4. 建立county_village表格
+DROP TABLE IF EXISTS county_village;
+CREATE TABLE county_village (
+id INT(4) AUTO_INCREMENT PRIMARY KEY,
+co_id INT(4),
+v_id INT(4)
+);
+
+#导入数据
+INSERT INTO county_village (co_id, v_id)
+SELECT co.`id`, v.`id`
+FROM village_information_original vio, county co, village v
+WHERE vio.`County / District - Chinese Characters_县 / 区 - 汉字` = co.`county_name_characters`
+AND vio.`Village NAME - Chinese Characters_村名 - 汉字` = v.`village_name_characters`
+
+##5. 建立village_county_city_province表格
+DROP TABLE IF EXISTS village_county_city_province;
+CREATE TABLE village_county_city_province (
+id INT(4) AUTO_INCREMENT PRIMARY KEY,
+v_id INT(4),
+co_id INT(4),
+c_id INT(4),
+p_id INT(4)
+);
+
+#导入数据
+INSERT INTO village_county_city_province (v_id, co_id, c_id, p_id)
+SELECT v.`id`, co.`id`, c.`id`, p.`id`
+FROM village_information_original vio
+INNER JOIN village v ON vio.`Village NAME - Chinese Characters_村名 - 汉字` = v.`village_name_characters`
+INNER JOIN county co ON vio.`County / District - Chinese Characters_县 / 区 - 汉字` = co.`county_name_characters`
+INNER JOIN city c ON vio.`City - Chinese Characters_市 - 汉字` = c.`city_name_characters`
+INNER JOIN province p ON vio.`Province - Chinese Characters_省 - 汉字` = p.`province_name_characters`

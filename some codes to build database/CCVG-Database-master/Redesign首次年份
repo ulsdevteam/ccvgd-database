@@ -1,0 +1,82 @@
+SELECT * FROM first_year_original;
+
+#创建category表格
+DROP TABLE IF EXISTS first_year_category;
+CREATE TABLE first_year_category (
+id VARCHAR(100) PRIMARY KEY,
+fir_yea_cat_name VARCHAR(100)
+);
+
+#插入数据
+INSERT INTO first_year_category VALUES ('1_cat_liq_gas', 'Liquefied Gas_液化气');
+INSERT INTO first_year_category VALUES ('2_cat_pip_gas', 'Pipeline Gas_管道燃气');
+INSERT INTO first_year_category VALUES ('3_cat_nat_gas', 'NATURAL Gas_天然气');
+INSERT INTO first_year_category VALUES ('4_cat_tap_wat', 'Tap Water_自来水');
+INSERT INTO first_year_category VALUES ('5_cat_ele_ser', 'Electricity Service_供电');
+INSERT INTO first_year_category VALUES ('6_cat_tel_set', 'Television SET_电视机');
+INSERT INTO first_year_category VALUES ('7_cat_tel', 'Telephone_电话机');
+INSERT INTO first_year_category VALUES ('8_cat_wir_lin_bro', 'Wired-line Broadcasting_有线广播');
+
+#去除所有null值
+SELECT `Gazetteer CODE_村志代码`, 'Liquefied Gas_液化气' Category, `Liquefied Gas_液化气` YEAR FROM first_year_original WHERE `Liquefied Gas_液化气` IS NOT NULL
+UNION ALL
+SELECT `Gazetteer CODE_村志代码`, 'Pipeline Gas_管道燃气' Category, `Pipeline Gas_管道燃气` YEAR FROM first_year_original WHERE `Pipeline Gas_管道燃气` IS NOT NULL
+UNION ALL
+SELECT `Gazetteer CODE_村志代码`, 'NATURAL Gas_天然气' Category, `NATURAL Gas_天然气` `Data` FROM first_year_original WHERE `NATURAL Gas_天然气` IS NOT NULL
+UNION ALL
+SELECT `Gazetteer CODE_村志代码`, 'Tap Water_自来水' Category, `Tap Water_自来水` `Data` FROM first_year_original WHERE `Tap Water_自来水` IS NOT NULL
+UNION ALL
+SELECT `Gazetteer CODE_村志代码`, 'Electricity Service_供电' Category, `Electricity Service_供电` `Data` FROM first_year_original WHERE `Electricity Service_供电` IS NOT NULL
+UNION ALL
+SELECT `Gazetteer CODE_村志代码`, 'Television SET_电视机' Category, `Television SET_电视机` `Data` FROM first_year_original WHERE `Television SET_电视机` IS NOT NULL
+UNION ALL
+SELECT `Gazetteer CODE_村志代码`, 'Telephone_电话机' Category, `Telephone_电话机` `Data` FROM first_year_original WHERE `Telephone_电话机` IS NOT NULL
+UNION ALL
+SELECT `Gazetteer CODE_村志代码`, 'Wired-line Broadcasting_有线广播' Category, `Wired-line Broadcasting_有线广播` `Data` FROM first_year_original WHERE `Wired-line Broadcasting_有线广播` IS NOT NULL
+
+#创建temp表格把去除null值的数据导入
+DROP TABLE IF EXISTS first_year_temp;
+CREATE TABLE first_year_temp (
+id INT(4) AUTO_INCREMENT PRIMARY KEY,
+g_id INT(4),
+Category VARCHAR(100),
+`Year` YEAR
+);
+
+INSERT INTO first_year_temp (g_id, Category, `Year`)
+SELECT `Gazetteer CODE_村志代码`, 'Liquefied Gas_液化气' Category, `Liquefied Gas_液化气` YEAR FROM first_year_original WHERE `Liquefied Gas_液化气` IS NOT NULL
+UNION ALL
+SELECT `Gazetteer CODE_村志代码`, 'Pipeline Gas_管道燃气' Category, `Pipeline Gas_管道燃气` YEAR FROM first_year_original WHERE `Pipeline Gas_管道燃气` IS NOT NULL
+UNION ALL
+SELECT `Gazetteer CODE_村志代码`, 'NATURAL Gas_天然气' Category, `NATURAL Gas_天然气` `Data` FROM first_year_original WHERE `NATURAL Gas_天然气` IS NOT NULL
+UNION ALL
+SELECT `Gazetteer CODE_村志代码`, 'Tap Water_自来水' Category, `Tap Water_自来水` `Data` FROM first_year_original WHERE `Tap Water_自来水` IS NOT NULL
+UNION ALL
+SELECT `Gazetteer CODE_村志代码`, 'Electricity Service_供电' Category, `Electricity Service_供电` `Data` FROM first_year_original WHERE `Electricity Service_供电` IS NOT NULL
+UNION ALL
+SELECT `Gazetteer CODE_村志代码`, 'Television SET_电视机' Category, `Television SET_电视机` `Data` FROM first_year_original WHERE `Television SET_电视机` IS NOT NULL
+UNION ALL
+SELECT `Gazetteer CODE_村志代码`, 'Telephone_电话机' Category, `Telephone_电话机` `Data` FROM first_year_original WHERE `Telephone_电话机` IS NOT NULL
+UNION ALL
+SELECT `Gazetteer CODE_村志代码`, 'Wired-line Broadcasting_有线广播' Category, `Wired-line Broadcasting_有线广播` `Data` FROM first_year_original WHERE `Wired-line Broadcasting_有线广播` IS NOT NULL
+
+SELECT * FROM first_year_temp;
+
+#创建updated表格，把category换成category_id
+DROP TABLE IF EXISTS first_year_updated;
+CREATE TABLE first_year_updated (
+id INT(4) AUTO_INCREMENT PRIMARY KEY,
+g_id INT(4),
+fir_yea_cat_id VARCHAR(100),
+`Year` YEAR
+);
+
+INSERT INTO first_year_updated (g_id, fir_yea_cat_id, `Year`)
+SELECT fyt.`g_id`, fyc.`id`, fyt.`Year`
+FROM first_year_temp fyt, first_year_category fyc
+WHERE fyt.`Category` = fyc.`fir_yea_cat_name`
+
+SELECT * FROM first_year_updated;
+
+#删除temp表格
+DROP TABLE IF EXISTS first_year_temp;
