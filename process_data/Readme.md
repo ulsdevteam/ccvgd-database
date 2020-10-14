@@ -1,0 +1,2 @@
+* Folder contains the codes that are used to process dataset and output the necessary csv files to be imported into the database.
+* These codes can not be used as script, some parts need to be modified. I updated these codes for records.
