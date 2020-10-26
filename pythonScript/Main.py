@@ -13,7 +13,7 @@ config['password'] = file['password']
 config['host'] = file['host']
 
 # DB_NAME: name of new database schema
-DB_NAME = file['database'] + str(1)
+DB_NAME = file['database']
 
 # connect to mysql
 # cnx: MySQL connection object
