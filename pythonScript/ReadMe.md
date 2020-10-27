@@ -1,5 +1,5 @@
 ## To run scripts:
-1. Enter MySQL connect parameter at config.txt file
+1. Enter MySQL connect parameter at confit.txt file
 2. Run Main.py script in terminal under correct python version
 
 ## Package version

@@ -57,9 +57,8 @@ def create_database(cnx, DB_NAME):
     :param DB_NAME: name of database to be created
     :return: cnx, the MySQL connection object
     """
-
+    cursor = cnx.cursor()
     try:
-        cursor = cnx.cursor()
         cursor.execute("CREATE DATABASE {} DEFAULT CHARACTER SET 'utf8'".format(DB_NAME))
     except mysql.connector.Error as err:
         print("Failed creating database: {}".format(err))
@@ -67,10 +66,12 @@ def create_database(cnx, DB_NAME):
         exit(1)
     else:
         print("Create schema {} success".format(DB_NAME))
+        cnx.commit()
         cnx.database = DB_NAME
         cursor.close()
 
 def create_tables(TABLES, cnx):
+
     """
     create 36 predefined tables
 
@@ -78,9 +79,8 @@ def create_tables(TABLES, cnx):
     :param cursor: an object of MySQLCursor class
     """
 
-    cursor = cnx.cursor()
-
     for table_name in TABLES:
+        cursor = cnx.cursor()
         table_description = TABLES[table_name]
         try:
             print("Creating table {}: ".format(table_name), end='')
@@ -92,5 +92,4 @@ def create_tables(TABLES, cnx):
                 print(err.msg)
         else:
             print("OK")
-
-    cursor.close()
+        cursor.close()

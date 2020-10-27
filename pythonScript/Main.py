@@ -1,4 +1,5 @@
 import json
+
 from Table import Table
 from create_database import connect_to_mysql, switch_to_database, create_tables
 
@@ -19,6 +20,11 @@ DB_NAME = file['database']
 # cnx: MySQL connection object
 cnx = connect_to_mysql(config)
 
+# drop the DB_NAME database, if previous exists
+cursor = cnx.cursor()
+cursor.execute("DROP DATABASE IF EXISTS {};".format(DB_NAME))
+cursor.close()
+
 # switch or create database schema
 switch_to_database(cnx, DB_NAME)
 
@@ -26,7 +32,6 @@ switch_to_database(cnx, DB_NAME)
 # TABLES: predefined CREATE SQL commands
 TABLES = Table.TABLES
 create_tables(TABLES, cnx)
-
 cnx.close()
 
 

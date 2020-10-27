@@ -5,9 +5,8 @@ class Table:
                                       "  `gazetteerId_村志代码` int(11) NOT NULL,"
                                       "  `gazetteerTitle_村志书名` varchar(100) NOT NULL,"
                                       "  `gazetteerTitleHanyuPinyin_村志书名汉语拼音` varchar(100) NOT NULL,"
-                                      "  `yearOfPublication_出版年` year(4) NOT NULL,"
+                                      "  `yearOfPublication_出版年` varchar(4) NOT NULL,"
                                       "  `publicationType_出版类型` varchar(100) DEFAULT NULL,"
-                                      "  `villageInnerId_村庄内部代码` varchar(100) NOT NULL,"
                                       "  PRIMARY KEY (`gazetteerId_村志代码`)"
                                       ") ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;")
 
@@ -59,8 +58,7 @@ class Table:
                                            "  CONSTRAINT `villagecountycityprovince_村县市省_ibfk_2` FOREIGN KEY (`countyDistrictId_县或区代码`) REFERENCES `county_县` (`countydistrictid_县或区代码`),"
                                            "  CONSTRAINT `villagecountycityprovince_村县市省_ibfk_3` FOREIGN KEY (`cityId_市代码`) REFERENCES `city_市` (`cityid_市代码`),"
                                            "  CONSTRAINT `villagecountycityprovince_村县市省_ibfk_4` FOREIGN KEY (`provinceId_省代码`) REFERENCES `province_省` (`provinceid_省代码`)"
-                                           ") ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;"
-                                           "/*!40101 SET character_set_client = @saved_cs_client */;")
+                                           ") ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;")
 
     TABLES['naturalEnvironmentCategory'] = ("CREATE TABLE `naturalEnvironmentCategory_自然环境类` ("
                                             "  `categoryId_类别代码` int(11) NOT NULL,"
