@@ -1,6 +1,11 @@
 ## To run scripts:
-1. Enter MySQL connect parameter at confit.txt file
+1. Create confit.txt, put it directly under pythonScript
 2. Run Main.py script in terminal under correct python version
+
+* config.txt:
+```
+{"user": "", "password": "", "host": "", "database": "", "raise_on_warnings": true}
+```
 
 ## Package version
 1. python 3.7.3
