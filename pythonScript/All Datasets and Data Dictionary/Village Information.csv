@@ -1,0 +1,976 @@
+﻿村志代码 Gazetteer Code,村志书名 Gazetteer Title,村庄代码 Village Code,村名 - 汉字 Village Name - Chinese Characters,村名 - 汉语拼音 Village Name - Hanyu Pinyin,省 - 汉字 Province - Chinese Characters,省 - 汉语拼音 Province - Hanyu Pinyin,市 - 汉字 City - Chinese Characters,市 - 汉语拼音 City - Hanyu Pinyin,县 / 区 - 汉字 County / District - Chinese Characters,县 / 区 - 汉语拼音 County / District - Hanyu Pinyin,村庄总面积单位 Total Area Unit,村庄总面积 Total Area,经纬度 - 格式 Latitude and Longitude - Format,纬度 Latitude,经度 Longitude,距隶属县城距离单位 Distance to Affiliated to the county town - Unit,距隶属县城距离 Distance to Affiliated to the county town
+0001,太平店村志,411082100218,太平店村,Taipingdian Cun,河南省,Henan Sheng,许昌市,Xuchang Shi,长葛市,Changge Shi,没有相关数据 No Available Data,n/a,没有相关数据 No Available Data,,,公里/千米 kilometer,4
+0002,叶店村志,420116403201,叶店村,Yedian Cun,湖北省,Hubei Sheng,武汉市,Wuhan Shi,黄陂区,Huangpi Qu,平方千米 / 平方公里 square kilometers,7.5,度分秒 DMS (degrees-minutes-seconds),30°47′N,114°11′E,公里/千米 kilometer,5
+0003,马鞭田村志,522328102210,马鞭田村,Mabiantian Cun,贵州省,Guizhou Sheng,黔西南布依族苗族自治州,Qianxi'nan Buyizu Miaozu Zizhizhou,安龙县,Anlong Xian,平方千米 / 平方公里 square kilometers,7.5,度分秒 DMS (degrees-minutes-seconds),250°9′N,105°48′E,公里/千米 kilometer,25.3
+0004,万秀村志,450107002201,万秀村,Wanxiu Cun,广西壮族自治区,Guangxi Zhuangzu Zizhiqu,南宁市,Nanning Shi,西乡塘区,Xixiangtang Qu,平方千米 / 平方公里 square kilometers,5.534,度分秒 DMS (degrees-minutes-seconds),22°51′N,108°18′E,没有相关数据 No Available Data,n/a
+0005,光淀村志,130632200207,光淀村,Guangdian Cun,河北省,Hebei Sheng,保定市,Baoding Shi,安新县,Anxin Xian,没有相关数据 No Available Data,n/a,没有相关数据 No Available Data,,,公里/千米 kilometer,9
+0006,方等村志,130522201225,方等村,Fangdeng Cun,河北省,Hebei Sheng,邢台市,Xingtai Shi,临城县,Lincheng Xian,平方华里 square huali,6,度分秒 DMS (degrees-minutes-seconds),37°32′N,114°32′E,公里/千米 kilometer,15
+0007,渔津洼村志,n/a,渔津洼村,Yujinwa Cun,河北省,Hebei Sheng,廊坊市,Langfang Shi,霸州市,Bazhou Shi,亩 mu,5528.4,没有相关数据 No Available Data,,,没有相关数据 No Available Data,n/a
+0008,板板桥村志,532530101211,板板桥村,Banbanqiao Cun,云南省,Yunnan Sheng,红河哈尼族彝族自治州,Honghe Hanizu Yizu Zizhizhou,金平苗族瑶族傣族自治县,Jinping Miaozu Yaozu Daizu Zizhixian,平方千米 / 平方公里 square kilometers,22.278,没有相关数据 No Available Data,,,公里/千米 kilometer,7
+0009,仓上村志,130535100213,仓上村,Cangshang Cun,河北省,Hebei Sheng,邢台市,Xingtai Shi,临西县,Linxi Xian,平方千米 / 平方公里 square kilometers,4.6,度分秒 DMS (degrees-minutes-seconds),36°51′N,115°29′E,公里/千米 kilometer,17
+0010,草场地村志,110105038210,草场地村,Caochangdi Cun,北京市,Beijing Shi,北京市,Beijing Shi,朝阳区,Chaoyang Qu,亩 mu,1400,没有相关数据 No Available Data,,,没有相关数据 No Available Data,n/a
+0011,桥梓村志,441900110202,桥梓村,Qiaozi Cun,广东省,Guangdong Sheng,东莞市,Dongguan Shi,东莞市,Dongguan Shi,平方千米 / 平方公里 square kilometers,1.95,度分秒 DMS (degrees-minutes-seconds),22°58′38″N,113°59′18″E,没有相关数据 No Available Data,n/a
+0012,东侯坊村志,n/a,东侯坊村,Donghoufang Cun,河北省,Hebei Sheng,石家庄市,Shijiazhuang Shi,无极县,Wuji Xian,平方千米 / 平方公里 square kilometers,0.88,没有相关数据 No Available Data,,,公里/千米 kilometer,6
+0013,黄土岗村志,110106202201,黄土岗村,Huangtugang Cun,北京市,Beijing Shi,北京市,Beijing Shi,丰台区,Fengtai Qu,平方千米 / 平方公里 square kilometers,2.6,没有相关数据 No Available Data,,,没有相关数据 No Available Data,n/a
+0014,桑耳庄村志,410581106229,桑耳庄村,Sang'erzhuang Cun,河南省,Henan Sheng,安阳市,Anyang Shi,林州市,Linzhou Shi,平方千米 / 平方公里 square kilometers,42.4,度分秒 DMS (degrees-minutes-seconds),36°16′N,113°48′E,公里/千米 kilometer,25
+0015,三合村志,110111209207,三合村,Sanhe Cun,北京市,Beijing Shi,北京市,Beijing Shi,房山区,Fangshan Qu,平方千米 / 平方公里 square kilometers,4.2,没有相关数据 No Available Data,,,公里/千米 kilometer,12
+0016,上梅林村志,n/a,上梅林村,Shangmeilin Cun,广东省,Guangdong Sheng,深圳市,Shenzhen Shi,福田区,Futian Qu,没有相关数据 No Available Data,n/a,没有相关数据 No Available Data,,,没有相关数据 No Available Data,n/a
+0017,单家村村志,110114007206,单家村,Shanjia Cun,北京市,Beijing Shi,北京市,Beijing Shi,昌平区,Changping Qu,平方千米 / 平方公里 square kilometers,1.3,没有相关数据 No Available Data,,,没有相关数据 No Available Data,n/a
+0018,生产村志,370687001201,生产村,Shengchan Cun,山东省,Shandong Sheng,烟台市,Yantai Shi,海阳市,Haiyang Shi,没有相关数据 No Available Data,n/a,度分秒 DMS (degrees-minutes-seconds),36°09′N,121°09′E,没有相关数据 No Available Data,n/a
+0019,树园村志,310120501203,树园村,Shuyuan Cun,上海市,Shanghai Shi,上海市,Shanghai Shi,奉贤区,Fengxian Qu,平方千米 / 平方公里 square kilometers,3,度分秒 DMS (degrees-minutes-seconds),30°55′N,121°27′E,没有相关数据 No Available Data,n/a
+0020,西黄村村志,110115005206,西黄村,Xihuang Cun,北京市,Beijing Shi,北京市,Beijing Shi,大兴区,Daxing Qu,平方千米 / 平方公里 square kilometers,0.03,度分秒 DMS (degrees-minutes-seconds),39°42′N,n/a,没有相关数据 No Available Data,n/a
+0021,张坊村志,110111110212,张坊村,Zhangfang Cun,北京市,Beijing Shi,北京市,Beijing Shi,房山区,Fangshan Qu,平方千米 / 平方公里 square kilometers,4.4,度分秒 DMS (degrees-minutes-seconds),39.4°N,94.1°E,里 li,80
+0022,张家圩子村志,370921107223,张家圩子村,Zhangjiaweizi Cun,山东省,Shandong Sheng,泰安市,Taian Shi,宁阳县,Ningyang Xian,平方米 square meters,3126067,没有相关数据 No Available Data,n/a,n/a,没有相关数据 No Available Data,n/a
+0023,凤池村志,350702105207,凤池村,Fengchi Cun,福建省,Fujian Sheng,南平市,Nanping Shi,延平区,Yanping Qu,亩 mu,13869,没有相关数据 No Available Data,,,没有相关数据 No Available Data,n/a
+0024,楼村志,440306007015,楼村,Lou Cun,广东省,Guangdong Sheng,深圳市,Shenzhen Shi,宝安区,Baoan Qu,平方千米 / 平方公里 square kilometers,37.6,没有相关数据 No Available Data,n/a,n/a,公里/千米 kilometer,30
+0025,马头村志,520121206201,马头村,Matou Cun,贵州省,Guizhou Sheng,贵阳市,Guiyang Shi,开阳县,Kaiyang Xian,平方千米 / 平方公里 square kilometers,22.07,没有相关数据 No Available Data,,,公里/千米 kilometer,28
+0026,孟莲村志,450109100203,孟莲村,Menglian Cun,广西壮族自治区,Guangxi Zhuangzu Zizhiqu,南宁市,Nanning Shi,邕宁区,Yongning Qu,平方千米 / 平方公里 square kilometers,4,没有相关数据 No Available Data,n/a,n/a,没有相关数据 No Available Data,n/a
+0027,马岭村志,460201104001,马岭村,Maling Cun,海南省,Hainan Sheng,三亚市,Sanya Shi,天涯区,Tianya Qu,平方千米 / 平方公里 square kilometers,4,度分秒 DMS (degrees-minutes-seconds),18°18′N,106°19′E,没有相关数据 No Available Data,n/a
+0028,莲塘村志,350822103222,莲塘村,Liantang Cun,福建省,Fujian Sheng,龙岩市,Longyan Shi,永定县,Yongding Xian,平方千米 / 平方公里 square kilometers,12,没有相关数据 No Available Data,,,没有相关数据 No Available Data,n/a
+0029,刘国忠村志,n/a,刘国忠村,Liuguozhong Cun,陕西省,Shanxi Sheng,榆林市,Yulin Shi,神木县,Shenmu Xian,平方千米 / 平方公里 square kilometers,35,没有相关数据 No Available Data,,,公里/千米 kilometer,60
+0030,管元村志,520402006203,管元村,Guanyuan Cun,贵州省,Guizhou Sheng,安顺市,Anshun Shi,西秀区,Xixiu Qu,平方千米 / 平方公里 square kilometers,3.3,度分秒 DMS (degrees-minutes-seconds),26°14′N,105°55′E,没有相关数据 No Available Data,n/a
+0031,南凤山村志,130107101003,南凤山村,Nanfengshan Cun,河北省,Hebei Sheng,石家庄市,Shijiazhuang Shi,井陉矿区,Jingxing Kuangqu,没有相关数据 No Available Data,n/a,没有相关数据 No Available Data,n/a,n/a,公里/千米 kilometer,50
+0032,井亭村志,310112107204,井亭村,Jingting Cun,上海市,Shanghai Shi,上海市,Shanghai Shi,闵行区,Minhang Qu,平方千米 / 平方公里 square kilometers,2.14,没有相关数据 No Available Data,,,没有相关数据 No Available Data,n/a
+0033,见守村志,130129100206,见守村,Jianshou Cun,河北省,Hebei Sheng,石家庄市,Shijiazhuang Shi,赞皇县,Zanhuang Xian,平方千米 / 平方公里 square kilometers,16,度分秒 DMS (degrees-minutes-seconds),37°26'N,114°2'E,公里/千米 kilometer,44
+0034,胡家村志,220105100208,胡家村,Hujia Cun,吉林省,Jilin Sheng,长春市,Changchun Shi,二道区,Erdao Qu,平方千米 / 平方公里 square kilometers,11.3,度分秒 DMS (degrees-minutes-seconds),43°54′34″N,125°22′5″E,没有相关数据 No Available Data,n/a
+0035,洪塘头村志,350212108003,洪塘头村,Hongtangtou Cun,福建省,Fujian Sheng,厦门市,Xiamen Shi,同安区,Tongan Qu,平方千米 / 平方公里 square kilometers,5.37,度分秒 DMS (degrees-minutes-seconds),24°32'N,n/a,没有相关数据 No Available Data,n/a
+0036,周家巷村志,320412100223,周家巷村,Zhoujiaxiang Cun,江苏省,Jiangsu Sheng,常州市,Changzhou Shi,武进区,Wujin Qu,平方千米 / 平方公里 square kilometers,1.1,没有相关数据 No Available Data,n/a,n/a,公里/千米 kilometer,6
+0037,联盟村志,610303100007,联盟村,Lianmeng Cun,陕西省,Shanxi Sheng,宝鸡市,Baoji Shi,金台区,Jintai Qu,平方千米 / 平方公里 square kilometers,2.91,没有相关数据 No Available Data,,,没有相关数据 No Available Data,n/a
+0038,梁口村志,130983204216,梁口村,Liangkou Cun,河北省,Hebei Sheng,沧州市,Cangzhou Shi,黄骅市,Huanghua Shi,没有相关数据 No Available Data,n/a,没有相关数据 No Available Data,n/a,n/a,公里/千米 kilometer,30
+0039,骏马村志,310230113210,骏马村,Junma Cun,上海市,Shanghai Shi,上海市,Shanghai Shi,崇明区,Chongming Qu,平方千米 / 平方公里 square kilometers,3.7,没有相关数据 No Available Data,,,没有相关数据 No Available Data,n/a
+0040,金家坪村志,430702205205,金家坪村,Jinjiaping Cun,湖南省,Hunan Sheng,常德市,Changde Shi,武陵区,Wuling Qu,平方千米 / 平方公里 square kilometers,4.68,没有相关数据 No Available Data,,,没有相关数据 No Available Data,n/a
+0041,博潭村志,469023100204,博谭村,Botan Cun,海南省,Hainan Sheng,澄迈县,Chengmai Xian,澄迈县,Chengmai Xian,平方千米 / 平方公里 square kilometers,5.5,没有相关数据 No Available Data,n/a,n/a,没有相关数据 No Available Data,n/a
+0042,新桥村志,310112107205,新桥村,Xinqiao Cun,上海市,Shanghai Shi,上海市,Shanghai Shi,闵行区,Minhang Qu,平方千米 / 平方公里 square kilometers,2,没有相关数据 No Available Data,,,没有相关数据 No Available Data,n/a
+0043,草厂村志,110108104213,草厂村,Caochang Cun,北京市,Beijing Shi,北京市,Beijing Shi,海淀区,Haidian Qu,亩 mu,6800,度分秒 DMS (degrees-minutes-seconds),40°4'N,116°6'E,没有相关数据 No Available Data,n/a
+0044,大吕庄村志,410526201201,大吕庄村,Dalüzhuang Cun,河南省,Henan Sheng,安阳市,Anyang Shi,滑县,Hua Xian,平方千米 / 平方公里 square kilometers,6.52,度分秒 DMS (degrees-minutes-seconds),35°40′N,114°58′E,公里/千米 kilometer,28
+0045,定安村志,620724201200,定安村,Ding'an Cun,甘肃省,Gansu Sheng,张掖市,Zhangye Shi,高台县,Gaotai Xian,亩 mu,8360.7,度分秒 DMS (degrees-minutes-seconds),39°28′50″N,99°40′E,公里/千米 kilometer,14
+0046,方家村志,210212400204,方家村,Fangjia Cun,辽宁省,Liaoning Sheng,大连市,Dalian Shi,旅顺口区,Lüshunkou Qu,平方千米 / 平方公里 square kilometers,2.71,度分秒 DMS (degrees-minutes-seconds),38°49′N,121°09′E,公里/千米 kilometer,5
+0047,冯桥村志,310120502002,冯桥村,Fengqiao Cun,上海市,Shanghai Shi,上海市,Shanghai Shi,奉贤区,Fengxian Qu,平方千米 / 平方公里 square kilometers,4.76,度分秒 DMS (degrees-minutes-seconds),30.47°N,120.4°E,没有相关数据 No Available Data,n/a
+0048,小瓦窑村志,110106201215,小瓦窑村,Xiaowayao Cun,北京市,Beijing Shi,北京市,Beijing Shi,丰台区,Fengtai Qu,公顷 hectares,353.8,度分秒 DMS (degrees-minutes-seconds),39.57°N,116.5°E,没有相关数据 No Available Data,n/a
+0049,富强村志,330621103235,富强村,Fuqiang Cun,浙江省,Zhejiang Sheng,绍兴市,Shaoxing Shi,绍兴县,Shaoxing Xian,没有相关数据 No Available Data,n/a,没有相关数据 No Available Data,,,公里/千米 kilometer,6
+0050,音西村志,350181007201,音西村,Yinxi Cun,福建省,Fujian Sheng,福州市,Fuzhou Shi,福清市,Fuqing Shi,平方千米 / 平方公里 square kilometers,8,没有相关数据 No Available Data,,,没有相关数据 No Available Data,n/a
+0051,潭前王村志,445221112203,潭前王村,Tanqianwang Cun,广东省,Guangdong Sheng,揭阳市,Jieyang Shi,揭东县,Jiedong Xian,平方千米 / 平方公里 square kilometers,3.8,度分秒 DMS (degrees-minutes-seconds),23°34′N,116°17′E,没有相关数据 No Available Data,n/a
+0052,郭家沟村志,210212012206,郭家沟村,Guojiagou Cun,辽宁省,Liaoning Sheng,大连市,Dalian Shi,旅顺口区,Lüshunkou Qu,平方千米 / 平方公里 square kilometers,3.8529,度分秒 DMS (degrees-minutes-seconds),38°49'N,121°20'E,公里/千米 kilometer,5
+0053,牟家村志,320412109234,牟家村,Moujia Cun,江苏省,Jiangsu Sheng,常州市,Changzhou Shi,武进区,Wujin Qu,平方千米 / 平方公里 square kilometers,2.1,度分秒 DMS (degrees-minutes-seconds),31°N,120°E,公里/千米 kilometer,18
+0054,西官庄村志,410523204205,西官庄村,Xiguanzhuang Cun,河南省,Henan Sheng,安阳市,Anyang Shi,汤阴县,Tangyin Xian,平方千米 / 平方公里 square kilometers,3.4676,度分秒 DMS (degrees-minutes-seconds),35°53′08″N,114°23′40″E,公里/千米 kilometer,5
+0055,西园村志,350111101201,西园村,Xiyuan Cun,福建省,Fujian Sheng,福州市,Fuzhou Shi,晋安区,Jin'an Qu,没有相关数据 No Available Data,n/a,度分秒 DMS (degrees-minutes-seconds),26°5′N,119°20′E,没有相关数据 No Available Data,n/a
+0056,沐陂村志,n/a,沐陂村,Mubei Cun,广东省,Guangdong Sheng,广东市,Guangdong Shi,天河区,Tianhe Qu,平方千米 / 平方公里 square kilometers,1.2792,没有相关数据 No Available Data,,,没有相关数据 No Available Data,n/a
+0057,尧治河村志,420626107221,尧治河村,Yaozhihe Cun,湖北省,Hubei Sheng,襄樊市,Xiangfan Shi,保康县,Baokang Xian,平方千米 / 平方公里 square kilometers,33.4,没有相关数据 No Available Data,,,公里/千米 kilometer,90
+0058,袁家沟村志,210212013204,袁家沟村,Yuanjiagou Cun,辽宁省,Liaoning Sheng,大连市,Dalian Shi,旅顺口区,Lüshunkou Qu,平方千米 / 平方公里 square kilometers,6.3,没有相关数据 No Available Data,,,公里/千米 kilometer,20
+0059,云水村志,410883100218,云水村,Yunshui Cun,河南省,Henan Sheng,焦作市,Jiaozuo Shi,孟州市,Mengzhou Shi,平方千米 / 平方公里 square kilometers,9,没有相关数据 No Available Data,,,公里/千米 kilometer,20
+0060,平地村志,440605125226,平地村,Pingdi Cun,广东省,Guangdong Sheng,佛山市,Foshan Shi,南海区,Nanhai Qu,平方千米 / 平方公里 square kilometers,2.67,度分秒 DMS (degrees-minutes-seconds),23°7′4″N,113°9′1″E,没有相关数据 No Available Data,n/a
+0061,西高庄村志,130604200205,西高庄村,Xigaozhuang Cun,河北省,Hebei Sheng,保定市,Baoding Shi,南市区,Nanshi Qu,平方千米 / 平方公里 square kilometers,3.3,度分秒 DMS (degrees-minutes-seconds),38°N,115°E,没有相关数据 No Available Data,n/a
+0062,新华村志,420114070220,新华村,Xinhua Cun,湖北省,Hubei Sheng,武汉市,Wuhan Shi,蔡甸区,Caidian Qu,没有相关数据 No Available Data,n/a,没有相关数据 No Available Data,,,没有相关数据 No Available Data,n/a
+0063,盘山村志,410581106218,盘山村,Panshan Cun,河南省,Henan Sheng,安阳市,Anyang Shi,林州市,Linzhou Shi,平方千米 / 平方公里 square kilometers,30,度分秒 DMS (degrees-minutes-seconds),36°20′14″N,113°48′25″E,没有相关数据 No Available Data,n/a
+0064,三路居村志,110106201203,三路居村,Sanluju Cun,北京市,Beijing Shi,北京市,Beijing Shi,丰台区,Fengtai Qu,平方千米 / 平方公里 square kilometers,1.7,度分秒 DMS (degrees-minutes-seconds),39°53′N,116°16′E,公里/千米 kilometer,3.7
+0065,仙台村村志,110116103202,仙台村,Xiantai Cun,北京市,Beijing Shi,北京市,Beijing Shi,怀柔区,Huairou Qu,平方千米 / 平方公里 square kilometers,3.2,没有相关数据 No Available Data,,,公里/千米 kilometer,5.5
+0066,四马台村志,110111208202,四马台村,Simatai Cun,北京市,Beijing Shi,北京市,Beijing Shi,房山区,Fangshan Qu,平方千米 / 平方公里 square kilometers,19.1,没有相关数据 No Available Data,,,没有相关数据 No Available Data,n/a
+0067,西洞头村志,130429200212,西洞头村,Xidongtou Cun,河北省,Hebei Sheng,邯郸市,Handan Shi,永年县,Yongnian Xian,平方千米 / 平方公里 square kilometers,1.5,度分秒 DMS (degrees-minutes-seconds),36°45′N,114°15′E,公里/千米 kilometer,20
+0068,五河苗族村志,522629104218,五河苗族村,Wuhe Miaozu Cun,贵州省,Guizhou Sheng,黔东南苗族侗族自治州,Qiandongnan Miaozu Dongzu Zizhizhou,剑河县,Jianhe Xian,平方千米 / 平方公里 square kilometers,24,没有相关数据 No Available Data,n/a,n/a,公里/千米 kilometer,23
+0069,五一村志,610112002201,五一村,Wuyi Cun,陕西省,Shanxi Sheng,西安市,Xi'an Shi,未央区,Weiyang Qu,亩 mu,1650,没有相关数据 No Available Data,,,公里/千米 kilometer,13
+0070,乌玉村志,140322101211,乌玉村,Wuyu Cun,山西省,Shanxi Sheng,阳泉市,Yangquan Shi,盂县,Yu Xian,平方千米 / 平方公里 square kilometers,3.75,度分秒 DMS (degrees-minutes-seconds),n/a,112°49′E,公里/千米 kilometer,5
+0071,前夹山村志,210212005200,前夹山村,Qianjiashan Cun,辽宁省,Liaoning Sheng,大连市,Dalian Shi,旅顺口区,Lüshunkou Qu,平方千米 / 平方公里 square kilometers,3.5,度分秒 DMS (degrees-minutes-seconds),38°52′N,121°13′E,没有相关数据 No Available Data,n/a
+0072,浦联村志,330108003201,浦联村,Pulian Cun,浙江省,Zhejiang Sheng,杭州市,Hangzhou Shi,萧山区,Xiaoshan Qu,平方千米 / 平方公里 square kilometers,1.87,没有相关数据 No Available Data,n/a,n/a,公里/千米 kilometer,11
+0073,三元朱村志,370783006232,三元朱村,Sanyuanzhu Cun,山东省,Shandong Sheng,潍坊市,Weifang Shi,寿光市,Shouguang Shi,没有相关数据 No Available Data,n/a,没有相关数据 No Available Data,,,公里/千米 kilometer,12
+0074,上东廓村志,110114113205,上东廓村,Shangdongkuo Cun,北京市,Beijing Shi,北京市,Beijing Shi,昌平区,Changping Qu,亩 mu,7988,没有相关数据 No Available Data,,,公里/千米 kilometer,11.8
+0075,琴湖村志,320581100015,琴湖村,Qinhu Cun,江苏省,Jiangsu Sheng,苏州市,Suzhou Shi,常熟市,Changshu Shi,亩 mu,2047,没有相关数据 No Available Data,,,公里/千米 kilometer,39
+0076,沁水营村志,110115111210,沁水营村,Qinshuiying Cun,北京市,Beijing Shi,北京市,Beijing Shi,大兴区,Daxing Qu,平方千米 / 平方公里 square kilometers,2.59,度分秒 DMS (degrees-minutes-seconds),39°41′57.75″N,116°35′00.78″E,没有相关数据 No Available Data,n/a
+0077,三洋村志,210212400200,三洋村,Sanyang Cun,辽宁省,Liaoning Sheng,大连市,Dalian Shi,旅顺口区,Lüshunkou Qu,平方千米 / 平方公里 square kilometers,6.99,没有相关数据 No Available Data,,,没有相关数据 No Available Data,n/a
+0078,三八里村志,210212005202,三八里村,Sanbali Cun,辽宁省,Liaoning Sheng,大连市,Dalian Shi,旅顺口区,Lüshunkou Qu,平方千米 / 平方公里 square kilometers,3.423,没有相关数据 No Available Data,,,没有相关数据 No Available Data,n/a
+0079,坦头村志,330303001220,坦头村,Tantou Cun,浙江省,Zhejiang Sheng,温州市,Wenzhou Shi,龙湾区,Longwan Qu,平方千米 / 平方公里 square kilometers,1.73,度分秒 DMS (degrees-minutes-seconds),27°54′44.73″N,120°47′51.02″,没有相关数据 No Available Data,n/a
+0080,新店村志,610112002221,新店村,Xindian Cun,陕西省,Shanxi Sheng,西安市,Xi'an Shi,未央区,Weiyang Qu,没有相关数据 No Available Data,n/a,没有相关数据 No Available Data,,,没有相关数据 No Available Data,n/a
+0081,北仪仙村志,370983102210,北仪仙村,Beiyixian Cun,山东省,Shandong Sheng,泰安市,Taian Shi,肥城市,Feicheng Shi,亩 mu,4500,没有相关数据 No Available Data,n/a,n/a,公里/千米 kilometer,5
+0082,北良侯村志,n/a,北良侯村,Beilianghou Cun,山西省,Shanxi Sheng,长治市,Changzhi Shi,武乡县,Wuxiang Xian,亩 mu,11170,度分秒 DMS (degrees-minutes-seconds),n/a,112°66′E,公里/千米 kilometer,35
+0083,柏沟村志,140522102202,柏沟村,Bogou Cun,山西省,Shanxi Sheng,晋城市,Jincheng Shi,阳城县,Yangcheng Xian,平方千米 / 平方公里 square kilometers,1.7,度分秒 DMS (degrees-minutes-seconds),35°5′N,112°5′E,公里/千米 kilometer,10
+0084,三力村志,451228204203,三力村,Sanli Cun,广西壮族自治区,Guangxi Zhuangzu Zizhiqu,河池市,Hechi Shi,都安瑶族自治县,Du'an Yaozu Zizhixian,没有相关数据 No Available Data,n/a,没有相关数据 No Available Data,,,没有相关数据 No Available Data,n/a
+0085,马鼻方志,n/a,马鼻村,Mabi Cun,广西壮族自治区,Guangxi Zhuangzu Zizhiqu,贺州市,Hezhou Shi,八步区,Babu Qu,亩 mu,7500,没有相关数据 No Available Data,,,公里/千米 kilometer,15
+0086,石䧱村志,n/a,石䧱村,Shikuan Cun,安徽省,Anhui Sheng,宣城市,Xuancheng Shi,绩溪县,Jixi Xian,平方千米 / 平方公里 square kilometers,7.7,没有相关数据 No Available Data,n/a,n/a,没有相关数据 No Available Data,n/a
+0087,坦头村志,341824102204,坦头村,Tantou Cun,安徽省,Anhui Sheng,宣城市,Xuancheng Shi,绩溪县,Jixi Xian,平方千米 / 平方公里 square kilometers,1.32,没有相关数据 No Available Data,,,没有相关数据 No Available Data,n/a
+0088,传字营村志,120112102202,传字营村,Chuanziying Cun,天津市,Tianjin Shi,天津市,Tianjin Shi,津南区,Jinnan Qu,平方千米 / 平方公里 square kilometers,3.9,度分秒 DMS (degrees-minutes-seconds),38°53′N,117°25′E,公里/千米 kilometer,25
+0089,新立村志,120110005201,新立村,Xinli Cun,天津市,Tianjin Shi,天津市,Tianjin Shi,东丽区,Dongli Qu,平方千米 / 平方公里 square kilometers,5.3,度分秒 DMS (degrees-minutes-seconds),39°5′N,117°20′E,公里/千米 kilometer,5
+0090,高山村志,450902004208,高山村,Gaoshan Cun,广西壮族自治区,Guangxi Zhuangzu Zizhiqu,玉林市,Yulin Shi,玉州区,Yuzhou Qu,平方千米 / 平方公里 square kilometers,4.5,度分秒 DMS (degrees-minutes-seconds),22°19′N,110°18′E,没有相关数据 No Available Data,n/a
+0091,福保村志,530111008204,福保村,Fubao Cun,云南省,Yunnan Sheng,昆明市,Kunming Shi,官渡区,Guandu Qu,平方千米 / 平方公里 square kilometers,2.155,没有相关数据 No Available Data,,,公里/千米 kilometer,12
+0092,上南村志,451226101002,上南村,Shangnan Cun,广西壮族自治区,Guangxi Zhuangzu Zizhiqu,河池市,Hechi Shi,环江毛南族自治县,Huanjiang Maonanzu Zizhixian,平方千米 / 平方公里 square kilometers,50,没有相关数据 No Available Data,,,公里/千米 kilometer,49
+0093,霍庄子村志,120113111206,霍庄子村,Huozhuangzi Cun,天津市,Tianjin Shi,天津市,Tianjin Shi,北辰区,Beichen Qu,平方千米 / 平方公里 square kilometers,6.64,十进制 DD (decimal degrees),39.17°N,117.18°E,没有相关数据 No Available Data,n/a
+0094,长畛村志,140521104201,长畛村,Changzhen Cun,山西省,Shanxi Sheng,晋城市,Jincheng Shi,沁水县,Qinshui Xian,平方千米 / 平方公里 square kilometers,2.5,没有相关数据 No Available Data,,,没有相关数据 No Available Data,n/a
+0095,大河村志,510503109202,大河村,Dahe Cun,四川省,Sichuan Sheng,泸州市,Luzhou Shi,纳溪区,Naxi Qu,平方千米 / 平方公里 square kilometers,4.96,没有相关数据 No Available Data,,,没有相关数据 No Available Data,n/a
+0096,大蒋庄村志,120111100216,大蒋庄村,Dajiangzhuang Cun,天津市,Tianjin Shi,天津市,Tianjin Shi,西青区,Xiqing Qu,平方米 square meters,96500,没有相关数据 No Available Data,,,没有相关数据 No Available Data,n/a
+0097,插旗山村志,510131102212,插旗山村,Chaqishan Cun,四川省,Sichuan Sheng,成都市,Chengdu Shi,蒲江县,Pujiang Xian,平方千米 / 平方公里 square kilometers,1.8,没有相关数据 No Available Data,,,公里/千米 kilometer,19
+0098,福德村志,530111001004,福德村,Fude Cun,云南省,Yunnan Sheng,昆明市,Kunming Shi,官渡区,Guandu Qu,平方千米 / 平方公里 square kilometers,1.99,没有相关数据 No Available Data,,,没有相关数据 No Available Data,n/a
+0099,银桥村村志,532901108203,银桥村,Yinqiao Cun,云南省,Yunnan Sheng,大理白族自治州,Dali Baizu Zizhizhou,大理市,Dali Shi,没有相关数据 No Available Data,n/a,没有相关数据 No Available Data,,,没有相关数据 No Available Data,n/a
+0100,崖堡村志,640425101219,崖堡村,Yabao Cun,宁夏回族自治区,Ningxia Huizu Zizhiqu,固原市,Guyuan Shi,彭阳县,Pengyang Xian,平方千米 / 平方公里 square kilometers,20.23,没有相关数据 No Available Data,,,公里/千米 kilometer,35
+0101,柳州·村志 : 柳城卷,450222100206,龙台村,Longtai Cun,广西壮族自治区,Guangxi Zhuangzu Zizhiqu,柳州市,Liuzhou Shi,柳城县,Liucheng Xian,平方千米 / 平方公里 square kilometers,12.9,没有相关数据 No Available Data,,,公里/千米 kilometer,16
+0102,柳州·村志 : 柳城卷,450222100208,洛古村,Luogu Cun,广西壮族自治区,Guangxi Zhuangzu Zizhiqu,柳州市,Liuzhou Shi,柳城县,Liucheng Xian,没有相关数据 No Available Data,n/a,没有相关数据 No Available Data,,,公里/千米 kilometer,2.5
+0103,柳州·村志 : 柳城卷,450222100215,吉兆村,Jizhao Cun,广西壮族自治区,Guangxi Zhuangzu Zizhiqu,柳州市,Liuzhou Shi,柳城县,Liucheng Xian,平方千米 / 平方公里 square kilometers,6.8,没有相关数据 No Available Data,,,没有相关数据 No Available Data,n/a
+0104,柳州·村志 : 柳城卷,450222101208,码头村,Matou Cun,广西壮族自治区,Guangxi Zhuangzu Zizhiqu,柳州市,Liuzhou Shi,柳城县,Liucheng Xian,公顷 hectares,1029.07,没有相关数据 No Available Data,,,没有相关数据 No Available Data,n/a
+0105,柳州·村志 : 柳城卷,450222102205,黄宜村,Huangyi Cun,广西壮族自治区,Guangxi Zhuangzu Zizhiqu,柳州市,Liuzhou Shi,柳城县,Liucheng Xian,平方千米 / 平方公里 square kilometers,13,没有相关数据 No Available Data,,,公里/千米 kilometer,13
+0106,柳州·村志 : 柳城卷,450222102212,山咀村,Shanzui Cun,广西壮族自治区,Guangxi Zhuangzu Zizhiqu,柳州市,Liuzhou Shi,柳城县,Liucheng Xian,万亩 10K mu,5.99,没有相关数据 No Available Data,,,没有相关数据 No Available Data,n/a
+0107,柳州·村志 : 柳城卷,450222103204,六广村,Liuguang Cun,广西壮族自治区,Guangxi Zhuangzu Zizhiqu,柳州市,Liuzhou Shi,柳城县,Liucheng Xian,平方千米 / 平方公里 square kilometers,24,没有相关数据 No Available Data,,,没有相关数据 No Available Data,n/a
+0108,柳州·村志 : 柳城卷,450222104210,莫道村,Modao Cun,广西壮族自治区,Guangxi Zhuangzu Zizhiqu,柳州市,Liuzhou Shi,柳城县,Liucheng Xian,没有相关数据 No Available Data,n/a,没有相关数据 No Available Data,,,公里/千米 kilometer,30
+0109,柳州·村志 : 柳城卷,450222104215,走马村,Zouma Cun,广西壮族自治区,Guangxi Zhuangzu Zizhiqu,柳州市,Liuzhou Shi,柳城县,Liucheng Xian,平方千米 / 平方公里 square kilometers,12.3,没有相关数据 No Available Data,,,公里/千米 kilometer,28
+0110,柳州·村志 : 柳城卷,450222104211,新龙村,Xinlong Cun,广西壮族自治区,Guangxi Zhuangzu Zizhiqu,柳州市,Liuzhou Shi,柳城县,Liucheng Xian,没有相关数据 No Available Data,n/a,没有相关数据 No Available Data,,,公里/千米 kilometer,26
+0111,柳州·村志 : 柳城卷,450222105201,二塘村,Ertang Cun,广西壮族自治区,Guangxi Zhuangzu Zizhiqu,柳州市,Liuzhou Shi,柳城县,Liucheng Xian,没有相关数据 No Available Data,n/a,没有相关数据 No Available Data,,,没有相关数据 No Available Data,n/a
+0112,柳州·村志 : 柳城卷,450222202202,社冲村,Shechong Cun,广西壮族自治区,Guangxi Zhuangzu Zizhiqu,柳州市,Liuzhou Shi,柳城县,Liucheng Xian,没有相关数据 No Available Data,n/a,没有相关数据 No Available Data,,,没有相关数据 No Available Data,n/a
+0113,东古城村志,620123207201,东古城村,Donggucheng Cun,甘肃省,Gansu Sheng,兰州市,Lanzhou Shi,榆中县,Yuzhong Xian,平方千米 / 平方公里 square kilometers,6.7,度分秒 DMS (degrees-minutes-seconds),35°44′N,104°10′E,没有相关数据 No Available Data,n/a
+0114,涌泉村志,371324112209,涌泉村,Yongquan Cun,山东省,Shandong Sheng,临沂市,Linyi Shi,苍山县,Cangshan Xian,平方千米 / 平方公里 square kilometers,5.68,没有相关数据 No Available Data,,,没有相关数据 No Available Data,n/a
+0115,荷湖村志,330602106202,荷湖村,Hehu Cun,浙江省,Zhejiang Sheng,绍兴市,Shaoxing Shi,越城区,Yuecheng Qu,平方千米 / 平方公里 square kilometers,2.3,没有相关数据 No Available Data,,,没有相关数据 No Available Data,n/a
+0116,青峰村志,520330201207,青峰村,Qingfeng Cun,贵州省,Guizhou Sheng,遵义市,Zunyi Shi,习水县,Xishui Xian,平方千米 / 平方公里 square kilometers,5.08,没有相关数据 No Available Data,,,没有相关数据 No Available Data,n/a
+0117,正蓝前二村志,231221203201,正蓝前二村,Zhenglanqianer Cun,黑龙江省,Heilongjiang Sheng,绥化市,Suihua Shi,望奎县,Wangkui Xian,平方千米 / 平方公里 square kilometers,9,没有相关数据 No Available Data,n/a,n/a,公里/千米 kilometer,9
+0118,百子畈村志,420704001205,百子畈村,Baizifan Cun,湖北省,Hubei Sheng,鄂州市,Ezhou Shi,鄂城区,Echeng Qu,亩 mu,3500,没有相关数据 No Available Data,n/a,n/a,没有相关数据 No Available Data,n/a
+0119,三堰淌村志,421087112218,三堰淌村,Sanyantang Cun,湖北省,Hubei Sheng,荆州市,Jingzhou Shi,松滋市,Songzi Shi,平方千米 / 平方公里 square kilometers,8.6,没有相关数据 No Available Data,,,公里/千米 kilometer,58
+0120,小库木尔村志,150722106211,小库木尔村,Xiaokumuer Cun,内蒙古自治区,Neimenggu Zizhiqu,呼伦贝尔市,Hulunbeier Shi,莫力达瓦达斡尔族自治旗,Moli Dawa Dawoerzu Zizhiqi,没有相关数据 No Available Data,n/a,没有相关数据 No Available Data,,,公里/千米 kilometer,35
+0121,马村志,469023101003,马村,Ma Cun,海南省,Hainan Sheng,澄迈县,Chengmai Xian,澄迈县,Chengmai Xian,平方千米 / 平方公里 square kilometers,7,度分秒 DMS (degrees-minutes-seconds),110°02′N,19°57′E,公里/千米 kilometer,45
+0123,小三家子村志,n/a,小三家子村,Xiaosanjiazi Cun,黑龙江省,Heilongjiang Sheng,黑河市,Heihe Shi,爱辉区,Aihui Qu,平方千米 / 平方公里 square kilometers,17.5,度分秒 DMS (degrees-minutes-seconds),50°09′N,127°29′E,公里/千米 kilometer,12
+0124,复兴村志,620121200201,复兴村,Fuxing Cun,甘肃省,Gansu Sheng,兰州市,Lanzhou Shi,永登县,Yongdeng Xian,平方千米 / 平方公里 square kilometers,1.2,没有相关数据 No Available Data,,,公里/千米 kilometer,2.5
+0125,长见村志,430821100248,长见村,Changjian Cun,湖南省,Hunan Sheng,张家界市,Zhangjiajie Shi,慈利县,Cili Xian,亩 mu,4435,没有相关数据 No Available Data,,,里 li,10
+0126,文大村志,469023101213,文大村,Wenda Cun,海南省,Hainan Sheng,澄迈县,Chengmai Xian,澄迈县,Chengmai Xian,公顷 hectares,750,度分秒 DMS (degrees-minutes-seconds),19°57′N,110°02′E,公里/千米 kilometer,26
+0127,浪营村志,n/a,浪营村,Langying Cun,青海省,Qinghai Sheng,海东地区,Haidong Diqu,乐都县,Ledu Xian,没有相关数据 No Available Data,n/a,度分秒 DMS (degrees-minutes-seconds),36°21′N,102°17′E,没有相关数据 No Available Data,n/a
+0128,白沙村志,330881118260,白沙村,Baisha Cun,浙江省,Zhejiang Sheng,衢州市,Quzhou Shi,江山市,Jiangshan Shi,平方千米 / 平方公里 square kilometers,5.2,没有相关数据 No Available Data,,,公里/千米 kilometer,3
+0129,高庙村志,632123103001,高庙村,Gaomiao Cun,青海省,Qinghai Sheng,海东地区,Haidong Diqu,乐都县,Ledu Xian,平方千米 / 平方公里 square kilometers,28,度分秒 DMS (degrees-minutes-seconds),36°27′N,102°31′E,公里/千米 kilometer,15
+0130,起台堡村志,632128200201,起台堡村,Qitaibao Cun,青海省,Qinghai Sheng,海东地区,Haidong Diqu,循化撒拉族自治县,Xunhua Salazu Zizhixian,没有相关数据 No Available Data,n/a,度分秒 DMS (degrees-minutes-seconds),35.6°N,102.6°E,没有相关数据 No Available Data,n/a
+0131,双庄村村志,341522105216,双庄村,Shuangzhuang Cun,安徽省,Anhui Sheng,六安市,Lu'an Shi,霍邱县,Huoqiu Xian,没有相关数据 No Available Data,n/a,没有相关数据 No Available Data,n/a,n/a,没有相关数据 No Available Data,n/a
+0132,毕家上流村志,370213009001,毕家上流村,Bijiashangliu Cun,山东省,Shandong Sheng,青岛市,Qingdao Shi,李沧区,Licang Qu,平方千米 / 平方公里 square kilometers,4.5,度分秒 DMS (degrees-minutes-seconds),36°12′N,120°29′E,没有相关数据 No Available Data,n/a
+0133,天穆村志,120113100204,天穆村,Tianmu Cun,天津市,Tianjin Shi,天津市,Tianjin Shi,北辰区,Beichen Qu,亩 mu,3224.2,没有相关数据 No Available Data,,,公里/千米 kilometer,3.5
+0134,梁堡村志,640423209204,梁堡村,Liangbao Cun,宁夏回族自治区,Ningxia Huizu Zizhiqu,固原市,Guyuan Shi,隆德县,Longde Xian,平方千米 / 平方公里 square kilometers,2.1,度分秒 DMS (degrees-minutes-seconds),"35°26'58.17""N","106°05'35.52""E",公里/千米 kilometer,35
+0135,苏波盖村志,150221215200,苏波盖村,Subogai Cun,内蒙古自治区,Neimenggu Zizhiqu,包头市,Baotou Shi,土默特右旗,Tumoteyou Qi,平方千米 / 平方公里 square kilometers,12,度分秒 DMS (degrees-minutes-seconds),40°36′2″N,110°12′2″E,没有相关数据 No Available Data,n/a
+0136,丹村志,469027108212,丹村,Dan Cun,海南省,Hainan Sheng,三亚市,Sanya Shi,乐东黎族自治区,Ledong Lizu Zizhiqu,没有相关数据 No Available Data,n/a,度分秒 DMS (degrees-minutes-seconds),18°N,108°E,没有相关数据 No Available Data,n/a
+0137,菖蒲塘村志,433123101209,菖蒲塘村,Changputang Cun,湖南省,Hunan Sheng,湘西土家族苗族自治州,Xiangxi Tujiazu Miaozu Zizhizhou,凤凰县,Fenghuang Xian,亩 mu,1720,没有相关数据 No Available Data,,,没有相关数据 No Available Data,n/a
+0138,东颜村志,140823102222,东颜村,Dongyan Cun,山西省,Shanxi Sheng,运城市,Yuncheng Shi,闻喜县,Wenxi Xian,平方千米 / 平方公里 square kilometers,6.2,度分秒 DMS (degrees-minutes-seconds),35°27′42″N,111°09′00″E,公里/千米 kilometer,12.5
+0139,魁胆村志(送审稿),522628104207,魁胆村,Kuidan Cun,贵州省,Guizhou Sheng,黔东南苗族侗族自治州,Qiandongnan Miaozu Dongzu Zizhizhou,锦屏县,Jinping Xian,平方千米 / 平方公里 square kilometers,23,度分秒 DMS (degrees-minutes-seconds),26°40′55.04″N,109°05′16.31″E,公里/千米 kilometer,16
+0140,隆里所村志,522628202200,隆里所村,Longlisuo Cun,贵州省,Guizhou Sheng,黔东南苗族侗族自治州,Qiandongnan Miaozu Dongzu Zizhizhou,锦屏县,Jinping Xian,公顷 hectares,2841.8,没有相关数据 No Available Data,,,公里/千米 kilometer,30
+0141,大三家村志,150402010202,大三家村,Dasanjia Cun,内蒙古自治区,Neimenggu Zizhiqu,赤峰市,Chifeng Shi,红山区,Hongshan Qu,平方千米 / 平方公里 square kilometers,8.2,没有相关数据 No Available Data,,,没有相关数据 No Available Data,n/a
+0142,纳家户村志,640121100205,纳家户村,Najiahu Cun,宁夏回族自治区,Ningxia Huizu Zizhiqu,银川市,Yinchuan Shi,永宁县,Yongning Xian,平方千米 / 平方公里 square kilometers,4.94,度分秒 DMS (degrees-minutes-seconds),"38°16'57""N","106°14'58""E",公里/千米 kilometer,20
+0143,防川村志,222404101206,防川村,Fangchuan Cun,吉林省,Jilin Sheng,延边朝鲜族自治州,Yanbian Chaoxianzu Zizhizhou,珲春市,Huichun Shi,没有相关数据 No Available Data,n/a,度分秒 DMS (degrees-minutes-seconds),43°30′N,130°18′E,没有相关数据 No Available Data,n/a
+0144,上庄村志,341824103200,上庄村,Shangzhuang Cun,安徽省,Anhui Sheng,宣城市,Xuancheng Shi,绩溪县,Jixi Xian,平方千米 / 平方公里 square kilometers,17.5,度分秒 DMS (degrees-minutes-seconds),30°08′N,118°26′E,公里/千米 kilometer,39
+0145,宝狮村志,510112109211,宝狮村,Baoshi Cun,四川省,Sichuan Sheng,成都市,Chengdu Shi,龙泉驿区,Longquanyi Qu,平方千米 / 平方公里 square kilometers,4.74,度分秒 DMS (degrees-minutes-seconds),30°32′N,104°17′E,公里/千米 kilometer,20
+0146,凤凰庙村志,511902216200,凤凰庙村,Fenghuangmiao Cun,四川省,Sichuan Sheng,巴中市,Bazhong Shi,巴州区,Bazhou Qu,没有相关数据 No Available Data,n/a,没有相关数据 No Available Data,,,公里/千米 kilometer,24
+0147,卖花渔村志,341021201210,卖花渔村,Maihuayu Cun,安徽省,Anhui Sheng,黄山市,Huangshan Shi,歙县,She Xian,没有相关数据 No Available Data,n/a,没有相关数据 No Available Data,,,里 li,20
+0148,西厂圪洞村志,150123203203,西厂圪洞村,Xichanggedong Cun,内蒙古自治区,Neimenggu Zizhiqu,呼和浩特市,Huhehaote Shi,和林格尔县,Helingeer Xian,平方千米 / 平方公里 square kilometers,21.014,度分秒 DMS (degrees-minutes-seconds),40°23′N,111°35′E,公里/千米 kilometer,40
+0149,严小村村志,630105100201,严小村,Yanxiao Cun,青海省,Qinghai Sheng,西宁市,Xining Shi,城北区,Chengbei Qu,平方千米 / 平方公里 square kilometers,1.2,度分秒 DMS (degrees-minutes-seconds),36°18″N,101°24″E,公里/千米 kilometer,15
+0150,宝才村志,320903110007,宝才村,Baocai Cun,江苏省,Jiangsu Sheng,盐城市,Yancheng Shi,盐都区,Yandu Qu,平方千米 / 平方公里 square kilometers,7,没有相关数据 No Available Data,,,公里/千米 kilometer,1.7
+0151,宜安村志,130185105202,宜安村,Yian Cun,河北省,Hebei Sheng,石家庄市,Shijiazhuang Shi,鹿泉市,Luquan Shi,没有相关数据 No Available Data,n/a,没有相关数据 No Available Data,,,公里/千米 kilometer,20
+0152,传桂村志,n/a,传桂村,Chuangui Cun,海南省,Hainan Sheng,海口市,Haikou Shi,秀英区,Xiuying Qu,没有相关数据 No Available Data,n/a,度分秒 DMS (degrees-minutes-seconds),20°N,112°E,没有相关数据 No Available Data,n/a
+0153,叶坪村志,360781200200,叶坪村,Yeping Cun,江西省,Jiangxi Sheng,赣州市,Ganzhou Shi,瑞金市,Ruijin Shi,亩 mu,10592.8,没有相关数据 No Available Data,,,公里/千米 kilometer,6
+0154,马路村志,n/a,马路村,Malu Cun,湖北省,Hubei Sheng,十堰市,Shiyan Shi,郧县,Yun Xian,平方千米 / 平方公里 square kilometers,9.24,没有相关数据 No Available Data,,,公里/千米 kilometer,10
+0156,百花村志,431121100214,百花村,Baihua Cun,湖南省,Hunan Sheng,永州市,Yongzhou Shi,祁阳县,Qiyang Xian,平方千米 / 平方公里 square kilometers,3.3,度分秒 DMS (degrees-minutes-seconds),26°35′N,111°51′E,没有相关数据 No Available Data,n/a
+0157,上桥村志,500106014202,上桥村,Shangqiao Cun,重庆市,Chongqing Shi,重庆市,Chongqing Shi,沙坪坝区,Shapingba Qu,平方千米 / 平方公里 square kilometers,1.8,没有相关数据 No Available Data,,,公里/千米 kilometer,6
+0158,茅草村志,420704102203,茅草村,Maocao Cun,湖北省,Hubei Sheng,鄂州市,Ezhou Shi,鄂城区,Echeng Qu,平方千米 / 平方公里 square kilometers,5.2,没有相关数据 No Available Data,,,公里/千米 kilometer,2
+0159,北山门口村志,610113004200,北山门口村,Beishanmenkou Cun,陕西省,Shanxi Sheng,西安市,Xi'an Shi,雁塔区,Yanta Qu,亩 mu,500,度分秒 DMS (degrees-minutes-seconds),34°13′N,108°56′E,没有相关数据 No Available Data,n/a
+0160,逯家寨志,n/a,逯家寨村,Lujiazhai Cun,青海省,Qinghai Sheng,西宁市,Xining Shi,城西区,Chengxi Qu,亩 mu,8092.1,没有相关数据 No Available Data,,,没有相关数据 No Available Data,n/a
+0161,鸡鸣村志,522625102204,鸡鸣村,Jiming Cun,贵州省,Guizhou Sheng,黔东南苗族侗族自治州,Qiandongnan Miaozu Dongzu Zizhizhou,镇远县,Zhenyuan Xian,平方千米 / 平方公里 square kilometers,16.5,没有相关数据 No Available Data,,,公里/千米 kilometer,37
+0162,丁达村志,522628103210,丁达村,Dingda Cun,贵州省,Guizhou Sheng,黔东南苗族侗族自治州,Qiandongnan Miaozu Dongzu Zizhizhou,锦屏县,Jinping Xian,平方千米 / 平方公里 square kilometers,14.2,没有相关数据 No Available Data,n/a,n/a,公里/千米 kilometer,38
+0163,莲麻坑村志,n/a,莲麻坑村,Lianmakeng Cun,香港特别行政区,Xianggang Tebie Xingzhengqu,香港特别行政区,Xianggang Tebie Xingzhengqu,新界北区,Xinjie Beiqu,没有相关数据 No Available Data,n/a,没有相关数据 No Available Data,n/a,n/a,没有相关数据 No Available Data,n/a
+0164,八卦营村志,620722105200,八卦营村,Baguaying Cun,甘肃省,Gansu Sheng,张掖市,Zhangye Shi,民乐县,Minle Xian,平方千米 / 平方公里 square kilometers,17,没有相关数据 No Available Data,n/a,n/a,公里/千米 kilometer,18
+0165,大畈村志,361130103212,大畈村,Dafan Cun,江西省,Jiangxi Sheng,上饶市,Shangrao Shi,婺源县,Wuyuan Xian,平方千米 / 平方公里 square kilometers,9.7,没有相关数据 No Available Data,,,里 li,90
+0166,赤土村志,120110006208,赤土村,Chitu Cun,天津市,Tianjin Shi,天津市,Tianjin Shi,东丽区,Dongli Qu,平方千米 / 平方公里 square kilometers,33.33,没有相关数据 No Available Data,,,没有相关数据 No Available Data,n/a
+0167,南店村志,150102008210,南店村,Nandian Cun,内蒙古自治区,Neimenggu Zizhiqu,呼和浩特市,Huhehaote Shi,新城区,Xincheng Qu,平方千米 / 平方公里 square kilometers,8.65,没有相关数据 No Available Data,,,没有相关数据 No Available Data,n/a
+0168,杨树林子村志,150429103206,杨树林子村,Yangshulinzi Cun,内蒙古自治区,Neimenggu Zizhiqu,赤峰市,Chifeng Shi,宁城县,Ningcheng Xian,亩 mu,459,没有相关数据 No Available Data,,,没有相关数据 No Available Data,n/a
+0169,永庆村志,220211200200,永庆村,Yongqing Cun,吉林省,Jilin Sheng,吉林市,Jilin Shi,丰满区,Fengman Qu,平方千米 / 平方公里 square kilometers,6.5,没有相关数据 No Available Data,,,没有相关数据 No Available Data,n/a
+0170,鲍家寨村志,630105100204,鲍家寨村,Baojiazhai Cun,青海省,Qinghai Sheng,西宁市,Xining Shi,城北区,Chengbei Qu,平方千米 / 平方公里 square kilometers,9,没有相关数据 No Available Data,,,公里/千米 kilometer,18
+0171,青林寺村志,420581101210,青林寺村,Qinglinsi Cun,湖北省,Hubei Sheng,宜昌市,Yichang Shi,宜都市,Yidu Shi,平方千米 / 平方公里 square kilometers,9.1,没有相关数据 No Available Data,,,公里/千米 kilometer,20
+0172,定平村志,620724201201,定平村,Dingping Cun,甘肃省,Gansu Sheng,张掖市,Zhangye Shi,高台县,Gaotai Xian,亩 mu,14399.1,度分秒 DMS (degrees-minutes-seconds),"39°27'59""N","99°39'35""E",公里/千米 kilometer,17
+0173,果山村志,511602102212,果山村,Guoshan Cun,四川省,Sichuan Sheng,广安市,Guang'an Shi,广安区,Guang'an Qu,平方千米 / 平方公里 square kilometers,1.88,度分秒 DMS (degrees-minutes-seconds),30°33′N,106°39′E,公里/千米 kilometer,9
+0174,蔡宅村志,330783107246,蔡宅村,Caizhai Cun,浙江省,Zhejiang Sheng,金华市,Jinhua Shi,东阳市,Dongyang Shi,没有相关数据 No Available Data,n/a,度分秒 DMS (degrees-minutes-seconds),29°23′N,120°27′E,公里/千米 kilometer,32.5
+0176,汪家塬村志,640324203208,汪家塬村,Wangjiayuan Cun,宁夏回族自治区,Ningxia Huizu Zizhiqu,吴忠市,Wuzhong Shi,同心县,Tongxin Xian,平方千米 / 平方公里 square kilometers,83,度分秒 DMS (degrees-minutes-seconds),36°46′N,106°26′E,没有相关数据 No Available Data,n/a
+0177,船房村志,530112006001,船房村,Chuanfang Cun,云南省,Yunnan Sheng,昆明市,Kunming Shi,西山区,Xishan Qu,平方千米 / 平方公里 square kilometers,1.8,没有相关数据 No Available Data,,,没有相关数据 No Available Data,n/a
+0178,双街村志,120113102210,双街村,Shuangjie Cun,天津市,Tianjin Shi,天津市,Tianjin Shi,北辰区,Beichen Qu,没有相关数据 No Available Data,n/a,没有相关数据 No Available Data,,,公里/千米 kilometer,6.3
+0179,木民村志,451421203202,木民村,Mumin Cun,广西壮族自治区,Guangxi Zhuangzu Zizhiqu,崇左市,Chongzuo Shi,扶绥县,Fusui Xian,平方千米 / 平方公里 square kilometers,26,没有相关数据 No Available Data,,,公里/千米 kilometer,6
+0180,红城村志,231084100203,红城村,Hongcheng Cun,黑龙江省,Heilongjiang Sheng,牡丹江市,Mudanjiang Shi,宁安市,Ning'an Shi,平方千米 / 平方公里 square kilometers,6.7,度分秒 DMS (degrees-minutes-seconds),44°20′15″N,129°24′15″E,没有相关数据 No Available Data,n/a
+0181,弼唐村志,440604011212,弼唐村,Bitang Cun,广东省,Guangdong Sheng,佛山市,Foshan Shi,禅城区,Chancheng Qu,平方千米 / 平方公里 square kilometers,0.8,度分秒 DMS (degrees-minutes-seconds),23°1′ N,113°2′ E,公里/千米 kilometer,20
+0183,旧城村志,130983103217,旧城村,Jiucheng Cun,河北省,Hebei Sheng,沧州市,Cangzhou Shi,黄骅市,Huanghua Shi,平方千米 / 平方公里 square kilometers,4,没有相关数据 No Available Data,,,公里/千米 kilometer,20
+0184,横西村志,n/a,横西村,Hengxi Cun,河北省,Hebei Sheng,石家庄市,Shijiazhuang Shi,井陉县,Jingxing Xian,亩 mu,233.6,没有相关数据 No Available Data,,,公里/千米 kilometer,52
+0185,镇海村志,460105100212,镇海村,Zhenhai Cun,海南省,Hainan Sheng,海口市,Haikou Shi,秀英区,Xiuying Qu,平方千米 / 平方公里 square kilometers,14,度分秒 DMS (degrees-minutes-seconds),20°N,110°E,没有相关数据 No Available Data,n/a
+0186,白岩洞村志,433130206211,白岩洞村,Baiyandong Cun,湖南省,Hunan Sheng,湘西土家族苗族自治州,Xiangxi Tujiazu Miaozu Zizhizhou,龙山县,Longshan Xian,平方千米 / 平方公里 square kilometers,13,没有相关数据 No Available Data,,,没有相关数据 No Available Data,n/a
+0187,百泉村志,410782103001,百泉村,Baiquan Cun,河南省,Henan Sheng,新乡市,Xinxiang Shi,辉县市,Huixian Shi,没有相关数据 No Available Data,n/a,没有相关数据 No Available Data,,,公里/千米 kilometer,2.5
+0188,调塾村志,440811100205,调塾村,Tiaoshu Cun,广东省,Guangdong Sheng,湛江市,Zhanjiang Shi,麻章区,Mazhang Qu,平方千米 / 平方公里 square kilometers,9,度分秒 DMS (degrees-minutes-seconds),20°55′N,11°28′E,没有相关数据 No Available Data,n/a
+0189,苑口村志,131026102207,苑口村,Yuankou Cun,河北省,Hebei Sheng,廊坊市,Langfang Shi,文安县,Wenan Xian,平方千米 / 平方公里 square kilometers,2.25,度分秒 DMS (degrees-minutes-seconds),38°57′N,116°25′E,公里/千米 kilometer,20
+0190,范家店村志,130302101019,范家店村,Fanjiadian Cun,河北省,Hebei Sheng,秦皇岛市,Qinhuangdao Shi,海港区,Haigang Qu,亩 mu,1200,没有相关数据 No Available Data,,,没有相关数据 No Available Data,n/a
+0191,塘尾村志,440306007007,塘尾村,Tangwei Cun,广东省,Guangdong Sheng,深圳市,Shenzhen Shi,宝安区,Baoan Qu,平方千米 / 平方公里 square kilometers,4.3,没有相关数据 No Available Data,,,公里/千米 kilometer,18
+0192,三桥村志,610112002200,三桥村,Sanqiao Cun,陕西省,Shanxi Sheng,西安市,Xi'an Shi,未央区,Weiyang Qu,亩 mu,2476,没有相关数据 No Available Data,,,公里/千米 kilometer,10
+0193,唐美村志,440781106212,唐美村,Tangmei Cun,广东省,Guangdong Sheng,江门市,Jiangmen Shi,台山市,Taishan Shi,平方千米 / 平方公里 square kilometers,7.5,没有相关数据 No Available Data,,,没有相关数据 No Available Data,n/a
+0194,界首村志,331124206200,界首村,Jieshou Cun,浙江省,Zhejiang Sheng,丽水市,Lishui Shi,松阳县,Songyang Xian,平方千米 / 平方公里 square kilometers,6,度分秒 DMS (degrees-minutes-seconds),28°34′N,119°20′E,公里/千米 kilometer,20
+0195,珂里庄志,532901104202,珂里庄村,Kelizhuang Cun,云南省,Yunnan Sheng,大理白族自治州,Dali Baizu Zizhizhou,大理市,Dali Shi,没有相关数据 No Available Data,n/a,没有相关数据 No Available Data,n/a,n/a,公里/千米 kilometer,18
+0196,吉镇村志,610826106200,吉镇村,Jizhen Cun,陕西省,Shanxi Sheng,榆林市,Yulin Shi,绥德县,Suide Xian,没有相关数据 No Available Data,n/a,度分秒 DMS (degrees-minutes-seconds),37°41′N,110°39′E,公里/千米 kilometer,50
+0197,贤友村志,140431104209,贤友村,Xianyou Cun,山西省,Shanxi Sheng,长治市,Changzhi Shi,沁源县,Qinyuan Xian,平方千米 / 平方公里 square kilometers,7.3,度分秒 DMS (degrees-minutes-seconds),36°33′N,112°14′53″E,公里/千米 kilometer,15
+0198,徐家河村志,610830101221,徐家河村,Xujiahe Cun,陕西省,Shanxi Sheng,榆林市,Yulin Shi,清涧县,Qingjian Xian,平方千米 / 平方公里 square kilometers,20,度分秒 DMS (degrees-minutes-seconds),35°33′N,110°15′E,没有相关数据 No Available Data,n/a
+0199,勤丰村志,320581100228,勤丰村,Qinfeng Cun,江苏省,Jiangsu Sheng,苏州市,Suzhou Shi,常熟市,Changshu Shi,平方千米 / 平方公里 square kilometers,6.11,没有相关数据 No Available Data,,,公里/千米 kilometer,45
+0200,观音庙村史,610113002203,观音庙村,Guanyinmiao Cun,陕西省,Shanxi Sheng,西安市,Xi'an Shi,雁塔区,Yanta Qu,亩 mu,315,没有相关数据 No Available Data,n/a,n/a,公里/千米 kilometer,6
+0201,永联村志,320582106210,永联村,Yonglian Cun,江苏省,Jiangsu Sheng,苏州市,Suzhou Shi,张家港市,Zhangjiagang Shi,平方千米 / 平方公里 square kilometers,10.5,度分秒 DMS (degrees-minutes-seconds),31°86′N,120°74′E,公里/千米 kilometer,20
+0203,石马峪村志,110228101204,石马峪村,Shimayu Cun,北京市,Beijing Shi,北京市,Beijing Shi,密云县,Miyun Xian,平方千米 / 平方公里 square kilometers,5.81,没有相关数据 No Available Data,,,没有相关数据 No Available Data,n/a
+0204,者湾村志,530423105203,者湾村,Zhewan Cun,云南省,Yunnan Sheng,玉溪市,Yuxi Shi,通海县,Tonghai Xian,平方千米 / 平方公里 square kilometers,9.73,度分秒 DMS (degrees-minutes-seconds),24°10′N,102°41′E,公里/千米 kilometer,12
+0205,黄土村志,511126101203,黄土村,Huangtu Cun,四川省,Sichuan Sheng,乐山市,Leshan Shi,夹江县,Jiajiang Xian,平方千米 / 平方公里 square kilometers,3,没有相关数据 No Available Data,,,公里/千米 kilometer,3
+0206,上关村志,532901104207,上关村,Shangguan Cun,云南省,Yunnan Sheng,大理白族自治州,Dali Baizu Zizhizhou,大理市,Dali Shi,亩 mu,24285,度分秒 DMS (degrees-minutes-seconds),25°58′N,100°27′E,没有相关数据 No Available Data,n/a
+0207,兴堰村志,510114103218,兴堰村,Xingyan Cun,四川省,Sichuan Sheng,成都市,Chengdu Shi,新都区,Xindu Qu,平方千米 / 平方公里 square kilometers,1.5,度分秒 DMS (degrees-minutes-seconds),30°46′N,104°02′E,没有相关数据 No Available Data,n/a
+0208,人民塘村志,510108013004,人民塘村,Renmintang Cun,四川省,Sichuan Sheng,成都市,Chengdu Shi,成华区,Chenghua Qu,平方千米 / 平方公里 square kilometers,2.5,度分秒 DMS (degrees-minutes-seconds),30°41′N,104°08′E,没有相关数据 No Available Data,n/a
+0209,海东村志,530111006004,海东村,Haidong Cun,云南省,Yunnan Sheng,昆明市,Kunming Shi,官渡区,Guandu Qu,平方千米 / 平方公里 square kilometers,1.5,度分秒范围 Range in DMS (degrees-minutes-seconds),24°54′N - 24°93′N,102°45′E - 102°72′E,没有相关数据 No Available Data,n/a
+0210,三街村志,530421101201,三街村,Sanjie Cun,云南省,Yunnan Sheng,玉溪市,Yuxi Shi,江川县,Jiangchuan Xian,平方千米 / 平方公里 square kilometers,14.38,度分秒范围 Range in DMS (degrees-minutes-seconds),24°12′N - 24°32′N,102°35′E - 102°55′E,没有相关数据 No Available Data,n/a
+0211,山邑村志,530521103206,山邑村,Shanyi Cun,云南省,Yunnan Sheng,保山市,Baoshan Shi,施甸县,Shidian Xian,平方千米 / 平方公里 square kilometers,13.72,度分秒 DMS (degrees-minutes-seconds),24°36′N,99°14′E,公里/千米 kilometer,15
+0212,石坝村志,510115101223,石坝村,Shiba Cun,四川省,Sichuan Sheng,成都市,Chengdu Shi,温江区,Wenjiang Qu,平方千米 / 平方公里 square kilometers,2.24,度分秒 DMS (degrees-minutes-seconds),30°45′N,103°46′E,没有相关数据 No Available Data,n/a
+0213,群安村志,510184119214,群安村,Qun'an Cun,四川省,Sichuan Sheng,成都市,Chengdu Shi,崇州市,Chongzhou Shi,平方千米 / 平方公里 square kilometers,3.38,没有相关数据 No Available Data,,,公里/千米 kilometer,15
+0214,云溪村志,530111005005,云溪村,Yunxi Cun,云南省,Yunnan Sheng,昆明市,Kunming Shi,官渡区,Guandu Qu,平方千米 / 平方公里 square kilometers,2.98,度分秒 DMS (degrees-minutes-seconds),24°58′N,102°45′E,公里/千米 kilometer,7
+0215,龙街村志,530127101224,龙街村,Longjie Cun,云南省,Yunnan Sheng,昆明市,Kunming Shi,嵩明县,Songming Xian,平方千米 / 平方公里 square kilometers,14.28,没有相关数据 No Available Data,,,公里/千米 kilometer,5
+0216,金陵村志,510181105228,金陵村,Jinling Cun,四川省,Sichuan Sheng,成都市,Chengdu Shi,都江堰市,Dujiangyan Shi,亩 mu,5247,度分秒 DMS (degrees-minutes-seconds),30°56′N,103°40′E,公里/千米 kilometer,7
+0217,瓦窑村志,510122121208,瓦窑村,Wayao Cun,四川省,Sichuan Sheng,成都市,Chengdu Shi,双流县,Shuangliu Xian,平方千米 / 平方公里 square kilometers,3.71,度分秒 DMS (degrees-minutes-seconds),"30°25'22.43""N","104°6'54.56""E",没有相关数据 No Available Data,n/a
+0218,九星村志,310112102203,九星村,Jiuxing Cun,上海市,Shanghai Shi,上海市,Shanghai Shi,闵行区,Minhang Qu,亩 mu,1785.3,没有相关数据 No Available Data,,,公里/千米 kilometer,5
+0219,金凤村志,533325101201,金凤村,Jinfeng Cun,云南省,Yunnan Sheng,怒江傈僳族自治州,Nujiang Lisuzu Zizhizhou,兰坪白族普米族自治县,Lanping Baizu Pumizu Zizhixian,平方千米 / 平方公里 square kilometers,10,度分秒范围 Range in DMS (degrees-minutes-seconds),26°23′20″N - 26°23′13″N,99°24′00″E - 99°30′00″E,没有相关数据 No Available Data,n/a
+0220,董棕河村志,532530202209,董棕河村,Dongzonghe Cun,云南省,Yunnan Sheng,红河哈尼族彝族自治州,Honghe Hanizu Yizu Zizhizhou,金平苗族瑶族傣族自治县,Jinping Miaozu Yaozu Daizu Zizhixian,平方千米 / 平方公里 square kilometers,9.2,度分秒范围 Range in DMS (degrees-minutes-seconds),22°43′N - 22°52′N,102°55′E - 103°03′E,公里/千米 kilometer,35
+0221,南胜村志,310120118214,南胜村,Nansheng Cun,上海市,Shanghai Shi,上海市,Shanghai Shi,奉贤区,Fengxian Qu,平方千米 / 平方公里 square kilometers,4.79,没有相关数据 No Available Data,,,没有相关数据 No Available Data,n/a
+0222,唐家岭村志,110108103201,唐家岭村,Tangjialing Cun,北京市,Beijing Shi,北京市,Beijing Shi,海淀区,Haidian Qu,亩 mu,5910,没有相关数据 No Available Data,,,没有相关数据 No Available Data,n/a
+0223,水闸口村志,n/a,水闸口村,Shuizhakou Cun,云南省,Yunnan Sheng,楚雄彝族自治州,Chuxiong Yizu Zizhizhou,楚雄市,Chuxiong Shi,没有相关数据 No Available Data,n/a,没有相关数据 No Available Data,,,没有相关数据 No Available Data,n/a
+0224,柏崖厂村志,110116004210,柏崖厂村,Baiyachang Cun,北京市,Beijing Shi,北京市,Beijing Shi,怀柔县,Huairou Xian,平方千米 / 平方公里 square kilometers,7.91,没有相关数据 No Available Data,,,没有相关数据 No Available Data,n/a
+0225,古城村志,110107004010,古城村,Gucheng Cun,北京市,Beijing Shi,北京市,Beijing Shi,石景山区,Shijingshan Qu,万平方米 10K square meters,25.24,没有相关数据 No Available Data,,,没有相关数据 No Available Data,n/a
+0226,天井村志,532901001201,天井村,Tianjing Cun,云南省,Yunnan Sheng,大理市,Dali Shi,大理经济开发区,Dali Jingji Kaifaqu,平方千米 / 平方公里 square kilometers,4,没有相关数据 No Available Data,,,没有相关数据 No Available Data,n/a
+0227,后辛庄村志,110115005233,后辛庄村,Houxinzhuang Cun,北京市,Beijing Shi,北京市,Beijing Shi,大兴区,Daxing Qu,没有相关数据 No Available Data,n/a,没有相关数据 No Available Data,,,没有相关数据 No Available Data,n/a
+0228,环东村志,310115125220,环东村,Huandong Cun,上海市,Shanghai Shi,上海市,Shanghai Shi,浦东新区,Pudong Xinqu,平方千米 / 平方公里 square kilometers,4.06,没有相关数据 No Available Data,,,没有相关数据 No Available Data,n/a
+0229,上马坊村志,530127104204,上马坊村,Shangmafang Cun,云南省,Yunnan Sheng,昆明市,Kunming Shi,嵩明县,Songming Xian,平方千米 / 平方公里 square kilometers,11.66,没有相关数据 No Available Data,,,没有相关数据 No Available Data,n/a
+0230,果园村志,n/a,果园村,Guoyuan Cun,上海市,Shanghai Shi,上海市,Shanghai Shi,浦东新区,Pudong Xinqu,平方千米 / 平方公里 square kilometers,3.235,度分秒 DMS (degrees-minutes-seconds),31°03′N,121°39′E,没有相关数据 No Available Data,n/a
+0231,众安村志,310115133206,众安村,Zhongan Cun,上海市,Shanghai Shi,上海市,Shanghai Shi,浦东新区,Pudong Xinqu,平方千米 / 平方公里 square kilometers,3.96,度分秒 DMS (degrees-minutes-seconds),31°03′N,121°39′E,没有相关数据 No Available Data,n/a
+0232,马连道村志,110106201201,马连道村,Maliandao Cun,北京市,Beijing Shi,北京市,Beijing Shi,丰台区,Fengtai Qu,公顷 hectares,29.3,度分秒 DMS (degrees-minutes-seconds),40°N,n/a,没有相关数据 No Available Data,n/a
+0233,棠东村志,n/a,棠东村,Tangdong Cun,广东省,Guangdong Sheng,广州市,Guangzhou Shi,天河区,Tianhe Qu,平方千米 / 平方公里 square kilometers,5.28,没有相关数据 No Available Data,,,没有相关数据 No Available Data,n/a
+0234,小坑村志,441900111225,小坑村,Xiaokeng Cun,广东省,Guangdong Sheng,东莞市,Dongguan Shi,东莞市,Dongguan Shi,平方千米 / 平方公里 square kilometers,1.67,没有相关数据 No Available Data,n/a,n/a,公里/千米 kilometer,11
+0235,勐廷村志,530524101202,勐廷村,Mengting Cun,云南省,Yunnan Sheng,保山市,Baoshan Shi,昌宁县,Changning Xian,平方千米 / 平方公里 square kilometers,18.8,没有相关数据 No Available Data,,,公里/千米 kilometer,3
+0236,榆林村志,110113113206,榆林村,Yulin Cun,北京市,Beijing Shi,北京市,Beijing Shi,顺义区,Shunyi Qu,平方千米 / 平方公里 square kilometers,7.7,没有相关数据 No Available Data,,,公里/千米 kilometer,10
+0238,界龙村志,310115103227,界龙村,Jielong Cun,上海市,Shanghai Shi,上海市,Shanghai Shi,浦东新区,Pudong Xinqu,平方千米 / 平方公里 square kilometers,2.98,度分秒 DMS (degrees-minutes-seconds),31°11′N,121°41′E,没有相关数据 No Available Data,n/a
+0239,北山村志,530126101218,北山村,Beishan Cun,云南省,Yunnan Sheng,昆明市,Kunming Shi,石林彝族自治县,Shilin Yizu Zizhixian,平方千米 / 平方公里 square kilometers,8.13,没有相关数据 No Available Data,,,公里/千米 kilometer,5
+0241,龙爪树村志,110105027202,龙爪树村,Longzhuashu Cun,北京市,Beijing Shi,北京市,Beijing Shi,朝阳区,Chaoyang Qu,平方千米 / 平方公里 square kilometers,2.2,没有相关数据 No Available Data,,,没有相关数据 No Available Data,n/a
+0242,横浦村志,310116109209,横浦村,Hengpu Cun,上海市,Shanghai Shi,上海市,Shanghai Shi,金山区,Jinshan Qu,平方千米 / 平方公里 square kilometers,4.04,度分秒 DMS (degrees-minutes-seconds),30°30′N,120°75′E,没有相关数据 No Available Data,n/a
+0243,南韩继村志,110111009200,南韩继村,Nanhanji Cun,北京市,Beijing Shi,北京市,Beijing Shi,房山区,Fangshan Qu,平方千米 / 平方公里 square kilometers,1.41,没有相关数据 No Available Data,,,公里/千米 kilometer,40
+0244,盐行村志,310120102220,盐行村,Yanhang Cun,上海市,Shanghai Shi,上海市,Shanghai Shi,奉贤区,Fengxian Qu,平方千米 / 平方公里 square kilometers,2.02,度分秒 DMS (degrees-minutes-seconds),30°58′N,121°34′E,没有相关数据 No Available Data,n/a
+0245,上园村志,330382114208,上园村,Shangyuan Cun,浙江省,Zhejiang Sheng,温州市,Wenzhou Shi,乐清市,Yueqing Shi,平方千米 / 平方公里 square kilometers,0.56,度分秒 DMS (degrees-minutes-seconds),28°03′N,120°54′E,公里/千米 kilometer,11
+0246,卫通村志,310116109212,卫通村,Weitong Cun,上海市,Shanghai Shi,上海市,Shanghai Shi,金山区,Jinshan Qu,平方千米 / 平方公里 square kilometers,2.93,没有相关数据 No Available Data,,,没有相关数据 No Available Data,n/a
+0247,亭北村志,310116104215,亭北村,Tingbei Cun,上海市,Shanghai Shi,上海市,Shanghai Shi,金山区,Jinshan Qu,平方千米 / 平方公里 square kilometers,6.69,度分秒 DMS (degrees-minutes-seconds),30°N,121°E,没有相关数据 No Available Data,n/a
+0248,东夏园村志,110112119219,东夏园村,Dongxiayuan Cun,北京市,Beijing Shi,北京市,Beijing Shi,通州区,Tongzhou Qu,平方千米 / 平方公里 square kilometers,0.6,没有相关数据 No Available Data,,,没有相关数据 No Available Data,n/a
+0249,北桥村志,310112103210,北桥村,Beiqiao Cun,上海市,Shanghai Shi,上海市,Shanghai Shi,闵行区,Minhang Qu,平方千米 / 平方公里 square kilometers,1.6,没有相关数据 No Available Data,n/a,n/a,没有相关数据 No Available Data,n/a
+0250,慧农村志,310116101222,慧农村,Huinong Cun,上海市,Shanghai Shi,上海市,Shanghai Shi,金山区,Jinshan Qu,平方千米 / 平方公里 square kilometers,7.3,没有相关数据 No Available Data,,,没有相关数据 No Available Data,n/a
+0251,双河村志,532931101214,双河村,Shuanghe Cun,云南省,Yunnan Sheng,大理白族自治州,Dali Baizu Zizhizhou,剑川县,Jianchuan Xian,平方千米 / 平方公里 square kilometers,55.44,没有相关数据 No Available Data,,,公里/千米 kilometer,13
+0252,金鸡台村志,110111212211,金鸡台村,Jinjitai Cun,北京市,Beijing Shi,北京市,Beijing Shi,房山区,Fangshan Qu,没有相关数据 No Available Data,n/a,没有相关数据 No Available Data,,,没有相关数据 No Available Data,n/a
+0253,崧泽村志,310118105216,崧泽村,Songze Cun,上海市,Shanghai Shi,上海市,Shanghai Shi,青浦区,Qingpu Qu,平方千米 / 平方公里 square kilometers,3.81,度分秒 DMS (degrees-minutes-seconds),31°09′N,120°01′E,没有相关数据 No Available Data,n/a
+0254,亭东村志,310116104204,亭东村,Tingdong Cun,上海市,Shanghai Shi,上海市,Shanghai Shi,金山区,Jinshan Qu,公顷 hectares,464.17,没有相关数据 No Available Data,,,公里/千米 kilometer,19
+0255,民主村志,310116101203,民主村,Minzhu Cun,上海市,Shanghai Shi,上海市,Shanghai Shi,金山区,Jinshan Qu,平方千米 / 平方公里 square kilometers,4.90,没有相关数据 No Available Data,,,没有相关数据 No Available Data,n/a
+0256,黄山店村志,110111009212,黄山店村,Huangshandian Cun,北京市,Beijing Shi,北京市,Beijing Shi,房山区,Fangshan Qu,平方千米 / 平方公里 square kilometers,20.2,没有相关数据 No Available Data,,,没有相关数据 No Available Data,n/a
+0257,华一村志,310112108202,华一村,Huayi Cun,上海市,Shanghai Shi,上海市,Shanghai Shi,闵行区,Minhang Qu,平方千米 / 平方公里 square kilometers,2.5,没有相关数据 No Available Data,,,没有相关数据 No Available Data,n/a
+0258,罗衙村志,530111006008,罗衙村,Luoya Cun,云南省,Yunnan Sheng,昆明市,Kunming Shi,官渡区,Guandu Qu,平方千米 / 平方公里 square kilometers,1.5,没有相关数据 No Available Data,,,没有相关数据 No Available Data,n/a
+0259,江头河村志,533325101002,江头河村,Jiangtouhe Cun,云南省,Yunnan Sheng,怒江傈僳族自治州,Nujiang Lisuzu Zizhizhou,兰坪白族普米族自治县,Lanping Baizu Pumizu Zizhixian,平方千米 / 平方公里 square kilometers,6.5,度分秒 DMS (degrees-minutes-seconds),26°27′N,99°26′E,没有相关数据 No Available Data,n/a
+0260,钱桥村志,310114109203,钱桥村,Qianqiao Cun,上海市,Shanghai Shi,上海市,Shanghai Shi,嘉定区,Jiading Qu,平方千米 / 平方公里 square kilometers,2.08,没有相关数据 No Available Data,,,公里/千米 kilometer,3.5
+0261,寒王村志,140722200200,寒王村,Hanwang Cun,山西省,Shanxi Sheng,晋中市,Jinzhong Shi,左权县,Zuoquan Xian,平方千米 / 平方公里 square kilometers,25.3,没有相关数据 No Available Data,,,公里/千米 kilometer,23
+0262,新维村志,441900102202,新维村,Xinwei Cun,广东省,Guangdong Sheng,东莞市,Dongguan Shi,东莞市,Dongguan Shi,平方千米 / 平方公里 square kilometers,0.57,没有相关数据 No Available Data,n/a,n/a,公里/千米 kilometer,20
+0263,东张口村志,130181204226,东张口村,Dongzhangkou Cun,河北省,Hebei Sheng,石家庄市,Shijiazhuang Shi,辛集市,Xinji Shi,万平方米 10K square meters,55.3,没有相关数据 No Available Data,,,没有相关数据 No Available Data,n/a
+0264,长安村志,350105101216,长安村,Chang'an Cun,福建省,Fujian Sheng,福州市,Fuzhou Shi,马尾区,Mawei Qu,平方千米 / 平方公里 square kilometers,3,度分秒 DMS (degrees-minutes-seconds),25°59′N,119°37′E,公里/千米 kilometer,20
+0265,磁山村志,130481103402,磁山村,Cishan Cun,河北省,Hebei Sheng,邯郸市,Handan Shi,武安市,Wu'an Shi,平方千米 / 平方公里 square kilometers,10,没有相关数据 No Available Data,,,没有相关数据 No Available Data,n/a
+0266,洞阳观村志,430703115203,洞阳观村,Dongyangguan Cun,湖南省,Hunan Sheng,常德市,Changde Shi,鼎城区,Dingcheng Qu,平方千米 / 平方公里 square kilometers,6,没有相关数据 No Available Data,,,没有相关数据 No Available Data,n/a
+0267,晨钟村志,610581002204,晨钟村,Chenzhong Cun,陕西省,Shanxi Sheng,渭南市,Weinan Shi,韩城市,Hancheng Shi,平方千米 / 平方公里 square kilometers,2.7,度分秒 DMS (degrees-minutes-seconds),35°30′N,110°30′E,公里/千米 kilometer,1.23
+0268,北陈村志,410306200200,北陈村,Beichen Cun,河南省,Henan Sheng,洛阳市,Luoyang Shi,吉利区,Jili Qu,平方千米 / 平方公里 square kilometers,4,度分秒范围 Range in DMS (degrees-minutes-seconds),34°41′N - 35°57′N,112°29′20″E - 112°38′50″E,公里/千米 kilometer,34
+0269,南坑村志,350823104206,南坑村,Nankeng Cun,福建省,Fujian Sheng,龙岩市,Longyan Shi,上杭县,Shanghang Xian,公顷 hectares,456,没有相关数据 No Available Data,,,没有相关数据 No Available Data,n/a
+0270,洞源村志,330781200206,洞源村,Dongyuan Cun,浙江省,Zhejiang Sheng,金华市,Jinhua Shi,兰溪市,Lanxi Shi,平方千米 / 平方公里 square kilometers,12.9,度分秒 DMS (degrees-minutes-seconds),29°13′N,119°31′E,公里/千米 kilometer,8
+0271,东街村志,610524100201,东街村,Dongjie Cun,陕西省,Shanxi Sheng,渭南市,Weinan Shi,合阳县,Heyang Xian,平方千米 / 平方公里 square kilometers,2.23,度分秒 DMS (degrees-minutes-seconds),35°14′0″N,110°08′0″E,没有相关数据 No Available Data,n/a
+0272,芙蓉村志,430923103234,芙蓉村,Furong Cun,湖南省,Hunan Sheng,益阳市,Yiyang Shi,安化县,Anhua Xian,平方千米 / 平方公里 square kilometers,16.42,没有相关数据 No Available Data,,,没有相关数据 No Available Data,n/a
+0273,超墘村志,350121201213,超墘村,Chaoqian Cun,福建省,Fujian Sheng,福州市,Fuzhou Shi,闽侯县,Minhou Xian,没有相关数据 No Available Data,n/a,没有相关数据 No Available Data,n/a,n/a,公里/千米 kilometer,20
+0274,怀德村志,440306004006,怀德村,Huaide Cun,广东省,Guangdong Sheng,深圳市,Shenzhen Shi,宝安区,Baoan Qu,平方千米 / 平方公里 square kilometers,4.5,度分秒 DMS (degrees-minutes-seconds),22°36′N,113°49′E,没有相关数据 No Available Data,n/a
+0275,高家村志,210212400205,高家村,Gaojia Cun,辽宁省,Liaoning Sheng,大连市,Dalian Shi,旅顺口区,Lüshunkou Qu,平方千米 / 平方公里 square kilometers,8.89,没有相关数据 No Available Data,,,没有相关数据 No Available Data,n/a
+0276,大潘家村志,210212400206,大潘家村,Dapanjia Cun,辽宁省,Liaoning Sheng,大连市,Dalian Shi,旅顺口区,Lüshunkou Qu,平方千米 / 平方公里 square kilometers,3.5,没有相关数据 No Available Data,n/a,n/a,公里/千米 kilometer,14
+0277,东大寨村志,370285107236,东大寨村,Dongdazhai Cun,山东省,Shandong Sheng,青岛市,Qingdao Shi,莱西市,Laixi Shi,亩 mu,6752.75,没有相关数据 No Available Data,,,没有相关数据 No Available Data,n/a
+0278,国际村志,330621106205,国际村,Guoji Cun,浙江省,Zhejiang Sheng,绍兴市,Shaoxing Shi,柯桥区,Keqiao Qu,平方千米 / 平方公里 square kilometers,1.8,度分秒 DMS (degrees-minutes-seconds),30°07′19″N,120°30′59″E,没有相关数据 No Available Data,n/a
+0279,黑石头村志,621121206207,黑石头村,Heishitou Cun,甘肃省,Gansu Sheng,定西市,Dingxi Shi,通渭县,Tongwei Xian,平方千米 / 平方公里 square kilometers,2.021,度分秒 DMS (degrees-minutes-seconds),38°50′N,101°20′E,公里/千米 kilometer,25
+0280,北寨张村志,130421200218,北寨张村,Beizhaizhang Cun,河北省,Hebei Sheng,邯郸市,Handan Shi,邯郸县,Handan Xian,万平方米 10K square meters,140,度分秒 DMS (degrees-minutes-seconds),36°30′N,114°3′E,公里/千米 kilometer,5
+0281,碑登村志,210522110209,碑登村,Beideng Cun,辽宁省,Liaoning Sheng,本溪市,Benxi Shi,桓仁满族自治县,Huanren Manzu Zizhixian,平方千米 / 平方公里 square kilometers,33,没有相关数据 No Available Data,,,公里/千米 kilometer,36
+0282,何麻车村志,330782004007,何麻车村,Hemache Cun,浙江省,Zhejiang Sheng,金华市,Jinhua Shi,义乌市,Yiwu Shi,平方千米 / 平方公里 square kilometers,1.5,没有相关数据 No Available Data,,,没有相关数据 No Available Data,n/a
+0283,固新村志,130426106201,固新村,Guxin Cun,河北省,Hebei Sheng,邯郸市,Handan Shi,涉县,She Xian,没有相关数据 No Available Data,n/a,没有相关数据 No Available Data,,,公里/千米 kilometer,12.3
+0285,土塘村志,441900110212,土塘村,Tutang Cun,广东省,Guangdong Sheng,东莞市,Dongguan Shi,东莞市,Dongguan Shi,平方千米 / 平方公里 square kilometers,8.7,度分秒 DMS (degrees-minutes-seconds),22°58′40″N,113°59′18″E,没有相关数据 No Available Data,n/a
+0286,大井村志,110106201213,大井村,Dajing Cun,北京市,Beijing Shi,北京市,Beijing Shi,丰台区,Fengtai Qu,公顷 hectares,142.1,没有相关数据 No Available Data,,,没有相关数据 No Available Data,n/a
+0287,东方村志,310116113208,东方村,Dongfang Cun,上海市,Shanghai Shi,上海市,Shanghai Shi,金山区,Jinshan Qu,平方千米 / 平方公里 square kilometers,3.3,度分秒 DMS (degrees-minutes-seconds),30°45′N,121°21′E,没有相关数据 No Available Data,n/a
+0288,枫树岗村志,430702101213,枫树岗村,Fengshugang Cun,湖南省,Hunan Sheng,常德市,Changde Shi,武陵区,Wuling Qu,亩 mu,4370,没有相关数据 No Available Data,,,没有相关数据 No Available Data,n/a
+0289,百胜村志,350122104201,百胜村,Baisheng Cun,福建省,Fujian Sheng,福州市,Fuzhou Shi,连江县,Lianjiang Xian,平方千米 / 平方公里 square kilometers,26,度分秒 DMS (degrees-minutes-seconds),26°13′N,119°41′E,公里/千米 kilometer,15
+0290,大板沟村志,211322004207,大板沟村,Dabangou Cun,辽宁省,Liaoning Sheng,朝阳市,Chaoyang Shi,建平县,Jianping Xian,亩 mu,31713.2,没有相关数据 No Available Data,,,公里/千米 kilometer,17
+0291,官曲村志,370681101227,官曲村,Guanqu Cun,山东省,Shandong Sheng,烟台市,Yantai Shi,龙口市,Longkou Shi,平方千米 / 平方公里 square kilometers,1,度分秒 DMS (degrees-minutes-seconds),37°47′N,120°44′E,没有相关数据 No Available Data,n/a
+0292,凡村村志,411222102209,凡村,Fan Cun,河南省,Henan Sheng,三门峡市,Sanmenxia Shi,陕县,Shan Xian,平方千米 / 平方公里 square kilometers,0.56,度分秒 DMS (degrees-minutes-seconds),34°24′N,111°1′E,公里/千米 kilometer,25
+0293,碟子沟村志,610624102204,碟子沟村,Diezigou Cun,陕西省,Shanxi Sheng,延安市,Yan'an Shi,安塞县,Ansai Xian,平方千米 / 平方公里 square kilometers,6.3,度分秒 DMS (degrees-minutes-seconds),36°45′N,109°22′E,公里/千米 kilometer,10
+0294,北沙坡村志,n/a,北沙坡村,Beishapo Cun,陕西省,Shanxi Sheng,西安市,Xi'an Shi,碑林区,Beilin Qu,平方米 square meters,108650,没有相关数据 No Available Data,,,公里/千米 kilometer,3
+0295,何家楼村志,370283004224,何家楼村,Hejialou Cun,山东省,Shandong Sheng,青岛市,Qingdao Shi,平度市,Pingdu Shi,亩 mu,524.90,没有相关数据 No Available Data,,,公里/千米 kilometer,1.5
+0296,大省村志,371626101306,大省村,Dasheng Cun,山东省,Shandong Sheng,滨州市,Binzhou Shi,邹平县,Zouping Xian,亩 mu,2815.53,度分秒 DMS (degrees-minutes-seconds),36°57′N,117°51′E,公里/千米 kilometer,12.5
+0297,册井村志,130582201207,册井村,Cejing Cun,河北省,Hebei Sheng,邢台市,Xingtai Shi,沙河市,Shahe Shi,平方千米 / 平方公里 square kilometers,10.6,度分秒 DMS (degrees-minutes-seconds),36°52′32″N,114°08′10″E,公里/千米 kilometer,32.5
+0298,葛富村志,610821111244,葛富村,Gefu Cun,陕西省,Shanxi Sheng,榆林市,Yulin Shi,神木县,Shenmu Xian,没有相关数据 No Available Data,n/a,没有相关数据 No Available Data,,,没有相关数据 No Available Data,n/a
+0299,衙门村志,210921120210,衙门村,Yamen Cun,辽宁省,Liaoning Sheng,阜新市,Fuxin Shi,阜新蒙古族自治县,Fuxin Mengguzu Zizhixian,亩 mu,25620,度分秒 DMS (degrees-minutes-seconds),42°N,121°53′35″E,没有相关数据 No Available Data,n/a
+0300,斗门村志,130434202215,斗门村,Doumen Cun,河北省,Hebei Sheng,邯郸市,Handan Shi,魏县,Wei Xian,平方千米 / 平方公里 square kilometers,3.299,没有相关数据 No Available Data,,,公里/千米 kilometer,10
+0301,长山村志,330726106206,长山村,Changshan Cun,浙江省,Zhejiang Sheng,金华市,Jinhua Shi,浦江县,Pujiang Xian,没有相关数据 No Available Data,n/a,度分秒 DMS (degrees-minutes-seconds),29°N,119.5°E,公里/千米 kilometer,15
+0302,南关村志,n/a,南关村,Nanguan Cun,山东省,Shandong Sheng,潍坊市,Weifang Shi,高密市,Gaomi Shi,平方千米 / 平方公里 square kilometers,1.84,没有相关数据 No Available Data,n/a,n/a,公里/千米 kilometer,0.23
+0303,陈屯村志,211103018201,陈屯村,Chentun Cun,辽宁省,Liaoning Sheng,盘锦市,Panjin Shi,兴隆台区,Xinglongtai Qu,平方千米 / 平方公里 square kilometers,10.3,没有相关数据 No Available Data,,,没有相关数据 No Available Data,n/a
+0304,东岐村志,350105101210,东岐村,Dongqi Cun,福建省,Fujian Sheng,福州市,Fuzhou Shi,马尾区,Mawei Qu,平方千米 / 平方公里 square kilometers,9.33,度分秒 DMS (degrees-minutes-seconds),25°59′N,119°37′E,公里/千米 kilometer,19
+0305,港西村志,320382109003,港西村,Gangxi Cun,江苏省,Jiangsu Sheng,徐州市,Xuzhou Shi,邳州市,Pizhou Shi,平方千米 / 平方公里 square kilometers,1.5,度分秒 DMS (degrees-minutes-seconds),34°40′N,118°10′E,没有相关数据 No Available Data,n/a
+0306,大英村志,430224207204,大英村,Daying Cun,湖南省,Hunan Sheng,株洲市,Zhuzhou Shi,茶陵县,Chaling Xian,平方千米 / 平方公里 square kilometers,13.6,度分秒 DMS (degrees-minutes-seconds),27°04′35″N,113°68′12″E,公里/千米 kilometer,45
+0307,方家岙村志,330225105225,方家岙村,Fangjiaao Cun,浙江省,Zhejiang Sheng,宁波市,Ningbo Shi,象山县,Xiangshan Xian,没有相关数据 No Available Data,n/a,度分秒 DMS (degrees-minutes-seconds),29°N,121°E,公里/千米 kilometer,10
+0309,开弦弓村志,320584107218,开弦弓村,Kaixiangong Cun,江苏省,Jiangsu Sheng,苏州市,Suzhou Shi,吴江市,Wujiang Shi,平方千米 / 平方公里 square kilometers,4.5,度分秒 DMS (degrees-minutes-seconds),30°29′N,120°49′E,没有相关数据 No Available Data,n/a
+0310,李家桑园村志,371327101215,李家桑园村,Lijiasangyuan Cun,山东省,Shandong Sheng,临沂市,Linyi Shi,莒南县,Ju'nan Xian,没有相关数据 No Available Data,n/a,没有相关数据 No Available Data,n/a,n/a,公里/千米 kilometer,37
+0312,红星村志,350425100201,红星村,Hongxing Cun,福建省,Fujian Sheng,三明市,Sanming Shi,大田县,Datian Xian,亩 mu,14813,没有相关数据 No Available Data,,,公里/千米 kilometer,4
+0313,刘集村志,371402200215,刘集村,Liuji Cun,山东省,Shandong Sheng,德州市,Dezhou Shi,德城区,Decheng Qu,平方千米 / 平方公里 square kilometers,0.5,没有相关数据 No Available Data,n/a,n/a,公里/千米 kilometer,2
+0314,凌塘村志,n/a,凌塘村,Lingtong Cun,广东省,Guangdong Sheng,广州市,Guangzhou Shi,天河区,Tianhe Qu,平方千米 / 平方公里 square kilometers,8.2,度分秒范围 Range in DMS (degrees-minutes-seconds),23°6′0″N - 23°14′45″N,113°15′55″E - 113°26′30″E,没有相关数据 No Available Data,n/a
+0315,花沟王村志,410105015204,花沟王村,Huagouwang Cun,河南省,Henan Sheng,郑州市,Zhengzhou Shi,金水区,Jinshui Qu,亩 mu,3200,没有相关数据 No Available Data,,,公里/千米 kilometer,8
+0316,黄岗村志,370105013004,黄岗村,Huanggang Cun,山东省,Shandong Sheng,济南市,Jinan Shi,天桥区,Tianqiao Qu,平方千米 / 平方公里 square kilometers,1.99,度分秒 DMS (degrees-minutes-seconds),36°49′N,117°00′E,公里/千米 kilometer,2
+0317,八岔赫哲族村志,230881205200,八岔赫哲族村,Bacha Hezhezu Cun,黑龙江省,Heilongjiang Sheng,佳木斯市,Jiamusi Shi,同江市,Tongjiang Shi,平方千米 / 平方公里 square kilometers,144.33,度分秒范围 Range in DMS (degrees-minutes-seconds),48°08′N - 48°18′N,133°40′E - 134°01′E,没有相关数据 No Available Data,n/a
+0318,柳林屯村志,371524105214,柳林屯村,Liulintun Cun,山东省,Shandong Sheng,聊城市,Liaocheng Shi,东阿县,Donge Xian,平方千米 / 平方公里 square kilometers,5,没有相关数据 No Available Data,,,公里/千米 kilometer,9
+0319,花园关村志,n/a,花园关村,Huayuanguan Cun,河南省,Henan Sheng,南阳市,Nanyang Shi,西峡县,Xixia Xian,平方千米 / 平方公里 square kilometers,14.54,度分秒范围 Range in DMS (degrees-minutes-seconds),33°05′N - 33°48′N,111°01′E - 111°46′E,没有相关数据 No Available Data,n/a
+0320,金沙村志,430421106211,金沙村,Jinsha Cun,湖南省,Hunan Sheng,衡阳市,Hengyang Shi,衡阳县,Hengyang Xian,平方千米 / 平方公里 square kilometers,4,没有相关数据 No Available Data,,,没有相关数据 No Available Data,n/a
+0321,巨口铺村志,430522108211,巨口铺村,Jukoupu Cun,湖南省,Hunan Sheng,邵阳市,Shaoyang Shi,新邵县,Xinshao Xian,平方千米 / 平方公里 square kilometers,2.2,没有相关数据 No Available Data,,,公里/千米 kilometer,28
+0322,后楼村志,350426103201,后楼村,Houlou Cun,福建省,Fujian Sheng,三明市,Sanming Shi,尤溪县,Youxi Xian,平方千米 / 平方公里 square kilometers,46,度分秒 DMS (degrees-minutes-seconds),26°N,118°E,没有相关数据 No Available Data,n/a
+0323,荒里村志,320305103205,荒里村,Huangli Cun,江苏省,Jiangsu Sheng,徐州市,Xuzhou Shi,贾汪区,Jiawang Qu,平方千米 / 平方公里 square kilometers,1.953,没有相关数据 No Available Data,,,公里/千米 kilometer,25.5
+0324,大张营村志,411626200218,大张营村,Dazhangying Cun,河南省,Henan Sheng,周口市,Zhoukou Shi,淮阳县,Huaiyang Xian,平方千米 / 平方公里 square kilometers,2.04,没有相关数据 No Available Data,,,公里/千米 kilometer,25
+0325,河西村志,411282104204,河西村,Hexi Cun,河南省,Henan Sheng,三门峡市,Sanmenxia Shi,灵宝市,Lingbao Shi,平方千米 / 平方公里 square kilometers,40,没有相关数据 No Available Data,,,没有相关数据 No Available Data,n/a
+0326,江桃村志,330621110242,江桃村,Jiangtao Cun,浙江省,Zhejiang Sheng,绍兴市,Shaoxing Shi,柯桥区,Keqiao Qu,平方千米 / 平方公里 square kilometers,3.46,没有相关数据 No Available Data,n/a,n/a,没有相关数据 No Available Data,n/a
+0327,四台子村志,210682116204,四台子村,Sitaizi Cun,辽宁省,Liaoning Sheng,丹东市,Dandong Shi,凤城市,Fengcheng Shi,平方千米 / 平方公里 square kilometers,37.7,度分秒范围 Range in DMS (degrees-minutes-seconds),40°27′20.26″N - 40°31′45.31″N,123°57′09.70″E - 124°01′41.01″E,没有相关数据 No Available Data,n/a
+0329,后三羊头村志,210212400201,后三羊头村,Housanyangtou Cun,辽宁省,Liaoning Sheng,大连市,Dalian Shi,旅顺口区,Lüshunkou Qu,平方千米 / 平方公里 square kilometers,3,没有相关数据 No Available Data,n/a,n/a,公里/千米 kilometer,10
+0330,庙东村志,211382008201,庙东村,Miaodong Cun,辽宁省,Liaoning Sheng,朝阳市,Chaoyang Shi,凌源市,Lingyuan Shi,平方千米 / 平方公里 square kilometers,14.4,度分秒 DMS (degrees-minutes-seconds),41°16′30″N,116°25′E,公里/千米 kilometer,6
+0331,茅岗村志,440112003009,茅岗村,Maogang Cun,广东省,Guangdong Sheng,广州市,Guangzhou Shi,黄浦区,Huangpu Qu,平方千米 / 平方公里 square kilometers,5.68,没有相关数据 No Available Data,n/a,n/a,没有相关数据 No Available Data,n/a
+0332,近江村志,n/a,近江村,Jinjiang Cun,浙江省,Zhejiang Sheng,杭州市,Hangzhou Shi,江干区,Jianggan Qu,平方千米 / 平方公里 square kilometers,1.5,没有相关数据 No Available Data,,,没有相关数据 No Available Data,n/a
+0333,柳树林村村志,610112007230,柳树林村,Liushulin Cun,陕西省,Shanxi Sheng,西安市,Xi'an Shi,未央区,Weiyang Qu,平方千米 / 平方公里 square kilometers,1.8,度分秒 DMS (degrees-minutes-seconds),34°23′45″N,108°58′04″E,没有相关数据 No Available Data,n/a
+0334,灵岩村志,320506103200,灵岩村,Lingyan Cun,江苏省,Jiangsu Sheng,苏州市,Suzhou Shi,吴中区,Wuzhong Qu,平方千米 / 平方公里 square kilometers,3,没有相关数据 No Available Data,,,没有相关数据 No Available Data,n/a
+0335,吉安城村志,610525101211,吉安城村,Ji'ancheng Cun,陕西省,Shanxi Sheng,渭南市,Weinan Shi,澄城县,Chengcheng Xian,平方千米 / 平方公里 square kilometers,7,没有相关数据 No Available Data,,,公里/千米 kilometer,30
+0336,常青村志续编,140429200213,常青村,Changqing Cun,山西省,Shanxi Sheng,晋中市,Jinzhong Shi,灵石县,Lingshi Xian,没有相关数据 No Available Data,n/a,没有相关数据 No Available Data,,,没有相关数据 No Available Data,n/a
+0337,李巷村志,320582401206,李巷村,Lixiang Cun,江苏省,Jiangsu Sheng,苏州市,Suzhou Shi,张家港市,Zhangjiagang Shi,平方千米 / 平方公里 square kilometers,7.01,没有相关数据 No Available Data,,,公里/千米 kilometer,6
+0338,麻扎村志,n/a,麻扎村,Mazha Cun,新疆维吾尔自治区,Xinjiang Weiwu'er Zizhiqu,吐鲁番市,Tulufan Shi,鄯善县,Shanshan Xian,平方千米 / 平方公里 square kilometers,24,度分秒 DMS (degrees-minutes-seconds),42°51′5″N,89°41′5″E,公里/千米 kilometer,41
+0339,旧泉坊村志,610125101211,旧泉坊村,Jiuquanfang Cun,陕西省,Shanxi Sheng,西安市,Xi'an Shi,户县,Hu Xian,平方千米 / 平方公里 square kilometers,3.15,没有相关数据 No Available Data,,,公里/千米 kilometer,7.5
+0340,建河村志,320925103207,建河村,Jianhe Cun,江苏省,Jiangsu Sheng,盐城市,Yancheng Shi,建湖县,Jianhu Xian,平方千米 / 平方公里 square kilometers,4.5,度分秒 DMS (degrees-minutes-seconds),33°20′22″N,119°39′37″E,没有相关数据 No Available Data,n/a
+0341,旧尉屯村志,141181105210,旧尉屯村,Jiuweitun Cun,山西省,Shanxi Sheng,吕梁市,Lüliang Shi,孝义市,Xiaoyi Shi,平方千米 / 平方公里 square kilometers,2.6,度分秒范围 Range in DMS (degrees-minutes-seconds),37°04′N - 37°05′N,111°48′E - 111°49′E,公里/千米 kilometer,11.5
+0342,李家沟村志,210212013200,李家沟村,Lijiagou Cun,辽宁省,Liaoning Sheng,大连市,Dalian Shi,旅顺口区,Lüshunkou Qu,平方千米 / 平方公里 square kilometers,8.186,没有相关数据 No Available Data,,,没有相关数据 No Available Data,n/a
+0343,梁官村志,140728206201,梁官村,Liangguan Cun,山西省,Shanxi Sheng,晋中市,Jinzhong Shi,平遥县,Pingyao Xian,平方千米 / 平方公里 square kilometers,3.597,度分秒 DMS (degrees-minutes-seconds),37°22′N,112°33′E,没有相关数据 No Available Data,n/a
+0344,环湖村志,320581100013,环湖村,Huanhu Cun,江苏省,Jiangsu Sheng,苏州市,Suzhou Shi,常熟市,Changshu Shi,平方千米 / 平方公里 square kilometers,0.32,没有相关数据 No Available Data,,,没有相关数据 No Available Data,n/a
+0345,辉河村志,140421203209,辉河村,Huihe Cun,山西省,Shanxi Sheng,长治市,Changzhi Shi,长治县,Changzhi Xian,平方华里 square huali,6,度分秒 DMS (degrees-minutes-seconds),36°1′60″N,112°59′40″E,公里/千米 kilometer,4
+0346,胡干城村志,410902203212,胡干城村,Hugancheng Cun,河南省,Henan Sheng,濮阳市,Puyang Shi,华龙区,Hualong Qu,没有相关数据 No Available Data,n/a,度分秒 DMS (degrees-minutes-seconds),35°47′N,115°08′E,没有相关数据 No Available Data,n/a
+0347,北甸西村志,110105037205,北甸西村,Beidianxi Cun,北京市,Beijing Shi,北京市,Beijing Shi,朝阳区,Chaoyang Qu,平方千米 / 平方公里 square kilometers,2.22,没有相关数据 No Available Data,,,没有相关数据 No Available Data,n/a
+0348,尖山下村志,330109102202,尖山下村,Jianshanxia Cun,浙江省,Zhejiang Sheng,杭州市,Hangzhou Shi,萧山区,Xiaoshan Qu,万平方米 10K square meters,36,没有相关数据 No Available Data,,,没有相关数据 No Available Data,n/a
+0349,后蚂虹嘴村志,210881112206,后蚂虹嘴村,houmahongzui Cun,辽宁省,Liaoning Sheng,营口市,Yingkou Shi,盖州市,Gaizhou Shi,平方千米 / 平方公里 square kilometers,5.379,度分秒 DMS (degrees-minutes-seconds),40°29′N,122°20′E,公里/千米 kilometer,10
+0350,蒋家村志,321281117201,蒋家村,Jiangjia Cun,江苏省,Jiangsu Sheng,泰州市,Taizhou Shi,兴化市,Xinghua Shi,平方千米 / 平方公里 square kilometers,3.61,没有相关数据 No Available Data,,,没有相关数据 No Available Data,n/a
+0351,雷家崄村志,n/a,雷家崄村,Leijiaxian Cun,陕西省,Shanxi Sheng,榆林市,Yulin Shi,绥德县,Suide Xian,没有相关数据 No Available Data,n/a,度分秒 DMS (degrees-minutes-seconds),37°21′N,110°23′E,没有相关数据 No Available Data,n/a
+0352,合兴村志,430611101209,合兴村,Hexing Cun,湖南省,Hunan Sheng,岳阳市,Yueyang Shi,君山区,Junshan Qu,平方千米 / 平方公里 square kilometers,4.2,没有相关数据 No Available Data,,,公里/千米 kilometer,20
+0353,西街志,141122100001,西街村,Xijie Cun,山西省,Shanxi Sheng,吕梁市,Lüliang Shi,交城县,JIaocheng Xian,亩 mu,5238.3,度分秒 DMS (degrees-minutes-seconds),37°33′N,112°08′E,公里/千米 kilometer,0.5
+0354,花园岗村志,330881104235,花园岗村,Huayuangang Cun,浙江省,Zhejiang Sheng,衢州市,Quzhou Shi,江山市,Jiangshan Shi,平方千米 / 平方公里 square kilometers,0.27,没有相关数据 No Available Data,,,公里/千米 kilometer,13
+0355,孟石岗村志,130582202205,孟石岗村,Mengshigang Cun,河北省,Hebei Sheng,邢台市,Xingtai Shi,沙河市,Shahe Shi,平方千米 / 平方公里 square kilometers,2.2,没有相关数据 No Available Data,,,公里/千米 kilometer,30
+0356,西水头村志,411282107209,西水头村,Xishuitou Cun,河南省,Henan Sheng,三门峡市,Sanmenxia Shi,灵宝县,Lingbao Xian,亩 mu,5839,度分秒 DMS (degrees-minutes-seconds),34°30′41″N,110°50′2″E,没有相关数据 No Available Data,n/a
+0357,义东沟村志,140311102201,义东沟村,Yidonggou Cun,山西省,Shanxi Sheng,阳泉市,Yangquan Shi,郊区,Jiao Qu,平方千米 / 平方公里 square kilometers,4.042,度分秒范围 Range in DMS (degrees-minutes-seconds),37°49′N - 37°51′N,113°36′E - 113°38′E,公里/千米 kilometer,2.5
+0358,丰盈村志,130522200204,丰盈村,Fengying Cun,河北省,Hebei Sheng,邢台市,Xingtai Shi,临城县,Lincheng Xian,平方千米 / 平方公里 square kilometers,9.6,没有相关数据 No Available Data,,,公里/千米 kilometer,9
+0359,新塘村志,440106022001,新塘村,Xintang Cun,广东省,Guangdong Sheng,广州市,Guangzhou Shi,天河区,Tianhe Qu,平方千米 / 平方公里 square kilometers,4.289,没有相关数据 No Available Data,,,没有相关数据 No Available Data,n/a
+0360,沙富村志,440606104208,沙富村,Shafu Cun,广东省,Guangdong Sheng,佛山市,Foshan Shi,顺德区,Shunde Qu,平方千米 / 平方公里 square kilometers,2.4,度分秒 DMS (degrees-minutes-seconds),22°52′N,113°02′E,公里/千米 kilometer,20
+0361,黄洞村志,441900117205,黄洞村,Huangdong Cun,广东省,Guangdong Sheng,东莞市,Dongguan Shi,东莞市,Dongguan Shi,平方千米 / 平方公里 square kilometers,10.8,度分秒 DMS (degrees-minutes-seconds),22°45′N,114°9′E,公里/千米 kilometer,25
+0362,元岗村志,440106015001,元岗村,Yuangang Cun,广东省,Guangdong Sheng,广州市,Guangzhou Shi,天河区,Tianhe Qu,平方千米 / 平方公里 square kilometers,3.1,度分秒 DMS (degrees-minutes-seconds),23°10′N,113°20′E,公里/千米 kilometer,9.5
+0363,黄村村志,n/a,黄村,Huang Cun,广东省,Guangdong Sheng,广州市,Guangzhou Shi,天河区,Tianhe Qu,平方千米 / 平方公里 square kilometers,8,度分秒 DMS (degrees-minutes-seconds),23°8′N,113°18′E,没有相关数据 No Available Data,n/a
+0364,官井头村志,441900117201,官井头村,Guanjingtou Cun,广东省,Guangdong Sheng,东莞市,Dongguan Shi,东莞市,Dongguan Shi,平方千米 / 平方公里 square kilometers,10.3,度分秒范围 Range in DMS (degrees-minutes-seconds),22°68′N - 22°78′N,114°10′E - 114°16′E,公里/千米 kilometer,60
+0365,珠村村志,440106021003,珠村,Zhu Cun,广东省,Guangdong Sheng,广州市,Guangzhou Shi,天河区,Tianhe Qu,平方千米 / 平方公里 square kilometers,5.5,没有相关数据 No Available Data,,,没有相关数据 No Available Data,n/a
+0366,分将池村志,410704200204,分将池村,Fenjiangchi Cun,河南省,Henan Sheng,新乡市,Xinxiang Shi,凤泉区,Fengquan Qu,平方千米 / 平方公里 square kilometers,6.007,度分秒范围 Range in DMS (degrees-minutes-seconds),35°21′N - 35°21.8′N,113°52′E - 113°53.1′E,公里/千米 kilometer,6
+0367,白石厦村志,440306004009,白石厦村,Baishixia Cun,广东省,Guangdong Sheng,深圳市,Shenzhen Shi,宝安区,Baoan Qu,没有相关数据 No Available Data,n/a,度分秒 DMS (degrees-minutes-seconds),22°36′N,113°49′E,没有相关数据 No Available Data,n/a
+0368,油甘埔村志,441900117202,油甘埔村,Youganpu Cun,广东省,Guangdong Sheng,东莞市,Dongguan Shi,东莞市,Dongguan Shi,平方千米 / 平方公里 square kilometers,7.2,度分秒范围 Range in DMS (degrees-minutes-seconds),22°42.2′N - 22°44.54′N,114°9.22′E - 114°31.26′E,公里/千米 kilometer,21
+0369,尚介村志,410704201203,尚介村,Shangjie Cun,河南省,Henan Sheng,新乡市,Xinxiang Shi,凤泉区,Fengquan Qu,平方千米 / 平方公里 square kilometers,1.396,度分秒 DMS (degrees-minutes-seconds),35°23′N,113°54′E,公里/千米 kilometer,10
+0370,关址村志,410323106214,关址村,Guanzhi Cun,河南省,Henan Sheng,洛阳市,Luoyang Shi,新安县,Xin'an Xian,平方千米 / 平方公里 square kilometers,8,没有相关数据 No Available Data,n/a,n/a,公里/千米 kilometer,30
+0371,南程村志,n/a,南程村,Nancheng Cun,河南省,Henan Sheng,新乡市,Xinxiang Shi,辉县市,Huixian Shi,平方千米 / 平方公里 square kilometers,0.6057,度分秒范围 Range in DMS (degrees-minutes-seconds),35°30′N - 35°50′N,113°23′E - 113°57′E,公里/千米 kilometer,25
+0372,北洼村志,410821206211,北洼村,Beiwa Cun,河南省,Henan Sheng,焦作市,Jiaozuo Shi,修武县,Xiuwu Xian,没有相关数据 No Available Data,n/a,度分秒范围 Range in DMS (degrees-minutes-seconds),35°7′89″N - 35°28′32″N,113°08′17″E - 113°32′03″E,公里/千米 kilometer,5
+0373,李袁村志,320581103219,李袁村,Liyuan Cun,江苏省,Jiangsu Sheng,苏州市,Suzhou Shi,常熟市,Changshu Shi,平方千米 / 平方公里 square kilometers,4.08,度分秒 DMS (degrees-minutes-seconds),31° 45′ N,120° 54′ E,没有相关数据 No Available Data,n/a
+0374,李沟头村志,320281003206,李沟头村,Ligoutou Cun,江苏省,Jiangsu Sheng,无锡市,Wuxi Shi,江阴市,Jiangyin Shi,平方千米 / 平方公里 square kilometers,1.32,没有相关数据 No Available Data,,,没有相关数据 No Available Data,n/a
+0375,三勤村志,320412100204,三勤村,Sanqin Cun,江苏省,Jiangsu Sheng,常州市,Changzhou Shi,武进区,Wujin Qu,平方千米 / 平方公里 square kilometers,3.46,度分秒 DMS (degrees-minutes-seconds),31°68′N,119°99′E,公里/千米 kilometer,5
+0376,林城村志,131022103219,林城村,Lincheng Cun,河北省,Hebei Sheng,廊坊市,Langfang Shi,固安县,Gu'an Xian,平方千米 / 平方公里 square kilometers,5.18,度分秒 DMS (degrees-minutes-seconds),39°14′N,116°19′E,公里/千米 kilometer,25
+0377,横山村志,130185500202,横山村,Hengshan Cun,河北省,Hebei Sheng,石家庄市,Shijiazhuang Shi,鹿泉市,Luquan Shi,没有相关数据 No Available Data,n/a,没有相关数据 No Available Data,,,公里/千米 kilometer,7.5
+0378,马店村志,421003103208,马店村,Madian Cun,湖北省,Hubei Sheng,荆州市,Jingzhou Shi,荆州区,Jingzhou Qu,平方千米 / 平方公里 square kilometers,7.6,没有相关数据 No Available Data,,,没有相关数据 No Available Data,n/a
+0379,群丰村志,320211009203,群丰村,Qunfeng Cun,江苏省,Jiangsu Sheng,无锡市,Wuxi Shi,滨湖区,Binhu Qu,平方千米 / 平方公里 square kilometers,5.2,没有相关数据 No Available Data,,,没有相关数据 No Available Data,n/a
+0380,桥北村志,141181002209,桥北村,Qiaobei Cun,山西省,Shanxi Sheng,吕梁市,Lüliang Shi,孝义市,Xiaoyi Shi,平方千米 / 平方公里 square kilometers,1.67,度分秒 DMS (degrees-minutes-seconds),37°07′N,118°48′E,没有相关数据 No Available Data,n/a
+0381,马家疃村志,n/a,马家疃村,Majiatuan Cun,河北省,Hebei Sheng,保定市,Baoding Shi,莲池区,Lianchi Qu,没有相关数据 No Available Data,n/a,度分秒 DMS (degrees-minutes-seconds),38°50′N,115°30′E,没有相关数据 No Available Data,n/a
+0382,盘石村志,450881120204,盘石村,Panshi Cun,广西壮族自治区,Guangxi Zhuangzu Zizhiqu,贵港市,Guigang Shi,桂平市,Guiping Shi,平方千米 / 平方公里 square kilometers,5,度分秒范围 Range in DMS (degrees-minutes-seconds),23°35′13″N - 23°37′17″N,110°13′57″E - 110°15′7″E,没有相关数据 No Available Data,n/a
+0383,清河村志,370105014012,清河村,Qinghe Cun,山东省,Shandong Sheng,济南市,Jinan Shi,天桥区,Tianqiao Qu,平方千米 / 平方公里 square kilometers,1.6,度分秒 DMS (degrees-minutes-seconds),36°47′N,117°00′E,没有相关数据 No Available Data,n/a
+0384,坡底村志,610581001205,坡底村,Podi Cun,陕西省,Shanxi Sheng,渭南市,Weinan Shi,韩城市,Hancheng Shi,平方千米 / 平方公里 square kilometers,2.3,没有相关数据 No Available Data,,,公里/千米 kilometer,2.5
+0385,七一村志,610125100206,七一村,Qiyi Cun,陕西省,Shanxi Sheng,西安市,Xi'an Shi,户县,Hu Xian,没有相关数据 No Available Data,n/a,度分秒范围 Range in DMS (degrees-minutes-seconds),33°46′N - 34°16′N,108°22′E - 108°46′E,没有相关数据 No Available Data,n/a
+0386,乔家辿村志,n/a,乔家辿村,Qiaojiazhan Cun,陕西省,Shanxi Sheng,榆林市,Yulin Shi,神木县,Shenmu Xian,平方千米 / 平方公里 square kilometers,6,度分秒 DMS (degrees-minutes-seconds),38°23′42.87″N,110°43′46.86″E,公里/千米 kilometer,60
+0387,南山村志,440305002007,南山村,Nanshan Cun,广东省,Guangdong Sheng,深圳市,Shenzhen Shi,南山区,Nanshan Qu,万平方米 10K square meters,20,没有相关数据 No Available Data,,,公里/千米 kilometer,2.7
+0388,龙头村志,210212012200,龙头村,Longtou Cun,辽宁省,Liaoning Sheng,大连市,Dalian Shi,旅顺口区,Lüshunkou Qu,平方千米 / 平方公里 square kilometers,5.801,度分秒 DMS (degrees-minutes-seconds),38°86′N,121°32′E,没有相关数据 No Available Data,n/a
+0389,乔李村志,141002101200,乔李村,Qiaoli Cun,山西省,Shanxi Sheng,临汾市,Linfen Shi,尧都区,Yaodu Qu,平方千米 / 平方公里 square kilometers,8,度分秒范围 Range in DMS (degrees-minutes-seconds),36°06′27″N - 36°08′01″N,111°36′39″E - 111°38′37″E,没有相关数据 No Available Data,n/a
+0390,秦霸岭村志,621002003201,秦霸岭村,Qinbaling Cun,甘肃省,Gansu Sheng,庆阳市,Qingyang Shi,西峰区,Xifeng Qu,平方千米 / 平方公里 square kilometers,3.24,度分秒 DMS (degrees-minutes-seconds),35°42′5″N,107°38′12″E,没有相关数据 No Available Data,n/a
+0391,卢家巷村志,320412102212,卢家巷村,Lujiaxiang Cun,江苏省,Jiangsu Sheng,常州市,Changzhou Shi,武进区,Wujin Qu,平方千米 / 平方公里 square kilometers,4.031,度分秒 DMS (degrees-minutes-seconds),31°68′N,119°99′E,没有相关数据 No Available Data,n/a
+0392,沙河岸村志,610124208211,沙河岸村,Shahean Cun,陕西省,Shanxi Sheng,西安市,Xi'an Shi,周至县,Zhouzhi Xian,平方千米 / 平方公里 square kilometers,3.6,没有相关数据 No Available Data,n/a,n/a,没有相关数据 No Available Data,n/a
+0393,北皋村志,110105038212,北皋村,Beigao Cun,北京市,Beijing Shi,北京市,Beijing Shi,朝阳区,Chaoyang Qu,平方千米 / 平方公里 square kilometers,1.38,度分秒 DMS (degrees-minutes-seconds),40°00′N,116°31′E,没有相关数据 No Available Data,n/a
+0394,庆丰村志,440111014015,庆丰村,Qingfeng Cun,广东省,Guangdong Sheng,广州市,Guangzhou Shi,白云区,Baiyun Qu,平方千米 / 平方公里 square kilometers,3.61,度分秒 DMS (degrees-minutes-seconds),23°137′N,113°10′E,没有相关数据 No Available Data,n/a
+0395,右营村志,350128100002,右营村,Youying Cun,福建省,Fujian Sheng,福州市,Fuzhou Shi,平潭县,Pingtan Xian,没有相关数据 No Available Data,n/a,没有相关数据 No Available Data,,,没有相关数据 No Available Data,n/a
+0396,毛俊村志,431127102201,毛俊村,Maojun Cun,湖南省,Hunan Sheng,永州市,Yongzhou Shi,蓝山县,Lanshan Xian,没有相关数据 No Available Data,n/a,没有相关数据 No Available Data,,,公里/千米 kilometer,16
+0397,七里铺村志,370104100231,七里铺村,Qilipu Cun,山东省,Shandong Sheng,济南市,Jinan Shi,槐荫区,Huaiyin Qu,平方千米 / 平方公里 square kilometers,59.1,没有相关数据 No Available Data,,,公里/千米 kilometer,8
+0398,南崖村志,141029200222,南崖村,Nanya Cun,山西省,Shanxi Sheng,临汾市,Linfen Shi,乡宁县,Xiangning Xian,平方千米 / 平方公里 square kilometers,15.6,度分秒范围 Range in DMS (degrees-minutes-seconds),35°55′N - 36°14′N,111°06′E - 111°14′E,公里/千米 kilometer,30
+0399,南湾村志,n/a,南湾村,Nanwan Cun,广东省,Guangdong Sheng,广州市,Guangzhou Shi,黄埔区,Huangpu Qu,平方千米 / 平方公里 square kilometers,7.98,没有相关数据 No Available Data,,,没有相关数据 No Available Data,n/a
+0400,马头溪村志,430802108211,马头溪村,Matouxi Cun,湖南省,Hunan Sheng,张家界市,Zhangjiajie Shi,永定区,Yongding Qu,平方千米 / 平方公里 square kilometers,23.6,度分秒 DMS (degrees-minutes-seconds),30°02′43″N,111°52′58.81″E,没有相关数据 No Available Data,n/a
+0401,南东坊村志,130423101201,南东坊村,Nandongfang Cun,河北省,Hebei Sheng,邯郸市,Handan Shi,临漳县,Linzhang Xian,平方千米 / 平方公里 square kilometers,4.37,度分秒 DMS (degrees-minutes-seconds),36°20′N,114°31′E,公里/千米 kilometer,8
+0402,商相村志,320581100249,小山村,Xiaoshan Cun,江苏省,Jiangsu Sheng,苏州市,Suzhou Shi,常熟市,Changshu Shi,平方千米 / 平方公里 square kilometers,1.65,度分秒范围 Range in DMS (degrees-minutes-seconds),31°35.07′7″N - 31°35.08′4″N,120°40.5′64.1″E - 120°40.5′64.5″E,公里/千米 kilometer,8
+0404,漫水村志,431226106204,漫水村,Manshui Cun,湖南省,Hunan Sheng,怀化市,Huaihua Shi,麻阳苗族自治县,Mayang Miaozu Zizhixian,平方千米 / 平方公里 square kilometers,5,度分秒范围 Range in DMS (degrees-minutes-seconds),27°32′02″N - 28°01′46″N,109°24′43″E - 110°06′22″E,没有相关数据 No Available Data,n/a
+0405,南山村志,140525108204,南山村,Nanshan Cun,山西省,Shanxi Sheng,晋城市,Jincheng Shi,泽州县,Zezhou Xian,平方千米 / 平方公里 square kilometers,6.5,没有相关数据 No Available Data,,,没有相关数据 No Available Data,n/a
+0406,李庄村志,320381101203,李庄村,Lizhuang Cun,江苏省,Jiangsu Sheng,徐州市,Xuzhou Shi,新沂市,Xinyi Shi,平方千米 / 平方公里 square kilometers,6.12,没有相关数据 No Available Data,,,公里/千米 kilometer,5
+0407,聂寨村志,n/a,聂寨村,Niezhai Cun,河南省,Henan Sheng,郑州市,Zhengzhou Shi,荥阳市,Xingyang Shi,平方千米 / 平方公里 square kilometers,2.1,度分秒范围 Range in DMS (degrees-minutes-seconds),34°35′N - 34°40′N,113°E - 113° 30′E,没有相关数据 No Available Data,n/a
+0408,龙门村志,140882002211,龙门村,Longmen Cun,山西省,Shanxi Sheng,运城市,Yuncheng Shi,河津市,Hejin Shi,平方千米 / 平方公里 square kilometers,20,度分秒范围 Range in DMS (degrees-minutes-seconds),35°38′47″N - 35°41′20″N,110°34′52″E - 110°38′30″E,公里/千米 kilometer,14
+0409,桥塘村志,n/a,桥塘村,Qiaotang Cun,江苏省,Jiangsu Sheng,徐州市,Xuzhou Shi,新沂市,Xinyi Shi,平方千米 / 平方公里 square kilometers,4.49,没有相关数据 No Available Data,,,没有相关数据 No Available Data,n/a
+0411,施厚村志,450103101206,施厚村,Shihou Cun,广西壮族自治区,Guangxi Zhuangzu Zizhiqu,南宁市,Nanning Shi,青秀区,Qingxiu Qu,平方千米 / 平方公里 square kilometers,7.70,没有相关数据 No Available Data,,,没有相关数据 No Available Data,n/a
+0412,牛头镇村志,370783104228,牛头镇村,Niutouzhen Cun,山东省,Shandong Sheng,潍坊市,Weifang Shi,寿光市,Shouguang Shi,平方千米 / 平方公里 square kilometers,35.8,没有相关数据 No Available Data,,,公里/千米 kilometer,17.5
+0413,三寨村志,620722103218,三寨村,Sanzhai Cun,甘肃省,Gansu Sheng,张掖市,Zhangye Shi,民乐县,Minle Xian,平方千米 / 平方公里 square kilometers,60,度分秒 DMS (degrees-minutes-seconds),38°36′30″N,100°35′10″E,公里/千米 kilometer,32
+0414,南坡湾村志,620123100202,南坡湾村,Nanpowan Cun,甘肃省,Gansu Sheng,兰州市,Lanzhou Shi,榆中县,Yuzhong Xian,没有相关数据 No Available Data,n/a,没有相关数据 No Available Data,,,里 li,5
+0415,南庄村志,130133101201,南庄村,Nanzhuang Cun,河北省,Hebei Sheng,石家庄市,Shijiazhuang Shi,赵县,Zhao Xian,亩 mu,7301,没有相关数据 No Available Data,,,公里/千米 kilometer,17
+0416,潘山村志,n/a,潘山村,Panshan Cun,浙江省,Zhejiang Sheng,杭州市,Hangzhou Shi,萧山区,Xiaoshan Qu,万平方米 10K square meters,44.2,度分秒 DMS (degrees-minutes-seconds),30°03′N,120°10′E,没有相关数据 No Available Data,n/a
+0417,罗岗村志,440183001208,罗岗村,Luogang Cun,广东省,Guangdong Sheng,广州市,Guangzhou Shi,增城市,Zengcheng Shi,平方千米 / 平方公里 square kilometers,10,没有相关数据 No Available Data,,,没有相关数据 No Available Data,n/a
+0418,平羌村志,n/a,平羌村,Pingqiang Cun,广西壮族自治区,Guangxi Zhuangzu Zizhiqu,崇左市,Chongzuo Shi,扶绥县,Fusui Xian,万亩 10K mu,2,度分秒范围 Range in DMS (degrees-minutes-seconds),22°35′N - 22°36′N,107°47′E - 107°48′E,公里/千米 kilometer,15
+0419,南五里堡村志,410104008008,南五里堡村,Nanwulipu Cun,河南省,Henan Sheng,郑州市,Zhengzhou Shi,管城回族区,Guancheng Huizu Qu,平方千米 / 平方公里 square kilometers,5.6,度分秒 DMS (degrees-minutes-seconds),34°56′N,120°44′E,公里/千米 kilometer,2.5
+0420,荃步村志,330503102220,荃步村,Quanbu Cun,浙江省,Zhejiang Sheng,湖州市,Huzhou Shi,南浔区,Nanxun Qu,平方千米 / 平方公里 square kilometers,3.13,没有相关数据 No Available Data,,,没有相关数据 No Available Data,n/a
+0421,牛宅村志,350181103210,牛宅村,Niuzhai Cun,福建省,Fujian Sheng,福州市,Fuzhou Shi,福清市,Fuqing Shi,平方千米 / 平方公里 square kilometers,6,没有相关数据 No Available Data,,,没有相关数据 No Available Data,n/a
+0422,看丹村志,110106202207,看丹村,Kandan Cun,北京市,Beijing Shi,北京市,Beijing Shi,丰台区,Fengtai Qu,平方千米 / 平方公里 square kilometers,2.8,没有相关数据 No Available Data,,,没有相关数据 No Available Data,n/a
+0423,奶东村志,110105038204,奶东村,Naidong Cun,北京市,Beijing Shi,北京市,Beijing Shi,朝阳区,Chaoyang Qu,平方千米 / 平方公里 square kilometers,2.5,度分秒 DMS (degrees-minutes-seconds),40°1′N,116°27′12″E,没有相关数据 No Available Data,n/a
+0424,新集村志,610403203204,新集村,Xinji Cun,陕西省,Shanxi Sheng,咸阳市,Xianyang Shi,杨陵区,Yangling Qu,平方千米 / 平方公里 square kilometers,4.5,度分秒 DMS (degrees-minutes-seconds),34°16′N,107°58′E,公里/千米 kilometer,10
+0425,夏雷村志,320412100237,夏雷村,Xialei Cun,江苏省,Jiangsu Sheng,常州市,Changzhou Shi,武进区,Wujin Qu,平方千米 / 平方公里 square kilometers,0.717,没有相关数据 No Available Data,,,没有相关数据 No Available Data,n/a
+0427,宋京村志,350425100205,宋京村,Songjing Cun,福建省,Fujian Sheng,三明市,Sanming Shi,大田县,Datian Xian,亩 mu,10470,没有相关数据 No Available Data,,,公里/千米 kilometer,3.4
+0428,兴隆村志,620702103226,兴隆村,Xinglong Cun,甘肃省,Gansu Sheng,张掖市,Zhangye Shi,甘州区,Ganzhou Qu,平方千米 / 平方公里 square kilometers,7.05,度分秒范围 Range in DMS (degrees-minutes-seconds),39°13′35″N - 39°19′21″N,100°21′25″E - 100°25′02″E,没有相关数据 No Available Data,n/a
+0429,苏卢村志,450107004201,苏卢村,Sulu Cun,广西壮族自治区,Guangxi Zhuangzu Zizhiqu,南宁市,Nanning Shi,西乡塘区,Xixiangtang Qu,平方千米 / 平方公里 square kilometers,8.8,没有相关数据 No Available Data,,,公里/千米 kilometer,7
+0430,石桥鲁道村志,130981202239,石桥鲁道村,Shiqiaoludao Cun,河北省,Hebei Sheng,沧州市,Cangzhou Shi,泊头市,Botou Shi,没有相关数据 No Available Data,n/a,没有相关数据 No Available Data,,,公里/千米 kilometer,18
+0431,水师营村志,210212005203,水师营村,Shuishiying Cun,辽宁省,Liaoning Sheng,大连市,Dalian Shi,旅顺口区,Lüshunkou Qu,平方千米 / 平方公里 square kilometers,4.44,度分秒范围 Range in DMS (degrees-minutes-seconds),38°50′N - 38°53′N,121°13′E - 121°18′E,没有相关数据 No Available Data,n/a
+0432,申家村志,431382202203,申家村,Shenjia Cun,湖南省,Hunan Sheng,娄底市,Loudi Shi,涟源市,Lianyuan Shi,平方千米 / 平方公里 square kilometers,4.5,度分秒范围 Range in DMS (degrees-minutes-seconds),27°N - 28°N,110°E - 112°E,公里/千米 kilometer,40
+0433,吴家村志,n/a,吴家村,Wujia Cun,山东省,Shandong Sheng,淄博市,Zibo Shi,高青县,Gaoqing Xian,平方千米 / 平方公里 square kilometers,11,度分秒 DMS (degrees-minutes-seconds),37°07′N,118°01′E,公里/千米 kilometer,30
+0434,下栅村志,141181201200,下栅村,Xiazha Cun,山西省,Shanxi Sheng,吕梁市,Lüliang Shi,孝义市,Xiaoyi Shi,平方千米 / 平方公里 square kilometers,6.85,度分秒范围 Range in DMS (degrees-minutes-seconds),36°56′30″N - 37°18′45″N,111°21′27″E - 111°55′00″E,没有相关数据 No Available Data,n/a
+0435,土城子村志,210212010207,土城子村,Tuchengzi Cun,辽宁省,Liaoning Sheng,大连市,Dalian Shi,旅顺口区,Lüshunkou Qu,平方千米 / 平方公里 square kilometers,6.86,度分秒范围 Range in DMS (degrees-minutes-seconds),38°52′39.28″N - 38°54′50.40″N,121°14′55.75″E - 121°34′24.33″E,公里/千米 kilometer,10
+0436,兴围村志,440306004007,兴围村,Xingwei Cun,广东省,Guangdong Sheng,深圳市,Shenzhen Shi,宝安区,Baoan Qu,平方千米 / 平方公里 square kilometers,0.55,没有相关数据 No Available Data,,,没有相关数据 No Available Data,n/a
+0437,五坝村志,620722102209,五坝村,Wuba Cun,甘肃省,Gansu Sheng,张掖市,Zhangye Shi,民乐县,Minle Xian,平方千米 / 平方公里 square kilometers,42.5,度分秒范围 Range in DMS (degrees-minutes-seconds),38°40′69″N - 38°40′83″N,100°45′51″E - 100°45′52″E,公里/千米 kilometer,25
+0438,湾底村志,330282004021,湾底村,Wandi Cun,浙江省,Zhejiang Sheng,宁波市,Ningbo Shi,慈溪市,Cixi Shi,平方千米 / 平方公里 square kilometers,0.428,没有相关数据 No Available Data,,,公里/千米 kilometer,65
+0439,史山村志,140522101229,史山村,Shishan Cun,山西省,Shanxi Sheng,晋城市,Jincheng Shi,阳城县,Yangcheng Xian,平方千米 / 平方公里 square kilometers,7.69,度分秒 DMS (degrees-minutes-seconds),35°12′30″N,112°37′28″E,没有相关数据 No Available Data,n/a
+0440,新房村志,n/a,新房村,Xinfang Cun,陕西省,Shanxi Sheng,西安市,Xi'an Shi,未央区,Weiyang Qu,亩 mu,1000,没有相关数据 No Available Data,,,没有相关数据 No Available Data,n/a
+0441,土山寺村志,320303006203,土山寺村,Tushansi Cun,江苏省,Jiangsu Sheng,徐州市,Xuzhou Shi,云龙区,Yunlong Qu,平方千米 / 平方公里 square kilometers,4,没有相关数据 No Available Data,,,没有相关数据 No Available Data,n/a
+0442,西沟村志,210212005205,西沟村,Xigou Cun,辽宁省,Liaoning Sheng,大连市,Dalian Shi,旅顺口区,Lüshunkou Qu,平方千米 / 平方公里 square kilometers,4.027,度分秒 DMS (degrees-minutes-seconds),38°51′12″N,121°13′49″E,没有相关数据 No Available Data,n/a
+0443,孙家湾村志,210711070205,孙家湾村,Sunjiawan Cun,辽宁省,Liaoning Sheng,锦州市,Jinzhou Shi,太和区,Taihe Qu,平方千米 / 平方公里 square kilometers,2.76,度分秒范围 Range in DMS (degrees-minutes-seconds),41°01′N - 41°13′N,120°56′E - 121°15′E,没有相关数据 No Available Data,n/a
+0444,同心村志,320583100036,同心村,Tongxin Cun,江苏省,Jiangsu Sheng,苏州市,Suzhou Shi,昆山市,Kunshan Shi,平方千米 / 平方公里 square kilometers,3.386,度分秒范围 Range in DMS (degrees-minutes-seconds),31°23′18″N - 31°24′20″N,120°57′10″E - 120°58′20″E,公里/千米 kilometer,2.5
+0445,文岙村志,330225102252,文岙村,Wenao Cun,浙江省,Zhejiang Sheng,宁波市,Ningbo Shi,象山县,Xiangshan Xian,平方千米 / 平方公里 square kilometers,4.66,度分秒 DMS (degrees-minutes-seconds),29°30′N,121°42′E,没有相关数据 No Available Data,n/a
+0446,王寮村志,140821107209,王寮村,Wangliao Cun,山西省,Shanxi Sheng,运城市,Yuncheng Shi,临猗县,Linyi Xian,没有相关数据 No Available Data,n/a,没有相关数据 No Available Data,,,公里/千米 kilometer,10
+0447,水磨湾村志,620702103204,水磨湾村,Shuimowan Cun,甘肃省,Gansu Sheng,张掖市,Zhangye Shi,甘州区,Ganzhou Qu,平方千米 / 平方公里 square kilometers,3.14,没有相关数据 No Available Data,,,没有相关数据 No Available Data,n/a
+0448,铜井村志,330621004220,铜井村,Tongjing Cun,浙江省,Zhejiang Sheng,绍兴市,Shaoxing Shi,绍兴县,Shaoxing Xian,平方千米 / 平方公里 square kilometers,4.37,没有相关数据 No Available Data,,,没有相关数据 No Available Data,n/a
+0449,渭二村志,370302112001,渭二村,Weier Cun,山东省,Shandong Sheng,淄博市,Zibo Shi,淄川区,Zichuan Qu,平方千米 / 平方公里 square kilometers,6.52,度分秒 DMS (degrees-minutes-seconds),36°34′N,117°58′E,没有相关数据 No Available Data,n/a
+0450,古城营村志,140110003206,古城营村,Guchengying Cun,山西省,Shanxi Sheng,太原市,Taiyuan Shi,晋源区,Jinyuan Qu,平方千米 / 平方公里 square kilometers,4.83,度分秒范围 Range in DMS (degrees-minutes-seconds),37°44′01″N - 37°45′00″N,112°28′05″E - 112°29′50″E,公里/千米 kilometer,15
+0451,万丰村志,440306005020,万丰村,Wanfeng Cun,广东省,Guangdong Sheng,深圳市,Shenzhen Shi,宝安区,Baoan Qu,平方千米 / 平方公里 square kilometers,3.62,度分秒 DMS (degrees-minutes-seconds),22°43′N,113°45′E,公里/千米 kilometer,25
+0452,围头村志,350582106208,围头村,Weitou Cun,福建省,Fujian Sheng,泉州市,Quanzhou Shi,晋江市,Jinjiang Shi,平方千米 / 平方公里 square kilometers,3,度分秒 DMS (degrees-minutes-seconds),24.31°N,118.34°E,公里/千米 kilometer,39
+0453,王道村志,370523104243,王道村,Wangdao Cun,山东省,Shandong Sheng,东营市,Dongying Shi,广饶县,Guangrao Xian,平方千米 / 平方公里 square kilometers,7.01,度分秒 DMS (degrees-minutes-seconds),37°10′N,118°30′E,公里/千米 kilometer,23
+0454,水集二村志,370285001201,水集二村,Shuijier Cun,山东省,Shandong Sheng,青岛市,Qingdao Shi,莱西市,Laixi Shi,没有相关数据 No Available Data,n/a,没有相关数据 No Available Data,,,没有相关数据 No Available Data,n/a
+0455,西关一村志,370302003001,西关一村,Xiguanyi Cun,山东省,Shandong Sheng,淄博市,Zibo Shi,淄川区,Zichuan Qu,没有相关数据 No Available Data,n/a,没有相关数据 No Available Data,,,没有相关数据 No Available Data,n/a
+0456,唐林村志,n/a,唐林村,Tanglin Cun,湖北省,Hubei Sheng,荆门市,Jingmen Shi,沙洋县,Shayang Xian,平方千米 / 平方公里 square kilometers,3.3,度分秒范围 Range in DMS (degrees-minutes-seconds),30°24′N - 30°37′N,112°17′E - 112°27′E,没有相关数据 No Available Data,n/a
+0457,太各庄村志,130207107247,太各庄村,Taigezhuang Cun,河北省,Hebei Sheng,唐山市,Tangshan Shi,丰南区,Fengnan Qu,平方千米 / 平方公里 square kilometers,5.79,度分秒 DMS (degrees-minutes-seconds),39°5′N,118°4′E,公里/千米 kilometer,20
+0458,鹿窝村志,520122201209,鹿窝村,Luwo Cun,贵州省,Guizhou Sheng,贵阳市,Guiyang Shi,息烽县,Xifeng Xian,平方千米 / 平方公里 square kilometers,7.93,度分秒范围 Range in DMS (degrees-minutes-seconds),26°57′42″N - 27°19′45″N,106°27′29″E - 106°53′43″E,没有相关数据 No Available Data,n/a
+0459,孙家小庄村志,370983001220,孙家小庄村,Sunjiaxiaozhuang Cun,山东省,Shandong Sheng,泰安市,Taian Shi,肥城市,Feicheng Shi,平方千米 / 平方公里 square kilometers,5.83,度分秒范围 Range in DMS (degrees-minutes-seconds),36°08′N - 36°13′N,116°42′E - 116°50′E,公里/千米 kilometer,1.5
+0460,大营村志,411222100200,大营村,Daying Cun,河南省,Henan Sheng,三门峡市,Sanmenxia Shi,陕县,Shan Xian,平方千米 / 平方公里 square kilometers,10.7,度分秒 DMS (degrees-minutes-seconds),34°42′N,111°06′E,公里/千米 kilometer,22
+0461,马溪村志,440114001209,马溪村,Maxi Cun,广东省,Guangdong Sheng,广州市,Guangzhou Shi,花都区,Huadu Qu,平方千米 / 平方公里 square kilometers,6.496,度分秒 DMS (degrees-minutes-seconds),23°21′N,113°08′E,公里/千米 kilometer,8
+0462,棠下村志,n/a,棠下村,Tangxia Cun,广东省,Guangdong Sheng,广州市,Guangzhou Shi,天河区,Tianhe Qu,平方千米 / 平方公里 square kilometers,6,度分秒 DMS (degrees-minutes-seconds),23°8′N,113°6′E,公里/千米 kilometer,4
+0463,小溪村志,431002100201,小溪村,Xiaoxi Cun,湖南省,Hunan Sheng,郴州市,Chenzhou Shi,北湖区,Beihu Qu,平方千米 / 平方公里 square kilometers,9.16,度分秒范围 Range in DMS (degrees-minutes-seconds),25°34′00″N - 25°42′30″N,112°51′45″E - 113°00′42″E,没有相关数据 No Available Data,n/a
+0464,沈岙村志,330304110215,沈岙村,Shen'ao Cun,浙江省,Zhejiang Sheng,温州市,Wenzhou Shi,瓯海区,Ouhai Qu,没有相关数据 No Available Data,n/a,没有相关数据 No Available Data,,,没有相关数据 No Available Data,n/a
+0465,象塘村志,330783108278,象塘村,Xiangtang Cun,浙江省,Zhejiang Sheng,金华市,Jinhua Shi,东阳市,Dongyang Shi,没有相关数据 No Available Data,n/a,度分秒范围 Range in DMS (degrees-minutes-seconds),29°46′20″N - 29°46′40″N,120°25′E - 120°25′40″E,没有相关数据 No Available Data,n/a
+0466,石鼓村志,n/a,石鼓村,Shigu Cun,广东省,Guangdong Sheng,中山市,Zhongshan Shi,中山市,Zhongshan Shi,平方千米 / 平方公里 square kilometers,26.97,没有相关数据 No Available Data,n/a,n/a,公里/千米 kilometer,9.5
+0467,中曹村志,410883002214,中曹村,Zhongcao Cun,河南省,Henan Sheng,焦作市,Jiaozuo Shi,孟州市,Mengzhou Shi,亩 mu,3945,没有相关数据 No Available Data,,,里 li,5
+0468,树掌村志,140427104200,树掌村,Shuzhang Cun,山西省,Shanxi Sheng,长治市,Changzhi Shi,壶关县,Huguan Xian,平方千米 / 平方公里 square kilometers,9.24,度分秒 DMS (degrees-minutes-seconds),36°6′30″N,113°24′54″E,公里/千米 kilometer,42
+0470,友爱村志,450107001201,友爱村,Youai Cun,广西壮族自治区,Guangxi Zhuangzu Zizhiqu,南宁市,Nanning Shi,西乡塘区,Xixiangtang Qu,平方千米 / 平方公里 square kilometers,0.4,度分秒 DMS (degrees-minutes-seconds),22°40′N,108°18′E,没有相关数据 No Available Data,n/a
+0471,义安村志,141182103213,义安村,Yian Cun,山西省,Shanxi Sheng,吕梁市,Lüliang Shi,汾阳市,Fenyang Shi,平方千米 / 平方公里 square kilometers,3.604,没有相关数据 No Available Data,n/a,n/a,公里/千米 kilometer,6
+0472,堡城村志,321011003201,堡城村,Baocheng Cun,江苏省,Jiangsu Sheng,扬州市,Yangzhou Shi,邗江区,Hanjiang Qu,平方千米 / 平方公里 square kilometers,1.5,没有相关数据 No Available Data,,,公里/千米 kilometer,4
+0473,义堂村志,130103008030,义堂村,Yitang Cun,河北省,Hebei Sheng,石家庄市,Shijiazhuang Shi,桥东区,Qiaodong Qu,亩 mu,367,没有相关数据 No Available Data,,,没有相关数据 No Available Data,n/a
+0474,徐马村志,622921215206,徐马村,Xuma Cun,甘肃省,Gansu Sheng,临夏回族自治州,Linxia Huizu Zizhizhou,临夏县,Linxia Xian,平方千米 / 平方公里 square kilometers,8,度分秒 DMS (degrees-minutes-seconds),35°02′N,103°12′E,公里/千米 kilometer,10
+0475,祝甸村志,370112003002,祝甸村,Zhudian Cun,山东省,Shandong Sheng,济南市,Jinan Shi,历城区,Licheng Qu,平方千米 / 平方公里 square kilometers,3.5,度分秒 DMS (degrees-minutes-seconds),36°41′N,117°04′E,公里/千米 kilometer,3
+0476,园中村志,350111100222,园中村,Yuanzhong Cun,福建省,Fujian Sheng,福州市,Fuzhou Shi,晋安区,Jin'an Qu,平方千米 / 平方公里 square kilometers,4.85,度分秒 DMS (degrees-minutes-seconds),25°91′N,119°21′E,公里/千米 kilometer,8
+0477,鱼山村志,371524001405,鱼山村,Yushan Cun,山东省,Shandong Sheng,聊城市,Liaocheng Shi,东阿县,Donge Xian,没有相关数据 No Available Data,n/a,度分秒 DMS (degrees-minutes-seconds),36°10′45″N,116°12′30″E,公里/千米 kilometer,17
+0478,羊家冲村志,430521205249,羊家冲村,Yangjiachong Cun,湖南省,Hunan Sheng,邵阳市,Shaoyang Shi,邵东县,Shaodong Xian,亩 mu,2650,没有相关数据 No Available Data,,,公里/千米 kilometer,32
+0479,营城子村志,210302013202,营城子村,Yingchengzi Cun,辽宁省,Liaoning Sheng,鞍山市,Anshan Shi,铁东区,Tiedong Qu,平方千米 / 平方公里 square kilometers,2.31,没有相关数据 No Available Data,,,没有相关数据 No Available Data,n/a
+0480,新路村志,320506005200,新路村,Xinlu Cun,江苏省,Jiangsu Sheng,苏州市,Suzhou Shi,吴中区,Wuzhong Qu,平方千米 / 平方公里 square kilometers,2.5,度分秒 DMS (degrees-minutes-seconds),31°8′N,20°30′E,没有相关数据 No Available Data,n/a
+0481,玉岩村志,331124102200,玉岩村,Yuyan Cun,浙江省,Zhejiang Sheng,丽水市,Lishui Shi,松阳县,Songyang Xian,平方千米 / 平方公里 square kilometers,3,度分秒 DMS (degrees-minutes-seconds),28°22′N,119°16′E,公里/千米 kilometer,60
+0482,新建村志,330183002227,新建村,Xinjian Cun,浙江省,Zhejiang Sheng,杭州市,Hangzhou Shi,富阳市,Fuyang Shi,公顷 hectares,61.32,度分秒 DMS (degrees-minutes-seconds),30°N,120°E,公里/千米 kilometer,40
+0483,雄龙村志,433123112206,雄龙村,Xionglong Cun,湖南省,Hunan Sheng,湘西土家族苗族自治州,Xiangxi Tujiazu Miaozu Zizhizhou,凤凰县,Fenghuang Xian,没有相关数据 No Available Data,n/a,没有相关数据 No Available Data,,,公里/千米 kilometer,24.5
+0484,薛家会村志,610821109230,薛家会村,Xuejiahui Cun,陕西省,Shanxi Sheng,榆林市,Yulin Shi,神木县,Shenmu Xian,没有相关数据 No Available Data,n/a,没有相关数据 No Available Data,,,没有相关数据 No Available Data,n/a
+0485,浔龙村志,n/a,浔龙村,Xunlong Cun,湖南省,Hunan Sheng,长沙市,Changsha Shi,长沙县,Changsha Xian,平方千米 / 平方公里 square kilometers,7.8,没有相关数据 No Available Data,,,没有相关数据 No Available Data,n/a
+0486,西跃村志,211103018204,西跃村,Xiyue Cun,辽宁省,Liaoning Sheng,盘锦市,Panjin Shi,兴隆台区,Xinglongtai Qu,平方千米 / 平方公里 square kilometers,6.3,没有相关数据 No Available Data,,,没有相关数据 No Available Data,n/a
+0487,堡上村志,410704200206,堡上村,Baoshang Cun,河南省,Henan Sheng,新乡市,Xinxiang Shi,凤泉区,Fengquan Qu,没有相关数据 No Available Data,n/a,没有相关数据 No Available Data,,,没有相关数据 No Available Data,n/a
+0488,西中黄村志,141023102208,西中黄村,Xizhonghuang Cun,山西省,Shanxi Sheng,临汾市,Linfen Shi,襄汾县,Xiangfen Xian,平方千米 / 平方公里 square kilometers,12.5,度分秒 DMS (degrees-minutes-seconds),35°53′N,111°16′E,公里/千米 kilometer,5
+0489,杲村村志,410105102207,杲村,Gao Cun,河南省,Henan Sheng,郑州市,Zhengzhou Shi,金水区,Jinshui Qu,没有相关数据 No Available Data,n/a,度分秒范围 Range in DMS (degrees-minutes-seconds),34°36′N - 34°57′N,113°27′E - 113°51′E,没有相关数据 No Available Data,n/a
+0490,洋埭村志,350582103220,洋埭村,Yangdai Cun,福建省,Fujian Sheng,泉州市,Quanzhou Shi,晋江市,Jinjiang Shi,平方千米 / 平方公里 square kilometers,7.5,度分秒 DMS (degrees-minutes-seconds),24°50′951″N,118°37′274″E,公里/千米 kilometer,6
+0491,小将村志,330624107200,小将村,Xiaojiang Cun,浙江省,Zhejiang Sheng,绍兴市,Shaoxing Shi,新昌县,Xinchang Xian,亩 mu,4965,没有相关数据 No Available Data,,,里 li,70
+0492,油坊村志,210421205226,油坊村,Youfang Cun,辽宁省,Liaoning Sheng,抚顺市,Fushun Shi,抚顺县,Fushun Xian,平方千米 / 平方公里 square kilometers,21,没有相关数据 No Available Data,n/a,n/a,公里/千米 kilometer,40
+0493,友好村志,620723105203,友好村,Youhao Cun,甘肃省,Gansu Sheng,张掖市,Zhangye Shi,临泽县,Linze Xian,公顷 hectares,350.86,度分秒范围 Range in DMS (degrees-minutes-seconds),39°61′N - 39°42′N,99°15′E - 100°29′E,公里/千米 kilometer,30
+0494,枣牌刘村志,n/a,枣牌刘村,Zaopailiu Cun,山东省,Shandong Sheng,聊城市,Liaocheng Shi,乐陵市,Laoling Shi,亩 mu,581,度分秒 DMS (degrees-minutes-seconds),37°40′26.14″N,117°08′20.96″E,公里/千米 kilometer,9
+0495,西齐永村志,140821202213,西齐永村,Xiqiyong Cun,山西省,Shanxi Sheng,运城市,Yuncheng Shi,临猗县,Linyi Xian,平方千米 / 平方公里 square kilometers,2,没有相关数据 No Available Data,,,公里/千米 kilometer,25
+0496,龙塘村志,n/a,龙塘村,Longtang Cun,广东省,Guangdong Sheng,中山市,Zhongshan Shi,中山市,Zhongshan Shi,平方千米 / 平方公里 square kilometers,7.9,度分秒范围 Range in DMS (degrees-minutes-seconds),22°26′23″N - 22°16′N,113°21′E - 113°20′E,没有相关数据 No Available Data,n/a
+0497,新中村志,410181101202,新中村,Xinzhong Cun,河南省,Henan Sheng,郑州市,Zhengzhou Shi,巩义市,Gongyi Shi,平方千米 / 平方公里 square kilometers,4.5,度分秒 DMS (degrees-minutes-seconds),34°31′N,113°49′E,公里/千米 kilometer,20
+0498,枣烟村志,140429202221,枣烟村,Zaoyan Cun,山西省,Shanxi Sheng,长治市,Changzhi Shi,武乡县,Wuxiang Xian,平方千米 / 平方公里 square kilometers,4.4,度分秒范围 Range in DMS (degrees-minutes-seconds),36°47′41″N - 36°49′07″N,113°01′58″E - 113°03′55″E,公里/千米 kilometer,20
+0499,走马塘村志,330212110258,走马塘村,Zoumatang Cun,浙江省,Zhejiang Sheng,宁波市,Ningbo Shi,鄞州区,Yinzhou Qu,平方千米 / 平方公里 square kilometers,2,没有相关数据 No Available Data,,,公里/千米 kilometer,19.2
+0500,西原村志,610581100208,西原村,Xiyuan Cun,山西省,Shanxi Sheng,渭南市,Weinan Shi,韩城市,Hancheng Shi,平方千米 / 平方公里 square kilometers,11.5,没有相关数据 No Available Data,,,公里/千米 kilometer,15
+0501,元峰村志,350121102217,元峰村,Yuanfeng Cun,福建省,Fujian Sheng,福州市,Fuzhou Shi,闽侯县,Minhou Xian,平方千米 / 平方公里 square kilometers,1.238,度分秒范围 Range in DMS (degrees-minutes-seconds),25°59′03″N - 25°59′15.99″N,119°13′48.85″E - 119°14′13.83″E,公里/千米 kilometer,15
+0502,窑坡村志,130582102224,窑坡村,Yaopo Cun,河北省,Hebei Sheng,邢台市,Xingtai Shi,沙河市,Shahe Shi,亩 mu,2700,没有相关数据 No Available Data,,,公里/千米 kilometer,25
+0503,张家井村志,130107101009,张家井村,Zhangjiajing Cun,河北省,Hebei Sheng,石家庄市,Shijiazhuang Shi,井陉矿区,Jingxing Kuangqu,公顷 hectares,403.5,度分秒 DMS (degrees-minutes-seconds),38°02′48″N,114°01′10″E,没有相关数据 No Available Data,n/a
+0504,南关村志,130129201401,南关村,Nanguan Cun,河北省,Hebei Sheng,石家庄市,Shijiazhuang Shi,赞皇县,Zanhuang Xian,平方千米 / 平方公里 square kilometers,6,没有相关数据 No Available Data,,,公里/千米 kilometer,1.2
+0505,新塘下村志,421224100202,新塘下村,Xintangxia Cun,湖北省,Hubei Sheng,咸宁市,Xianning Shi,通山县,Tongshan Xian,亩 mu,18750,没有相关数据 No Available Data,n/a,n/a,没有相关数据 No Available Data,n/a
+0506,竹尾田村志,441900117207,竹尾田村,Zhuweitian Cun,广东省,Guangdong Sheng,东莞市,Dongguan Shi,东莞市,Dongguan Shi,平方千米 / 平方公里 square kilometers,1.5,度分秒 DMS (degrees-minutes-seconds),22°40′35″N,114°6′42″E,公里/千米 kilometer,50
+0507,永丰村志,330281002209,永丰村,Yongfeng Cun,浙江省,Zhejiang Sheng,宁波市,Ningbo Shi,余姚市,Yuyao Shi,平方千米 / 平方公里 square kilometers,2.67,度分秒 DMS (degrees-minutes-seconds),30.03°N,121.09°E,没有相关数据 No Available Data,n/a
+0508,寨子村志,140881104210,寨子村,Zhaizi Cun,山西省,Shanxi Sheng,运城市,Yuncheng Shi,永济市,Yongji Shi,平方千米 / 平方公里 square kilometers,8,度分秒 DMS (degrees-minutes-seconds),34°48'N,110°18'E,公里/千米 kilometer,17
+0509,新堰村志,610922100208,新堰村,Xinyan Cun,陕西省,Shanxi Sheng,安康市,Ankang Shi,石泉县,Shiquan Xian,平方千米 / 平方公里 square kilometers,3,没有相关数据 No Available Data,,,没有相关数据 No Available Data,n/a
+0510,南岗村志,410104202203,南岗村,Nangang Cun,河南省,Henan Sheng,郑州市,Zhengzhou Shi,管城回族区,Guancheng Huizu Qu,亩 mu,2600,没有相关数据 No Available Data,n/a,n/a,公里/千米 kilometer,8
+0511,西解甲庄村志,370613004218,西解甲庄村,Xixiejiazhuang Cun,山东省,Shandong Sheng,烟台市,Yantai Shi,莱山区,Laishan Qu,平方米 square meters,333350,没有相关数据 No Available Data,,,公里/千米 kilometer,10
+0512,薛肇村志,410825101207,薛肇村,Xuezhao Cun,河南省,Henan Sheng,焦作市,Jiaozuo Shi,温县,Wen Xian,亩 mu,1381,没有相关数据 No Available Data,,,里 li,10
+0513,洋澜村志,420704001203,洋澜村,Yanglan Cun,湖北省,Hubei Sheng,鄂州市,Ezhou Shi,鄂城区,Echeng Qu,平方千米 / 平方公里 square kilometers,4,度分秒 DMS (degrees-minutes-seconds),"30°22'45""N","114°52'59""E",没有相关数据 No Available Data,n/a
+0514,千秋村志,411281006001,千秋村,Qianqiu Cun,河南省,Henan Sheng,三门峡市,Sanmenxia Shi,义马市,Yima Shi,平方千米 / 平方公里 square kilometers,8.75,度分秒 DMS (degrees-minutes-seconds),34°43'N,111°51'E,没有相关数据 No Available Data,n/a
+0515,仪张村志,140823100230,仪张村,Yizhang Cun,山西省,Shanxi Sheng,运城市,Yuncheng Shi,闻喜县,Wenxi Xian,平方千米 / 平方公里 square kilometers,6.5,度分秒 DMS (degrees-minutes-seconds),35.17°N,111.08°E,公里/千米 kilometer,3
+0516,诸葛村志,330781104200,诸葛村,Zhuge Cun,浙江省,Zhejiang Sheng,金华市,Jinhua Shi,兰溪市,Lanxi Shi,平方千米 / 平方公里 square kilometers,2,度分秒 DMS (degrees-minutes-seconds),"29°20'65""N","119°15'02""E",公里/千米 kilometer,17
+0517,杨槐村志,410105101208,杨槐村志,Yanghuai Cun,河南省,Henan Sheng,郑州市,Zhengzhou Shi,金水区,Jinshui Qu,没有相关数据 No Available Data,n/a,没有相关数据 No Available Data,n/a,n/a,没有相关数据 No Available Data,n/a
+0518,渔沙坦村志,440106019001,渔沙坦村,Yushatan Cun,广东省,Guangdong Sheng,广州市,Guangzhou Shi,天河区,Tianhe Qu,平方千米 / 平方公里 square kilometers,12.39,没有相关数据 No Available Data,n/a,n/a,没有相关数据 No Available Data,n/a
+0519,清水村志,520123102209,清水村,Qingshui Cun,贵州省,Guizhou Sheng,贵阳市,Guiyang Shi,修文县,Xiuwen Xian,平方千米 / 平方公里 square kilometers,3.5,度分秒 DMS (degrees-minutes-seconds),26°56′N,106°44′E,公里/千米 kilometer,19
+0520,盐厂新村志,210212012205,盐厂新村,Yanchang Xincun,辽宁省,Liaoning Sheng,大连市,Dalian Shi,旅顺口区,Lüshunkou Qu,平方千米 / 平方公里 square kilometers,15.25,没有相关数据 No Available Data,n/a,n/a,公里/千米 kilometer,6
+0521,后溪村志,350322102217,后溪村,Houxi Cun,福建省,Fujian Sheng,莆田市,Putian Shi,仙游县,Xianyou Xian,平方千米 / 平方公里 square kilometers,2.92,度分秒范围 Range in DMS (degrees-minutes-seconds),25°18′9″N - 25°19′3″N,118°47′30″E - 118°48′22″E,公里/千米 kilometer,18
+0522,唐庄村志,410105101217,唐庄村,Tangzhuang Cun,河南省,Henan Sheng,郑州市,Zhengzhou Shi,金水区,Jinshui Qu,亩 mu,2800,度分秒范围 Range in DMS (degrees-minutes-seconds),34°15′N - 34°56′N,113°20′E - 113°47′E,没有相关数据 No Available Data,n/a
+0523,新生村志,231102206201,新生村,Xinsheng Cun,黑龙江省,Heilongjiang Sheng,黑河市,Heihe Shi,爱辉区,Aihui Qu,平方千米 / 平方公里 square kilometers,1200,度分秒 DMS (degrees-minutes-seconds),50°31'N,126°47'E,没有相关数据 No Available Data,n/a
+0524,荷花村志,500113117216,荷花村,Hehua Cun,重庆市,Chongqing Shi,重庆市,Chongqing Shi,巴南区,Banan Qu,平方千米 / 平方公里 square kilometers,10.9,没有相关数据 No Available Data,n/a,n/a,没有相关数据 No Available Data,n/a
+0525,库勒村志,230206200205,库勒村,Kule Cun,黑龙江省,Heilongjiang Sheng,齐齐哈尔市,Qiqihaer Shi,富拉尔基区,Fulaerji Qu,平方千米 / 平方公里 square kilometers,47.7,度分秒范围 Range in DMS (degrees-minutes-seconds),47°02′N - 47°22′N,123°38′E - 123°43′E,没有相关数据 No Available Data,n/a
+0526,黄瓜山村志,500118003206,黄瓜山村,Huangguashan Cun,重庆市,Chongqing Shi,重庆市,Chongqing Shi,永川区,Yongchuan Qu,平方千米 / 平方公里 square kilometers,20.08,没有相关数据 No Available Data,n/a,n/a,没有相关数据 No Available Data,n/a
+0527,关里村志,360313103201,关里村,Guanli Cun,江西省,Jiangxi Sheng,萍乡市,Pingxiang Shi,湘东区,Xiangdong Qu,平方千米 / 平方公里 square kilometers,4.3117,度分秒 DMS (degrees-minutes-seconds),27°37′57″N,113°37′45″E,没有相关数据 No Available Data,n/a
+0528,东龙村志,360730203207,东龙村,Donglong Cun,江西省,Jiangxi Sheng,赣州市,Ganzhou Shi,宁都县,Ningdu Xian,平方千米 / 平方公里 square kilometers,15,度分秒 DMS (degrees-minutes-seconds),26°23′N,116°11′E,公里/千米 kilometer,20
+0529,黄家门村志,n/a,黄家门村,Huangjiamen Cun,河南省,Henan Sheng,郑州市,Zhengzhou Shi,郑东新区,Zhengdong Xinqu,没有相关数据 No Available Data,n/a,没有相关数据 No Available Data,n/a,n/a,没有相关数据 No Available Data,n/a
+0530,上棒村志,451031203210,上棒村,Shangbang Cun,广西壮族自治区,Guangxi Zhuangzu Zizhiqu,百色市,Baise Shi,隆林各族自治县,Longlin Gezu Zizhixian,公顷 hectares,1376,度分秒范围 Range in DMS (degrees-minutes-seconds),105°22′N - 105°23′N,24°52′E - 24°55′E,公里/千米 kilometer,24
+0531,草陂村志,n/a,草陂村,Caobei Cun,湖北省,Hubei Sheng,鄂州市,Ezhou Shi,鄂城区,Echeng Qu,平方千米 / 平方公里 square kilometers,7.6,度分秒 DMS (degrees-minutes-seconds),30°17'N,114°58'E,没有相关数据 No Available Data,n/a
+0532,兰英村志,500238239204,兰英村,Lanying Cun,重庆市,Chongqing Shi,重庆市,Chongqing Shi,巫溪县,Wuxi Xian,平方千米 / 平方公里 square kilometers,54.6,度分秒范围 Range in DMS (degrees-minutes-seconds),"31°12'17""N - 31°12'45""N","109°50'10""E - 109°50'48""E",公里/千米 kilometer,30
+0533,老观村志,340721202200,老观村,Laoguan Cun,安徽省,Anhui Sheng,铜陵市,Tongling Shi,义安区,Yian Qu,平方千米 / 平方公里 square kilometers,3.64,没有相关数据 No Available Data,n/a,n/a,没有相关数据 No Available Data,n/a
+0534,黄里村志,340603100214,黄里村,Huangli Cun,安徽省,Anhui Sheng,淮北市,Huaibei Shi,相山区,Xiangshan Qu,平方千米 / 平方公里 square kilometers,11,没有相关数据 No Available Data,n/a,n/a,没有相关数据 No Available Data,n/a
+0535,保冲村志,522323104204,保冲村,Baochong Cun,贵州省,Guizhou Sheng,黔西南布依族苗族自治州,Qianxi'nan Buyizu Miaozu Zizhizhou,普安县,Puan Xian,平方千米 / 平方公里 square kilometers,16.3,度分秒范围 Range in DMS (degrees-minutes-seconds),25°43′20″N - 25°45′18″N,104°56′4″E - 104°53′23″E,公里/千米 kilometer,4.6
+0536,海河湾村志,120112103209,海河湾村,Haihewan Cun,天津市,Tianjin Shi,天津市,Tianjin Shi,津南区,Jinnan Qu,没有相关数据 No Available Data,n/a,度分秒 DMS (degrees-minutes-seconds),39°02′15″N,117°18′44″E,没有相关数据 No Available Data,n/a
+0537,鸦鹊水村志,422801101203,鸦鹊水村,Yaqueshui Cun,湖北省,Hubei Sheng,恩施土家族苗族自治州,Enshi Tujiazu Miaozu Zizhizhou,恩施市,Enshi Shi,平方千米 / 平方公里 square kilometers,27,度分秒 DMS (degrees-minutes-seconds),30°5′5″N,109°8′57″E,公里/千米 kilometer,67
+0538,魁胆村志,522628104207,魁胆村,Kuidan Cun,贵州省,Guizhou Sheng,黔东南苗族侗族自治州,Qiandongnan Miaozu Dongzu Zizhizhou,锦屏县,Jinping Xian,亩 mu,16991,度分秒 DMS (degrees-minutes-seconds),"26°40'55.04""N","109°05'16.31""E",公里/千米 kilometer,16
+0539,莲花村志,420704001204,莲花村,Lianhua Cun,湖北省,Hubei Sheng,鄂州市,Ezhou Shi,鄂城区,Echeng Qu,平方千米 / 平方公里 square kilometers,3.8,度分秒范围 Range in DMS (degrees-minutes-seconds),30°35′70″N - 30°38′48″N,114°89′69″E - 114°90′54″E,没有相关数据 No Available Data,n/a
+0540,红星村志,430111006201,红星村,Hongxing Cun,湖南省,Hunan Sheng,长沙市,Changsha Shi,雨花区,Yuhua Qu,亩 mu,7000,没有相关数据 No Available Data,n/a,n/a,没有相关数据 No Available Data,n/a
+0541,建设村志,510114102202,建设村,Jianshe Cun,四川省,Sichuan Sheng,成都市,Chengdu Shi,新都区,Xindu Qu,平方千米 / 平方公里 square kilometers,2.8,度分秒 DMS (degrees-minutes-seconds),31°44″N,104°16″E,公里/千米 kilometer,13.6
+0542,庙坪村志,511922222213,庙坪村,Miaoping Cun,四川省,Sichuan Sheng,巴中市,Bazhong Shi,南江县,Nanjiang Xian,平方千米 / 平方公里 square kilometers,11.75,没有相关数据 No Available Data,n/a,n/a,没有相关数据 No Available Data,n/a
+0543,小湾村志,431025205201,小湾村,Xiaowan Cun,湖南省,Hunan Sheng,郴州市,Chenzhou Shi,临武县,Linwu Xian,平方千米 / 平方公里 square kilometers,6.9,没有相关数据 No Available Data,n/a,n/a,公里/千米 kilometer,18
+0544,新堤村志,420982102211,新堤村,Xindi Cun,湖北省,Hubei Sheng,孝感市,Xiaogan Shi,安陆市,Anlu Shi,没有相关数据 No Available Data,n/a,没有相关数据 No Available Data,n/a,n/a,没有相关数据 No Available Data,n/a
+0545,刘庄村志,120111104207,刘庄村,Liuzhuang Cun,天津市,Tianjin Shi,天津市,Tianjin Shi,西青区,Xiqing Qu,没有相关数据 No Available Data,n/a,没有相关数据 No Available Data,n/a,n/a,没有相关数据 No Available Data,n/a
+0546,王兰庄村志,120111002211,王兰庄村,Wanglanzhuang Cun,天津市,Tianjin Shi,天津市,Tianjin Shi,西青区,Xiqing Qu,没有相关数据 No Available Data,n/a,度分秒 DMS (degrees-minutes-seconds),38°34′N,116°42′E,没有相关数据 No Available Data,n/a
+0547,临江村志,510922209211,临江村,Linjiang Cun,四川省,Sichuan Sheng,遂宁市,Suining Shi,射洪县,Shehong Xian,平方千米 / 平方公里 square kilometers,4.21,度分秒 DMS (degrees-minutes-seconds),30°55′43″N,105°21′42″E,公里/千米 kilometer,8
+0548,城畈村志,420821100008,城畈村,Chengfan Cun,湖北省,Hubei Sheng,荆门市,Jingmen Shi,京山县,Jingshan Xian,平方千米 / 平方公里 square kilometers,3.8,度分秒范围 Range in DMS (degrees-minutes-seconds),31°02′N - 31°04′N,113°10′E - 113°13′E,没有相关数据 No Available Data,n/a
+0549,柳树垭村志,511323104208,柳树垭村,Liushuya Cun,四川省,Sichuan Sheng,南充市,Nanchong Shi,蓬安县,Peng'an Xian,没有相关数据 No Available Data,n/a,度分秒 DMS (degrees-minutes-seconds),31°4′56″N,106°19′11″E,公里/千米 kilometer,21
+0550,大塘村志,522625102203,大塘村,Datang Cun,贵州省,Guizhou Sheng,黔东南苗族侗族自治州,Qiandongnan Miaozu Dongzu Zizhizhou,镇远县,Zhenyuan Xian,没有相关数据 No Available Data,n/a,度分秒范围 Range in DMS (degrees-minutes-seconds),"26°47'41""N - 27°22'17""N","108°8'35""E - 108°52'58""E",没有相关数据 No Available Data,n/a
+0551,双湖村志,430321200226,双湖村,Shuanghu Cun,湖南省,Hunan Sheng,湘潭市,Xiangtan Shi,湘潭县,Xiangtan Xian,平方千米 / 平方公里 square kilometers,10.35,度分秒 DMS (degrees-minutes-seconds),28°N,112°E,没有相关数据 No Available Data,n/a
+0552,二龙村志,510183105203,二龙村,Erlong Cun,四川省,Sichuan Sheng,成都市,Chengdu Shi,邛崃市,Qionglai Shi,平方千米 / 平方公里 square kilometers,5.7,没有相关数据 No Available Data,n/a,n/a,公里/千米 kilometer,41
+0553,旧居村志,512022110203,旧居村,Jiuju Cun,四川省,Sichuan Sheng,资阳市,Ziyang Shi,乐至县,Lezhi Xian,平方千米 / 平方公里 square kilometers,2.2,度分秒 DMS (degrees-minutes-seconds),"30°22'49.73""N","104°57'29.57""E",公里/千米 kilometer,15
+0554,左洼村志,341302104205,左洼村,Zuowa Cun,安徽省,Anhui Sheng,宿州市,Suzhou Shi,埇桥区,Yongqiao Qu,平方千米 / 平方公里 square kilometers,14,度分秒 DMS (degrees-minutes-seconds),33°5'N,117°7'E,没有相关数据 No Available Data,n/a
+0555,中石村志,430381106210,中石村,Zhongshi Cun,湖南省,Hunan Sheng,湘潭市,Xiangtan Shi,湘乡市,Xiangxiang Shi,平方千米 / 平方公里 square kilometers,9.37,度分秒 DMS (degrees-minutes-seconds),"28°3'45""N","111°59'40""E",公里/千米 kilometer,62
+0556,郑村志,341021104200,郑村,Zheng Cun,安徽省,Anhui Sheng,黄山市,Huangshan Shi,歙县,She Xian,没有相关数据 No Available Data,n/a,没有相关数据 No Available Data,n/a,n/a,没有相关数据 No Available Data,n/a
+0557,沥坑刘村村志,n/a,沥坑刘村,Likeng Liu Cun,江西省,Jiangxi Sheng,南昌市,Nanchang Shi,南昌县,Nanchang Xian,平方千米 / 平方公里 square kilometers,4,没有相关数据 No Available Data,n/a,n/a,公里/千米 kilometer,5
+0558,稠泉村志,430321200224,稠泉村,Chouquan Cun,湖南省,Hunan Sheng,湘潭市,Xiangtan Shi,湘潭县,Xiangtan Xian,平方千米 / 平方公里 square kilometers,5,度分秒范围 Range in DMS (degrees-minutes-seconds),27°55'N - 27°57'N,112°45'E - 112°48'E,没有相关数据 No Available Data,n/a
+0559,朱家港村志,430725102207,朱家港村,Zhujiagang Cun,湖南省,Hunan Sheng,常德市,Changde Shi,桃源县,Taoyuan Xian,平方千米 / 平方公里 square kilometers,11.154,度分秒 DMS (degrees-minutes-seconds),"29°14'16""N","111°32'41""E",公里/千米 kilometer,45
+0560,川心堡村志,522622101213,川心堡村,Chuanxinpu Cun,贵州省,Guizhou Sheng,黔东南苗族侗族自治州,Qiandongnan Miaozu Dongzu Zizhizhou,黄平县,Huangping Xian,平方千米 / 平方公里 square kilometers,40,没有相关数据 No Available Data,n/a,n/a,公里/千米 kilometer,26
+0561,代州营村志,150102008202,代州营村,Daizhouying Cun,内蒙古自治区,Neimenggu Zizhiqu,呼和浩特市,Huhehaote Shi,新城区,Xincheng Qu,没有相关数据 No Available Data,n/a,度分秒 DMS (degrees-minutes-seconds),40.8°N,111.7°E,没有相关数据 No Available Data,n/a
+0562,北陶村志,340221101201,北陶村,Beitao Cun,安徽省,Anhui Sheng,芜湖市,Wuhu Shi,芜湖县,Wuhu Xian,平方千米 / 平方公里 square kilometers,4,度分秒范围 Range in DMS (degrees-minutes-seconds),30°56'N - 31°24'N,118°17'E - 118°43'E,公里/千米 kilometer,11
+0563,中桥村志,520302107206,中桥村,Zhongqiao Cun,贵州省,Guizhou Sheng,遵义市,Zunyi Shi,红花岗区,Honghuagang Qu,平方千米 / 平方公里 square kilometers,29.8,度分秒范围 Range in DMS (degrees-minutes-seconds),27°45'N - 27°47'N,107°03'E - 107°07'E,没有相关数据 No Available Data,n/a
+0564,菜园头村志,370683107239,菜园头村,Caiyuantou Cun,湖北省,Hubei Sheng,鄂州市,Ezhou Shi,鄂城区,Echeng Qu,亩 mu,1169,度分秒 DMS (degrees-minutes-seconds),30°24′4″N,114°54′21″E,没有相关数据 No Available Data,n/a
+0565,凌庄子村志,120111450498,凌庄子村,Lingzhuangzi Cun,天津市,Tianjin Shi,天津市,Tianjin Shi,西青区,Xiqing Qu,没有相关数据 No Available Data,n/a,度分秒 DMS (degrees-minutes-seconds),"39°06'78""N","117°18'35.8""E",没有相关数据 No Available Data,n/a
+0566,马郡村志,620723202204,马郡村,Majun Cun,甘肃省,Gansu Sheng,张掖市,Zhangye Shi,临泽县,Linze Xian,平方千米 / 平方公里 square kilometers,15.8,度分秒范围 Range in DMS (degrees-minutes-seconds),38°57′N - 39°42′N,99°51′E - 100°31′E,公里/千米 kilometer,11
+0567,虎牙滩村志,n/a,虎牙滩村,Huyatan Cun,湖北省,Hubei Sheng,宜昌市,Yichang Shi,猇亭区,Xiaoting Qu,平方千米 / 平方公里 square kilometers,6.68,没有相关数据 No Available Data,n/a,n/a,没有相关数据 No Available Data,n/a
+0568,土艳村志,n/a,土艳村,Tuyan Cun,海南省,Hainan Sheng,澄迈县,Chengmai Xian,澄迈县,Chengmai Xian,平方千米 / 平方公里 square kilometers,50,没有相关数据 No Available Data,n/a,n/a,公里/千米 kilometer,9
+0569,方村志,341021204201,方村,Fang Cun,安徽省,Anhui Sheng,黄山市,Huangshan Shi,歙县,She Xian,没有相关数据 No Available Data,n/a,度分秒 DMS (degrees-minutes-seconds),29°51'N,118°40'N,公里/千米 kilometer,40
+0570,拱市村志,510921104210,拱市村,Gongshi Cun,四川省,Sichuan Sheng,遂宁市,Suining Shi,蓬溪县,Pengxi Xian,平方千米 / 平方公里 square kilometers,3.5,没有相关数据 No Available Data,n/a,n/a,公里/千米 kilometer,25
+0571,护城村志,520302102205,护城村,Hucheng Cun,贵州省,Guizhou Sheng,遵义市,Zunyi Shi,红花岗区,Honghuagang Qu,平方千米 / 平方公里 square kilometers,1.45,度分秒 DMS (degrees-minutes-seconds),27°39′31″N,106°55′34″E,没有相关数据 No Available Data,n/a
+0572,冯村志,n/a,冯村,Feng Cun,安徽省,Anhui Sheng,宣城市,Xuancheng Shi,绩溪县,Jixi Xian,亩 mu,5410,度分秒 DMS (degrees-minutes-seconds),"30°11'20""N","118°29'40""E",公里/千米 kilometer,32
+0573,塘井村志,n/a,塘井村,Tangjing Cun,湖南省,Hunan Sheng,永州市,Yongzhou Shi,道县,Dao Xian,没有相关数据 No Available Data,n/a,没有相关数据 No Available Data,n/a,n/a,没有相关数据 No Available Data,n/a
+0574,白杨源志,341021102205,白杨村,Baiyang Cun,安徽省,Anhui Sheng,黄山市,Huangshan Shi,歙县,She Xian,没有相关数据 No Available Data,n/a,没有相关数据 No Available Data,n/a,n/a,公里/千米 kilometer,25
+0575,邢泉村志,620522100211,邢泉村,Xingquan Cun,甘肃省,Gansu Sheng,天水市,Tianshui Shi,秦安县,Qin'an Xian,没有相关数据 No Available Data,n/a,没有相关数据 No Available Data,n/a,n/a,里 li,2
+0576,张石村志,620503103224,张石村,Zhangshi Cun,甘肃省,Gansu Sheng,天水市,Tianshui Shi,麦积区,Maiji Qu,平方千米 / 平方公里 square kilometers,4,没有相关数据 No Available Data,n/a,n/a,没有相关数据 No Available Data,n/a
+0577,青羊岗土家族村志,421022113211,青羊岗村,Qingyanggang Cun,湖北省,Hubei Sheng,荆州市,Jingzhou Shi,公安县,Gongan Xian,平方千米 / 平方公里 square kilometers,4.5,没有相关数据 No Available Data,n/a,n/a,公里/千米 kilometer,20
+0578,三山村志,420704101206,三山村,Sanshan Cun,湖北省,Hubei Sheng,鄂州市,Ezhou Shi,鄂城区,Echeng Qu,平方千米 / 平方公里 square kilometers,10.86,度分秒 DMS (degrees-minutes-seconds),30°19'N,114°44'E,没有相关数据 No Available Data,n/a
+0579,殷山村村志,360429204201,殷山村,Yinshan Cun,江西省,Jiangxi Sheng,九江市,Jiujiang Shi,湖口县,Hukou Xian,平方千米 / 平方公里 square kilometers,9,没有相关数据 No Available Data,n/a,n/a,公里/千米 kilometer,20
+0580,西南庄村志,120114113206,西南庄村,Xinanzhuang Cun,天津市,Tianjin Shi,天津市,Tianjin Shi,武清区,Wuqing Qu,万平方米 10K square meters,38,没有相关数据 No Available Data,n/a,n/a,没有相关数据 No Available Data,n/a
+0581,瓦子坪村志,511324102211,瓦子坪村,Waziping Cun,四川省,Sichuan Sheng,南充市,Nanchong Shi,仪陇县,Yilong Xian,没有相关数据 No Available Data,n/a,度分秒 DMS (degrees-minutes-seconds),"31°27'18""N","106°39'26""E",公里/千米 kilometer,55
+0582,岔河村志,530921204206,岔河村,Chahe Cun,云南省,Yunnan Sheng,临沧市,Lincang Shi,凤庆县,Fengqing Xian,平方千米 / 平方公里 square kilometers,14.182,没有相关数据 No Available Data,n/a,n/a,没有相关数据 No Available Data,n/a
+0583,三里亭村志,431128100225,三里亭村,Sanliting Cun,湖南省,Hunan Sheng,永州市,Yongzhou Shi,新田县,Xintian Xian,平方千米 / 平方公里 square kilometers,7,度分秒 DMS (degrees-minutes-seconds),25°40′N,112°02′E,里 li,3
+0584,唐家坪村志,511321235211,唐家坪村,Tangjiaping Cun,四川省,Sichuan Sheng,南充市,Nanchong Shi,南部县,Nanbu Xian,没有相关数据 No Available Data,n/a,没有相关数据 No Available Data,n/a,n/a,公里/千米 kilometer,70
+0585,船石村志,511024115219,船石村,Chuanshi Cun,四川省,Sichuan Sheng,内江市,Neijiang Shi,威远县,Weiyuan Xian,没有相关数据 No Available Data,n/a,度分秒 DMS (degrees-minutes-seconds),29°43′22″N,104°43′22″E,公里/千米 kilometer,39
+0586,膏田村志,n/a,膏田村,Gaotian Cun,湖南省,Hunan Sheng,常德市,Changde Shi,桃源县,Taoyuan Xian,亩 mu,2680,没有相关数据 No Available Data,n/a,n/a,公里/千米 kilometer,17
+0587,新屋咀村志,510521110237,新屋咀村,Xinwuju Cun,四川省,Sichuan Sheng,泸州市,Luzhou Shi,泸县,Lu Xian,平方千米 / 平方公里 square kilometers,4.24,没有相关数据 No Available Data,n/a,n/a,公里/千米 kilometer,30
+0588,石牌坊村志,510521118222,石牌坊村,Shipaifang Cun,四川省,Sichuan Sheng,泸州市,Luzhou Shi,泸县,Lu Xian,平方千米 / 平方公里 square kilometers,7.3,度分秒 DMS (degrees-minutes-seconds),"29°16'40""N","105°27'43""E",公里/千米 kilometer,20
+0589,锁口村志,511322111214,锁口村,Suokou Cun,四川省,Sichuan Sheng,南充市,Nanchong Shi,营山县,Yingshan Xian,平方千米 / 平方公里 square kilometers,1.8,没有相关数据 No Available Data,n/a,n/a,没有相关数据 No Available Data,35
+0590,惠农村志,430121110204,惠农村,Huinong Cun,湖南省,Hunan Sheng,长沙市,Changsha Shi,长沙县,Changsha Xian,没有相关数据 No Available Data,n/a,没有相关数据 No Available Data,n/a,n/a,没有相关数据 No Available Data,n/a
+0591,大板桥村志,530111009201,大板桥村,Dabanqiao Cun,云南省,Yunnan Sheng,昆明市,Kunming Shi,官渡区,Guandu Qu,平方千米 / 平方公里 square kilometers,4,度分秒 DMS (degrees-minutes-seconds),"25°02'58.70""N","102°52'41.83""E",没有相关数据 No Available Data,n/a
+0592,大坝村志,530112403007,大坝村,Daba Cun,云南省,Yunnan Sheng,昆明市,Kunming Shi,西山区,Xishan Qu,平方千米 / 平方公里 square kilometers,2.42,没有相关数据 No Available Data,n/a,n/a,没有相关数据 No Available Data,n/a
+0593,大波那村志,532923106204,大波那村,Dabona Cun,云南省,Yunnan Sheng,大理白族自治州,Dali Baizu Zizhizhou,祥云县,Xiangyun Xian,平方千米 / 平方公里 square kilometers,23.8,没有相关数据 No Available Data,n/a,n/a,公里/千米 kilometer,30
+0594,天马村志,532931103201,天马村,Tianma Cun,云南省,Yunnan Sheng,大理白族自治州,Dali Baizu Zizhizhou,剑川县,Jianchuan Xian,平方千米 / 平方公里 square kilometers,1.23,度分秒 DMS (degrees-minutes-seconds),26°26′N,99°54′E,公里/千米 kilometer,8
+0595,吴井村志,530111002007,吴井村,Wujing Cun,云南省,Yunnan Sheng,昆明市,Kunming Shi,官渡区,Guandu Qu,没有相关数据 No Available Data,n/a,没有相关数据 No Available Data,n/a,n/a,没有相关数据 No Available Data,n/a
+0596,新河村志,530112006006,新河村,Xinhe Cun,云南省,Yunnan Sheng,昆明市,Kunming Shi,西山区,Xishan Qu,平方千米 / 平方公里 square kilometers,2.417,没有相关数据 No Available Data,n/a,n/a,没有相关数据 No Available Data,n/a
+0597,万沟村志,511425110222,万沟村,Wangou Cun,四川省,Sichuan Sheng,眉山市,Meishan Shi,青神县,Qingshen Xian,平方千米 / 平方公里 square kilometers,7.37,度分秒范围 Range in DMS (degrees-minutes-seconds),29°82′N - 29°85′N,103°69′E - 103°75′E,公里/千米 kilometer,11
+0598,四合村志,511124205207,四合村,Sihe Cun,四川省,Sichuan Sheng,乐山市,Leshan Shi,井研县,Jingyan Xian,平方千米 / 平方公里 square kilometers,3.8,度分秒 DMS (degrees-minutes-seconds),n/a,n/a,公里/千米 kilometer,27.5
+0599,石河村志,512081114203,石河村,Shihe Cun,四川省,Sichuan Sheng,资阳市,Ziyang Shi,简阳市,Jianyang Shi,没有相关数据 No Available Data,n/a,度分秒 DMS (degrees-minutes-seconds),"30°28'23.64""N","104°36'28.15""E",没有相关数据 No Available Data,n/a
+0600,乌木村村志,510183102204,乌木村,Wumu Cun,四川省,Sichuan Sheng,成都市,Chengdu Shi,邛崃市,Qionglai Shi,平方千米 / 平方公里 square kilometers,4.4,没有相关数据 No Available Data,n/a,n/a,公里/千米 kilometer,24
+0601,肇兴村志,522631208200,肇兴村,Zhaoxing Cun,贵州省,Guizhou Sheng,黔东南苗族侗族自治州,Qiandongnan Miaozu Dongzu Zizhizhou,黎平县,Liping Xian,没有相关数据 No Available Data,n/a,度分秒 DMS (degrees-minutes-seconds),25°54'N,109°11'E,公里/千米 kilometer,50
+0602,竹坪村志,522631106202,竹坪村,Zhuping Cun,贵州省,Guizhou Sheng,黔东南苗族侗族自治州,Qiandongnan Miaozu Dongzu Zizhizhou,黎平县,Liping Xian,公顷 hectares,2560.94,没有相关数据 No Available Data,n/a,n/a,公里/千米 kilometer,40
+0603,竹山湾村志,431121114201,竹山湾村,Zhushanwan Cun,湖南省,Hunan Sheng,永州市,Yongzhou Shi,祁阳县,Qiyang Xian,平方千米 / 平方公里 square kilometers,1.9,度分秒 DMS (degrees-minutes-seconds),"26°35'17""N","111°55'58""E",公里/千米 kilometer,6
+0604,石下村村志,361129104206,石下村,Shixia Cun,江西省,Jiangxi Sheng,上饶市,Shangrao Shi,万年县,Wannian Xian,没有相关数据 No Available Data,n/a,没有相关数据 No Available Data,n/a,n/a,没有相关数据 No Available Data,n/a
+0605,八角村志,370611005001,八角村,Bajiao Cun,山东省,Shandong Sheng,烟台市,Yantai Shi,福山区,Fushan Qu,平方千米 / 平方公里 square kilometers,4.856,度分秒 DMS (degrees-minutes-seconds),37°38′51.81″N,121°8′6.23″E,没有相关数据 No Available Data,n/a
+0606,北阁村志,370282002206,北阁村,Beige Cun,山东省,Shandong Sheng,青岛市,Qingdao Shi,即墨市,Jimo Shi,没有相关数据 No Available Data,n/a,度分秒 DMS (degrees-minutes-seconds),36°23′N,120°27′E,没有相关数据 No Available Data,n/a
+0607,白杜村村志,141030100214,白杜村,Baidu Cun,山西省,Shanxi Sheng,临汾市,Linfen Shi,大宁县,Daning Xian,平方华里 square huali,80,没有相关数据 No Available Data,n/a,n/a,里 li,20
+0608,大王村志,210212005201,大王村,Dawang Cun,辽宁省,Liaoning Sheng,大连市,Dalian Shi,旅顺口区,Lüshunkou Qu,平方千米 / 平方公里 square kilometers,5.09,没有相关数据 No Available Data,n/a,n/a,没有相关数据 No Available Data,n/a
+0609,长浜村志,310116101217,长浜村,Changbang Cun,上海市,Shanghai Shi,上海市,Shanghai Shi,金山区,Jinshan Qu,平方千米 / 平方公里 square kilometers,7.56,没有相关数据 No Available Data,n/a,n/a,没有相关数据 No Available Data,n/a
+0610,大茫村志,310116101204,大茫村,Damang Cun,上海市,Shanghai Shi,上海市,Shanghai Shi,金山区,Jinshan Qu,平方千米 / 平方公里 square kilometers,5.66,没有相关数据 No Available Data,n/a,n/a,没有相关数据 No Available Data,n/a
+0611,沉香村志,310115137206,沉香村,Chenxiang Cun,上海市,Shanghai Shi,上海市,Shanghai Shi,浦东新区,Pudong Xinqu,平方千米 / 平方公里 square kilometers,4.8,度分秒范围 Range in DMS (degrees-minutes-seconds),30°50′N - 31°09′N,120°35′E - 121°58′E,没有相关数据 No Available Data,n/a
+0612,东华村志,320412100206,东华村,Donghua Cun,江苏省,Jiangsu Sheng,常州市,Changzhou Shi,武进区,Wujin Qu,平方千米 / 平方公里 square kilometers,2.8,度分秒 DMS (degrees-minutes-seconds),30°41′N,119°56′E,没有相关数据 No Available Data,n/a
+0613,大星村志,310115110223,大星村,Daxing Cun,上海市,Shanghai Shi,上海市,Shanghai Shi,浦东新区,Pudong Xinqu,平方千米 / 平方公里 square kilometers,0.95,度分秒 DMS (degrees-minutes-seconds),31°13′N,121°43′E,没有相关数据 No Available Data,n/a
+0614,成日村志,310115144203,成日村,Chengri Cun,上海市,Shanghai Shi,上海市,Shanghai Shi,浦东新区,Pudong Xinqu,平方千米 / 平方公里 square kilometers,5.57,度分秒 DMS (degrees-minutes-seconds),31°02′N,121°8′E,没有相关数据 No Available Data,n/a
+0615,谙正村志,141031102203,谙正村,Anzheng Cun,山西省,Shanxi Sheng,临汾市,Linfen Shi,隰县,Xi Xian,平方千米 / 平方公里 square kilometers,12,没有相关数据 No Available Data,n/a,n/a,公里/千米 kilometer,35
+0616,安家皂村志,140221211201,安家皂村,Anjiazao Cun,山西省,Shanxi Sheng,大同市,Datong Shi,阳高县,Yanggao Xian,平方千米 / 平方公里 square kilometers,17.5,度分秒范围 Range in DMS (degrees-minutes-seconds),40°7′6″N - 40°10′10″N,113°58′24″E - 114°1′56″E,公里/千米 kilometer,35
+0617,安昌村志,140411103219,安昌村,Anchang Cun,山西省,Shanxi Sheng,长治市,Changzhi Shi,郊区,Jiao Qu,没有相关数据 No Available Data,n/a,度分秒 DMS (degrees-minutes-seconds),36°19′42″N,113°04′47″E,没有相关数据 No Available Data,n/a
+0618,崔堡村志,321023109217,崔堡村,Cuipu Cun,江苏省,Jiangsu Sheng,扬州市,Yangzhou Shi,宝应县,Baoying Xian,没有相关数据 No Available Data,n/a,度分秒 DMS (degrees-minutes-seconds),33°20′11″N,119°23′15″E,公里/千米 kilometer,15
+0619,仓场村志,310114106212,仓场村,Cangchang Cun,上海市,Shanghai Shi,上海市,Shanghai Shi,嘉定区,Jiading Qu,平方千米 / 平方公里 square kilometers,2.4,没有相关数据 No Available Data,n/a,n/a,没有相关数据 No Available Data,n/a
+0620,程墩村志,320582105205,程墩村,Chengdun Cun,江苏省,Jiangsu Sheng,苏州市,Suzhou Shi,张家港市,Zhangjiagang Shi,平方千米 / 平方公里 square kilometers,5.2,没有相关数据 No Available Data,n/a,n/a,公里/千米 kilometer,28
+0621,仁里村志,341824200201,仁里村,Renli Cun,安徽省,Anhui Sheng,宣城市,Xuancheng Shi,绩溪县,Jixi Xian,平方千米 / 平方公里 square kilometers,11.27,度分秒范围 Range in DMS (degrees-minutes-seconds),29°57′N - 30°20′N,118°20′E - 118°55′E,公里/千米 kilometer,3
+0622,下岗村志,210681107218,下岗村,Xiagang Cun,辽宁省,Liaoning Sheng,丹东市,Dandong Shi,东港市,Donggang Shi,平方千米 / 平方公里 square kilometers,8,没有相关数据 No Available Data,n/a,n/a,公里/千米 kilometer,15
+0623,北车营村志,110111112222,北车营村,Beicheying Cun,北京市,Beijing Shi,北京市,Beijing Shi,房山区,Fangshan Qu,没有相关数据 No Available Data,n/a,度分秒 DMS (degrees-minutes-seconds),39°46′N,116°04′E,公里/千米 kilometer,15
+0624,獐岛村志,210681108212,獐岛村,Zhangdao Cun,辽宁省,Liaoning Sheng,丹东市,Dandong Shi,东港市,Donggang Shi,平方千米 / 平方公里 square kilometers,0.96,度分秒 DMS (degrees-minutes-seconds),39°47'N,123°48'E,没有相关数据 No Available Data,n/a
+0625,邓一村志,n/a,邓一村,Dengyi Cun,上海市,Shanghai Shi,上海市,Shanghai Shi,浦东新区,Pudong Xinqu,平方千米 / 平方公里 square kilometers,2.2,度分秒 DMS (degrees-minutes-seconds),31°09′N,121°45′E,没有相关数据 No Available Data,n/a
+0626,竹元村志,510302101209,竹元村,Zhuyuan Cun,四川省,Sichuan Sheng,自贡市,Zigong Shi,自流井区,Ziliujing Qu,平方千米 / 平方公里 square kilometers,4.58,没有相关数据 No Available Data,n/a,n/a,没有相关数据 No Available Data,n/a
+0627,长春村志,321181109204,长春村,Changchun Cun,江苏省,Jiangsu Sheng,镇江市,Zhenjiang Shi,丹阳市,Danyang Shi,平方千米 / 平方公里 square kilometers,2.71,没有相关数据 No Available Data,n/a,n/a,没有相关数据 No Available Data,n/a
+0628,林祠村村志,341522118205,林祠村,Linci Cun,安徽省,Anhui Sheng,六安市,Lu'an Shi,霍邱县,Huoqiu Xian,没有相关数据 No Available Data,n/a,没有相关数据 No Available Data,n/a,n/a,没有相关数据 No Available Data,n/a
+0629,磅石村志,370212004033,磅石村,Bangshi Cun,山东省,Shandong Sheng,青岛市,Qingdao Shi,崂山区,Laoshan Qu,平方千米 / 平方公里 square kilometers,3.75,度分秒 DMS (degrees-minutes-seconds),36°18′48″N,120°36′12″E,没有相关数据 No Available Data,n/a
+0630,赵家村志,211103018200,赵家村,Zhaojia Cun,辽宁省,Liaoning Sheng,盘锦市,Panjin Shi,兴隆台区,Xinglongtai Qu,平方千米 / 平方公里 square kilometers,8.28,没有相关数据 No Available Data,n/a,n/a,没有相关数据 No Available Data,n/a
+0631,溪尾村志,350322101218,溪尾村,Xiwei Cun,福建省,Fujian Sheng,莆田市,Putian Shi,仙游县,Xianyou Xian,平方千米 / 平方公里 square kilometers,2.1,度分秒范围 Range in DMS (degrees-minutes-seconds),25°18′49″N - 25°18′57″N,118°47′51″E - 118°48′10″E,公里/千米 kilometer,10
+0632,八里湾村志,370923206231,八里湾村,Baliwan Cun,山东省,Shandong Sheng,泰安市,Taian Shi,东平县,Dongping Xian,没有相关数据 No Available Data,n/a,没有相关数据 No Available Data,n/a,n/a,公里/千米 kilometer,30
+0633,陈胡村志,310115103238,陈胡村,Chenhu Cun,上海市,Shanghai Shi,上海市,Shanghai Shi,浦东新区,Pudong Xinqu,平方千米 / 平方公里 square kilometers,1.8,度分秒范围 Range in DMS (degrees-minutes-seconds),31°08′N - 31°12′N,121°45′E - 121°48′E,没有相关数据 No Available Data,n/a
+0634,上薛村志,350181106206,上薛村,Shangxue Cun,福建省,Fujian Sheng,福州市,Fuzhou Shi,福清市,Fuqing Shi,平方千米 / 平方公里 square kilometers,20,没有相关数据 No Available Data,n/a,n/a,没有相关数据 No Available Data,n/a
+0635,党家村志,610581104212,党家村,Dangjia Cun,陕西省,Shanxi Sheng,渭南市,Weinan Shi,韩城市,Hancheng Shi,平方千米 / 平方公里 square kilometers,1.4,度分秒 DMS (degrees-minutes-seconds),35°32′N,110°14′E,没有相关数据 No Available Data,n/a
+0636,南宵村志,350181107213,南宵村,Nanxiao Cun,福建省,Fujian Sheng,福州市,Fuzhou Shi,福清市,Fuqing Shi,平方千米 / 平方公里 square kilometers,25,没有相关数据 No Available Data,n/a,n/a,没有相关数据 No Available Data,n/a
+0637,镇丰村志,610124100201,镇丰村,Zhenfeng Cun,陕西省,Shanxi Sheng,西安市,Xi'an Shi,周至县,Zhouzhi Xian,平方千米 / 平方公里 square kilometers,3.84,度分秒范围 Range in DMS (degrees-minutes-seconds),33°N - 34°N,107°E - 108°E,没有相关数据 No Available Data,n/a
+0638,港中村志,320382109002,港中村,Gangzhong Cun,江苏省,Jiangsu Sheng,徐州市,Xuzhou Shi,邳州市,Pizhou Shi,平方千米 / 平方公里 square kilometers,1.8,度分秒 DMS (degrees-minutes-seconds),34°40′N,118°10′E,没有相关数据 No Available Data,n/a
+0639,阳山村志,350526207208,阳山村,Yangshan Cun,福建省,Fujian Sheng,泉州市,Quanzhou Shi,德化县,Dehua Xian,平方千米 / 平方公里 square kilometers,35,度分秒 DMS (degrees-minutes-seconds),25°31′N,118°01′E,没有相关数据 No Available Data,n/a
+0640,榜山村志,350721201206,榜山村,Bangshan Cun,福建省,Fujian Sheng,南平市,Nanping Shi,顺昌县,Shunchang Xian,平方千米 / 平方公里 square kilometers,27,没有相关数据 No Available Data,n/a,n/a,公里/千米 kilometer,22
+0641,保卫村志,310116104224,保卫村,Baowei Cun,上海市,Shanghai Shi,上海市,Shanghai Shi,金山区,Jinshan Qu,平方千米 / 平方公里 square kilometers,3.63,度分秒 DMS (degrees-minutes-seconds),30°49′05″N,121°16′52″E,没有相关数据 No Available Data,n/a
+0642,后黄村志,350304100209,后黄村,Houhuang Cun,福建省,Fujian Sheng,莆田市,Putian Shi,荔城区,Licheng Qu,平方千米 / 平方公里 square kilometers,1.5,没有相关数据 No Available Data,n/a,n/a,没有相关数据 No Available Data,n/a
+0643,北金召村志,370305109240,北金召村,Beijinzhao Cun,山东省,Shandong Sheng,淄博市,Zibo Shi,临淄区,Linzi Qu,平方千米 / 平方公里 square kilometers,3.23,度分秒范围 Range in DMS (degrees-minutes-seconds),36°55′37″N - 36°56′42″N,118°10′41″E - 118°12′34″E,没有相关数据 No Available Data,n/a
+0644,度城村志,n/a,度城村,Ducheng Cun,江苏省,Jiangsu Sheng,苏州市,Suzhou Shi,昆山市,Kunshan Shi,平方千米 / 平方公里 square kilometers,3.48,度分秒范围 Range in DMS (degrees-minutes-seconds),31°09′05″N - 31°10′09″N,120°59′14.5″E - 120°59′33.1″E,没有相关数据 No Available Data,n/a
+0645,洞山村志,530522101201,洞山村,Dongshan Cun,云南省,Yunnan Sheng,保山市,Baoshan Shi,腾冲市,Tengchong Shi,亩 mu,7227,度分秒 DMS (degrees-minutes-seconds),25°00′N,98°31′E,没有相关数据 No Available Data,n/a
+0646,玉河村志,530702201203,玉河村,Yuhe Cun,云南省,Yunnan Sheng,丽江市,Lijiang Shi,古城区,Gucheng Qu,没有相关数据 No Available Data,n/a,没有相关数据 No Available Data,n/a,n/a,没有相关数据 No Available Data,n/a
+0647,可邑彝族村志,NA,可邑村,Keyi Cun,云南省,Yunnan Sheng,红河哈尼族彝族自治州,Honghe Hanizu Yizu Zizhizhou,弥勒县,Mile Xian,平方千米 / 平方公里 square kilometers,32,度分秒 DMS (degrees-minutes-seconds),24°2′N,103°5′E,公里/千米 kilometer,21
+0648,官渡社区志,530111006001,官渡社区(村),Guandu Shequ (Cun),云南省,Yunnan Sheng,昆明市,Kunming Shi,官渡社区,Guandu Shequ,没有相关数据 No Available Data,n/a,没有相关数据 No Available Data,n/a,n/a,没有相关数据 No Available Data,n/a
+0650,云溪永丰村志,530111005005,云溪村,Yunxi Cun,云南省,Yunnan Sheng,昆明市,Kunming Shi,官渡区,Guandu Qu,平方千米 / 平方公里 square kilometers,2.9,度分秒 DMS (degrees-minutes-seconds),24°58'N,102°45'E,没有相关数据 No Available Data,n/a
+0651,周家村志,530112403008,周家村,Zhoujia Cun,云南省,Yunnan Sheng,昆明市,Kunming Shi,西山区,Xishan Qu,平方千米 / 平方公里 square kilometers,2.98,没有相关数据 No Available Data,n/a,n/a,公里/千米 kilometer,3
+0652,小围埂村志,532927104208,小围埂村,Xiaoweigeng Cun,云南省,Yunnan Sheng,大理白族自治州,Dali Baizu Zizhizhou,巍山彝族回族自治县,Weishan Yizu Huizu Zizhixian,平方千米 / 平方公里 square kilometers,6,没有相关数据 No Available Data,n/a,n/a,没有相关数据 No Available Data,n/a
+0653,高镇村志,330784001219,高镇村,Gaozhen Cun,浙江省,Zhejiang Sheng,金华市,Jinhua Shi,永康市,Yongkang Shi,平方千米 / 平方公里 square kilometers,2,度分秒 DMS (degrees-minutes-seconds),28°52′11″N,20°3′6″E,没有相关数据 No Available Data,n/a
+0654,官林村志,320282104201,官林村,Guanlin Cun,江苏省,Jiangsu Sheng,无锡市,Wuxi Shi,宜兴市,Yixing Shi,平方千米 / 平方公里 square kilometers,4.5,度分秒 DMS (degrees-minutes-seconds),31°29′N,119°43′E,公里/千米 kilometer,18.5
+0655,海星村志,330282118208,海星村,Haixing Cun,浙江省,Zhejiang Sheng,宁波市,Ningbo Shi,慈溪市,Cixi Shi,平方千米 / 平方公里 square kilometers,6.53,度分秒 DMS (degrees-minutes-seconds),30°18′N,121°11′E,没有相关数据 No Available Data,n/a
+0656,北关村志,131022100203,北关村,Beiguan Cun,河北省,Hebei Sheng,廊坊市,Langfang Shi,固安县,Gu'an Xian,平方千米 / 平方公里 square kilometers,17.5,度分秒 DMS (degrees-minutes-seconds),39°44′N,116°30′E,公里/千米 kilometer,45
+0658,义路村志,n/a,义路村,Yilu Cun,云南省,Yunnan Sheng,昆明市,Kunming Shi,官渡区,Guandu Qu,平方千米 / 平方公里 square kilometers,5,度分秒 DMS (degrees-minutes-seconds),24°25′N,102°38′E,没有相关数据 No Available Data,n/a
+0659,邑等村志,530524203210,邑等村,Yideng Cun,云南省,Yunnan Sheng,保山市,Baoshan Shi,昌宁县,Changning Xian,平方千米 / 平方公里 square kilometers,36.15,度分秒范围 Range in DMS (degrees-minutes-seconds),24°45′25″N - 24°49′15″N,99°28′45″E - 99°31′52″E,公里/千米 kilometer,18
+0660,羊甫村志,530111005003,羊甫村,Yangfu Cun,云南省,Yunnan Sheng,昆明市,Kunming Shi,官渡区,Guandu Qu,平方千米 / 平方公里 square kilometers,5.6,度分秒 DMS (degrees-minutes-seconds),24°58′N,102°47′E,没有相关数据 No Available Data,n/a
+0662,东瓜地村志,110111001204,东瓜地村,Dongguadi Cun,北京市,Beijing Shi,北京市,Beijing Shi,房山区,Fangshan Qu,没有相关数据 No Available Data,n/a,没有相关数据 No Available Data,n/a,n/a,没有相关数据 No Available Data,n/a
+0663,边院村志,370983111236,边院村,Bianyuan Cun,山东省,Shandong Sheng,泰安市,Taian Shi,肥城市,Feicheng Shi,没有相关数据 No Available Data,n/a,没有相关数据 No Available Data,n/a,n/a,没有相关数据 No Available Data,n/a
+0664,北安河村志,110108104212,北安河村,Beianhe Cun,北京市,Beijing Shi,北京市,Beijing Shi,海淀区,Haidian Qu,亩 mu,14969.10,没有相关数据 No Available Data,n/a,n/a,没有相关数据 No Available Data,n/a
+0665,佰王刘村志,141002103217,佰王刘村,Baiwangliu Cun,山西省,Shanxi Sheng,临汾市,Linfen Shi,尧都区,Yaodu Qu,平方千米 / 平方公里 square kilometers,4,度分秒 DMS (degrees-minutes-seconds),35°50′N,111°40′E,没有相关数据 No Available Data,n/a
+0666,可建村志,350783104213,可建村,Kejian Cun,福建省,Fujian Sheng,南平市,Nanping Shi,建瓯市,Jian'ou Shi,没有相关数据 No Available Data,n/a,度分秒 DMS (degrees-minutes-seconds),26°46′23″N,118°29′41″E,公里/千米 kilometer,80
+0667,白文村志,141124101001,白文村,Baiwen Cun,山西省,Shanxi Sheng,吕梁市,Lüliang Shi,临县,Lin Xian,平方千米 / 平方公里 square kilometers,25,度分秒范围 Range in DMS (degrees-minutes-seconds),38°06′N - 38°14′N,111°01′E - 111°14′E,公里/千米 kilometer,28
+0668,八仙庄村志,530112403008,八仙庄村,Baxianzhuang Cun,北京市,Beijing Shi,北京市,Beijing Shi,昌平区,Changping Qu,亩 mu,5409,没有相关数据 No Available Data,n/a,n/a,公里/千米 kilometer,26
+0669,西塘坨村志,120221107201,西塘坨村,Xitangtuo Cun,天津市,Tianjin Shi,天津市,Tianjin Shi,宁河县,Ninghe Xian,平方千米 / 平方公里 square kilometers,25,度分秒范围 Range in DMS (degrees-minutes-seconds),39°17′36.22″N - 39°20′15.34″N,117°25′36.02″E - 117°31′49.50″E,没有相关数据 No Available Data,n/a
+0670,北程庄村志,110115005225,北程庄村,Beichengzhuang Cun,北京市,Beijing Shi,北京市,Beijing Shi,大兴区,Daxing Qu,没有相关数据 No Available Data,n/a,没有相关数据 No Available Data,n/a,n/a,没有相关数据 No Available Data,n/a
+0671,顾家村志,210682113208,顾家村,Gujia Cun,辽宁省,Liaoning Sheng,丹东市,Dandong Shi,凤城市,Fengcheng Shi,亩 mu,36009,度分秒范围 Range in DMS (degrees-minutes-seconds),40°49′53″N - 41°04′02″N,124°18′12″E - 124°32′03″E,公里/千米 kilometer,100
+0672,小南村志,210212005207,小南村,Xiaonan Cun,辽宁省,Liaoning Sheng,大连市,Dalian Shi,旅顺口区,Lüshunkou Qu,平方千米 / 平方公里 square kilometers,6.76,度分秒范围 Range in DMS (degrees-minutes-seconds),38°49′N - 38°52′N,121°13′E - 121°16′E,没有相关数据 No Available Data,n/a
+0673,茶丰峡村志,350427002222,茶丰峡村,Chafengxia Cun,福建省,Fujian Sheng,三明市,Sanming Shi,沙县,Sha Xian,亩 mu,5110,没有相关数据 No Available Data,n/a,n/a,公里/千米 kilometer,9
+0674,歌山村志,330783108200,歌山村志,Geshan Cun,浙江省,Zhejiang Sheng,金华市,Jinhua Shi,东阳市,Dongyang Shi,没有相关数据 No Available Data,n/a,度分秒 DMS (degrees-minutes-seconds),29°18′N,120°26′E,公里/千米 kilometer,22
+0675,大京村志,350921101214,大京村,Dajing Cun,福建省,Fujian Sheng,宁德市,Ningde Shi,霞浦县,Xiapu Xian,平方千米 / 平方公里 square kilometers,327.71,度分秒范围 Range in DMS (degrees-minutes-seconds),26°42′08″N - 26°42′19″N,120°05′47″E - 120°05′55″E,公里/千米 kilometer,41
+0676,南韩村志,610481106213,南韩村,Nanhan Cun,陕西省,Shanxi Sheng,咸阳市,Xianyang Shi,兴平市,Xingping Shi,平方千米 / 平方公里 square kilometers,3.64,度分秒 DMS (degrees-minutes-seconds),34°20′N,108°30′E,公里/千米 kilometer,6
+0677,北关村志,n/a,北关村,Beiguan Cun,山东省,Shandong Sheng,滨州市,Binzhou Shi,邹平县,Zouping Xian,平方米 square meters,124832,度分秒 DMS (degrees-minutes-seconds),36°51′N,117°38′E,没有相关数据 No Available Data,n/a
+0678,后孙密城村志,n/a,后孙密城村,Housunmicheng Cun,河南省,Henan Sheng,濮阳市,Puyang Shi,濮阳县,Puyang Xian,没有相关数据 No Available Data,n/a,度分秒 DMS (degrees-minutes-seconds),35°34′12″N,115°18′30″E,没有相关数据 No Available Data,n/a
+0679,西王曲村志,410882202226,西王曲村,Xiwangqu Cun,河南省,Henan Sheng,焦作市,Jiaozuo Shi,沁阳市,Qinyang Shi,亩 mu,1048,没有相关数据 No Available Data,n/a,n/a,没有相关数据 No Available Data,n/a
+0680,城北村志,140581001002,城北村,Chengbei Cun,山西省,Shanxi Sheng,晋城市,Jincheng Shi,高平市,Gaoping Shi,平方千米 / 平方公里 square kilometers,2.1,度分秒 DMS (degrees-minutes-seconds),35°38′N,112°55′E,没有相关数据 No Available Data,n/a
+0681,白盆窑村志,110106202203,白盆窑村,Baipenyao Cun,北京市,Beijing Shi,北京市,Beijing Shi,丰台区,Fengtai Qu,平方千米 / 平方公里 square kilometers,3.5,没有相关数据 No Available Data,n/a,n/a,没有相关数据 No Available Data,n/a
+0682,白和村志,140429101203,白和村,Baihe Cun,山西省,Shanxi Sheng,长治市,Changzhi Shi,武乡县,Wuxiang Xian,平方千米 / 平方公里 square kilometers,3.4,十进制 DD (decimal degrees),36.35°N,113.14°E,公里/千米 kilometer,53
+0683,杜家堡村志,610112007001,杜家堡村,Dujiapu Cun,陕西省,Shanxi Sheng,西安市,Xi'an Shi,未央区,Weiyang Qu,平方千米 / 平方公里 square kilometers,1.12,度分秒范围 Range in DMS (degrees-minutes-seconds),34°21′46″N - 34°26′27″N,108°55′12″E - 109°01′E,没有相关数据 No Available Data,n/a
+0684,杜山村志,420704400205,杜山村,Dushan Cun,湖北省,Hubei Sheng,鄂州市,Ezhou Shi,鄂城区,Echeng Qu,没有相关数据 No Available Data,7.5,度分秒 DMS (degrees-minutes-seconds),30°19′N,114°49′E,公里/千米 kilometer,4
+0685,花胡庄村志,410105015201,花胡庄村,Huahuzhuang Cun,河南省,Henan Sheng,郑州市,Zhengzhou Shi,金水区,Jinshui Qu,平方千米 / 平方公里 square kilometers,3.6,没有相关数据 No Available Data,n/a,n/a,没有相关数据 No Available Data,n/a
+0686,小蒲水村志,n/a,小蒲水村,Xiaopushui Cun,河南省,Henan Sheng,新乡市,Xinxiang Shi,辉县市,Huixian Shi,万平方米 10K square meters,27.5,度分秒 DMS (degrees-minutes-seconds),35°25′45″N,113°50′44″E,公里/千米 kilometer,6
+0687,杜羊圈村志,610823109203,杜羊圈村,Duyangjuan cun,陕西省,Shanxi Sheng,榆林市,Yulin Shi,横山县,Hengshan Xian,平方千米 / 平方公里 square kilometers,30.75,度分秒范围 Range in DMS (degrees-minutes-seconds),37°22″N - 38°14″N,"108°56""E - 110°02""E",公里/千米 kilometer,20
+0688,孤山村志,320302151208,孤山村,Gushan Cun,江苏省,Jiangsu Sheng,徐州市,Xuzhou Shi,鼓楼区,Gulou Qu,平方千米 / 平方公里 square kilometers,8.6,没有相关数据 No Available Data,n/a,n/a,没有相关数据 No Available Data,n/a
+0689,北冯村志,130632106216,北冯村,Beifeng Cun,河北省,Hebei Sheng,保定市,Baoding Shi,安新县,Anxin Xian,没有相关数据 No Available Data,n/a,没有相关数据 No Available Data,n/a,n/a,没有相关数据 No Available Data,n/a
+0690,巴洲村志,140724100240,巴洲村,Bazhou Cun,山西省,Shanxi Sheng,晋中市,Jinzhong Shi,昔阳县,Xiyang Xian,平方千米 / 平方公里 square kilometers,5.334,度分秒范围 Range in DMS (degrees-minutes-seconds),37°34′39″N - 37°36′12″N,113°38′12″E - 113°40′29″E,公里/千米 kilometer,1.5
+0691,东马各庄村志,110113101215,东马各庄村,Dongmagezhuang Cun,北京市,Beijing Shi,北京市,Beijing Shi,顺义区,Shunyi Qu,亩 mu,4713.6,没有相关数据 No Available Data,n/a,n/a,没有相关数据 No Available Data,n/a
+0692,八间房村志,130826107205,八间房村,Bajianfang Cun,河北省,Hebei Sheng,承德市,Chengde Shi,丰宁满族自治县,Fengning Manzu Zizhixian,平方千米 / 平方公里 square kilometers,16.2,没有相关数据 No Available Data,n/a,n/a,没有相关数据 No Available Data,n/a
+0693,北万山村志,370304103213,北万山村,Beiwanshan Cun,山东省,Shandong Sheng,淄博市,Zibo Shi,博山区,Boshan Qu,平方千米 / 平方公里 square kilometers,7.5,没有相关数据 No Available Data,n/a,n/a,公里/千米 kilometer,7.5
+0694,东岭村志,610303100203,东岭村,Dongling Cun,陕西省,Shanxi Sheng,宝鸡市,Baoji Shi,金台区,Jintai Qu,没有相关数据 No Available Data,n/a,度分秒 DMS (degrees-minutes-seconds),34°21′35″N,107°11′55″E,没有相关数据 No Available Data,n/a
+0695,东石村志,110112114240,东石村,Dongshi Cun,北京市,Beijing Shi,北京市,Beijing Shi,通州区,Tongzhou Qu,没有相关数据 No Available Data,n/a,没有相关数据 No Available Data,n/a,n/a,公里/千米 kilometer,11.8
+0696,北堆村志,140525108212,北堆村,Beidui Cun,山西省,Shanxi Sheng,晋城市,Jincheng Shi,泽州县,Zezhou Xian,平方千米 / 平方公里 square kilometers,5.25,没有相关数据 No Available Data,n/a,n/a,没有相关数据 No Available Data,n/a
+0697,白庙村志,110114115209,白庙村,Baimiao Cun,北京市,Beijing Shi,北京市,Beijing Shi,昌平区,Changping Qu,平方千米 / 平方公里 square kilometers,3.9,没有相关数据 No Available Data,n/a,n/a,公里/千米 kilometer,18.68
+0698,涧东村志,411282100204,涧东村,Jiandong Cun,河南省,Henan Sheng,三门峡市,Sanmenxia Shi,灵宝市,Lingbao Shi,平方千米 / 平方公里 square kilometers,2.25,度分秒 DMS (degrees-minutes-seconds),34°30′40″N,110°50′1″E,公里/千米 kilometer,1.5
+0699,罗口村志,410181111204,罗口村,Luokou Cun,河南省,Henan Sheng,郑州市,Zhengzhou Shi,巩义市,Gongyi Shi,平方千米 / 平方公里 square kilometers,3.63,度分秒 DMS (degrees-minutes-seconds),34°38′N,112°7′E,公里/千米 kilometer,11
+0700,古城村志,330523100249,古城村,Gucheng Cun,浙江省,Zhejiang Sheng,湖州市,Huzhou Shi,安吉县,Anji Xian,平方千米 / 平方公里 square kilometers,17.5,没有相关数据 No Available Data,n/a,n/a,没有相关数据 No Available Data,n/a
+0701,汤泉村志,350425105213,汤泉村,Tangquan Cun,福建省,Fujian Sheng,三明市,Sanming Shi,大田县,Datian Xian,亩 mu,22596,没有相关数据 No Available Data,n/a,n/a,公里/千米 kilometer,40
+0702,半峪村志,140521105209,半峪村,Banyu Cun,山西省,Shanxi Sheng,晋城市,Jincheng Shi,沁水县,Qinshui Xian,平方千米 / 平方公里 square kilometers,7.99,度分秒范围 Range in DMS (degrees-minutes-seconds),35°33′46″N - 35°34′25″N,112°33′29″E - 112°34′42″E,公里/千米 kilometer,60
+0703,东庄村志,320412411204,东庄村,Dongzhuang Cun,江苏省,Jiangsu Sheng,常州市,Changzhou Shi,武进区,Wujin Qu,平方千米 / 平方公里 square kilometers,1.2,度分秒 DMS (degrees-minutes-seconds),31°41′N,119°56′E,没有相关数据 No Available Data,n/a
+0704,贾岗村志,n/a,贾岗村,Jiagang Cun,河南省,Henan Sheng,郑州市,Zhengzhou Shi,郑东新区,Zhengdong Xinqu,亩 mu,347.15,没有相关数据 No Available Data,n/a,n/a,没有相关数据 No Available Data,n/a
+0705,曹家馆村志,370112105205,曹家馆村,Caojiaguan Cun,山东省,Shandong Sheng,济南市,Jinan Shi,历城区,Licheng Qu,平方千米 / 平方公里 square kilometers,3.25,度分秒 DMS (degrees-minutes-seconds),36°43′N,117°15′E,没有相关数据 No Available Data,n/a
+0706,北龙口村志,370212002033,北龙口村,Beilongkou Cun,山东省,Shandong Sheng,青岛市,Qingdao Shi,崂山区,Laoshan Qu,平方千米 / 平方公里 square kilometers,2.79,度分秒范围 Range in DMS (degrees-minutes-seconds),36°8′21″N - 36°9′21″N,120°9′21″E - 120°31′21″,没有相关数据 No Available Data,n/a
+0707,古方村志,320412411206,古方村,Gufang Cun,江苏省,Jiangsu Sheng,常州市,Changzhou Shi,武进区,Wujin Qu,平方千米 / 平方公里 square kilometers,1.056,没有相关数据 No Available Data,30°41′N,119°56′E,没有相关数据 No Available Data,n/a
+0708,观山村志,320281105207,观山村,Guanshan Cun,江苏省,Jiangsu Sheng,无锡市,Wuxi Shi,江阴市,Jiangyin Shi,平方千米 / 平方公里 square kilometers,3.55,没有相关数据 No Available Data,n/a,n/a,没有相关数据 No Available Data,n/a
+0709,工农村志,330109112203,工农村,Gongnong Cun,浙江省,Zhejiang Sheng,杭州市,Hangzhou Shi,萧山区,Xiaoshan Qu,平方千米 / 平方公里 square kilometers,2.5,没有相关数据 No Available Data,n/a,n/a,没有相关数据 No Available Data,n/a
+0710,国庆村志,330781112200,国庆村,Guoqing Cun,浙江省,Zhejiang Sheng,金华市,Jinhua Shi,兰溪市,Lanxi Shi,平方千米 / 平方公里 square kilometers,12,度分秒 DMS (degrees-minutes-seconds),29°22′N,119°48′E,没有相关数据 No Available Data,n/a
+0711,北陈庄村志,130421202211,北陈庄村,Beichen Cun,河北省,Hebei Sheng,邯郸市,Handan Shi,邯郸县,Handan Xian,平方千米 / 平方公里 square kilometers,2.31,没有相关数据 No Available Data,n/a,n/a,公里/千米 kilometer,4.5
+0712,北庄村志,n/a,北庄村,Beizhuang Cun,山东省,Shandong Sheng,青岛市,Qingdao Shi,莱西市,Laixi Shi,万平方米 10K square meters,62.56,度分秒 DMS (degrees-minutes-seconds),36°52′N,120°35′E,没有相关数据 No Available Data,n/a
+0713,东二旗村志,110114115205,东二旗村,Dongerqi Cun,北京市,Beijing Shi,北京市,Beijing Shi,昌平区,Changping Qu,平方千米 / 平方公里 square kilometers,2,没有相关数据 No Available Data,n/a,n/a,没有相关数据 No Available Data,n/a
+0714,黄山村志,350104101218,黄山村,Huangshan Cun,福建省,Fujian Sheng,福州市,Fuzhou Shi,仓山区,Cangshan Qu,平方千米 / 平方公里 square kilometers,2.5,没有相关数据 No Available Data,n/a,n/a,没有相关数据 No Available Data,n/a
+0715,北甸东村志,110105037204,北甸东村,Beidiandong Cun,北京市,Beijing Shi,北京市,Beijing Shi,朝阳区,Chaoyang Qu,平方千米 / 平方公里 square kilometers,2.07,没有相关数据 No Available Data,n/a,n/a,没有相关数据 No Available Data,n/a
+0716,[Bing]洲村志,350212108001,(氵+ 丙)洲村,Bingzhou Cun,福建省,Fujian Sheng,泉州市,Quanzhou Shi,晋江市,Jinjiang Shi,平方千米 / 平方公里 square kilometers,4.5,度分秒 DMS (degrees-minutes-seconds),24°55′N,118°35′E,没有相关数据 No Available Data,n/a
+0718,塘溪村志,350525108204,塘溪村,Tangxi Cun,福建省,Fujian Sheng,泉州市,Quanzhou Shi,永春县,Yongchun Xian,平方千米 / 平方公里 square kilometers,2.01,没有相关数据 No Available Data,n/a,n/a,没有相关数据 No Available Data,n/a
+0719,蓝田村志,350902101209,蓝田村,Lantian Cun,福建省,Fujian Sheng,宁德市,Ningde Shi,蕉城区,Jiaocheng Qu,没有相关数据 No Available Data,n/a,度分秒 DMS (degrees-minutes-seconds),26°40′N,119°34′E,没有相关数据 No Available Data,n/a
+0720,段家寨村志,610822101218,段家寨村,Duanjiazhai Cun,陕西省,Shanxi Sheng,榆林市,Yulin Shi,府谷县,Fugu Xian,平方千米 / 平方公里 square kilometers,4,度分秒 DMS (degrees-minutes-seconds),39°17′52″N,111°13′3″E,没有相关数据 No Available Data,n/a
+0721,温家川村志,610821107202,温家川村,Wenjiachuan Cun,陕西省,Shanxi Sheng,榆林市,Yulin Shi,神木县,Shenmu Xian,平方千米 / 平方公里 square kilometers,5,没有相关数据 No Available Data,n/a,n/a,公里/千米 kilometer,60
+0722,安仁村志,330182102285,安仁村,Anren Cun,浙江省,Zhejiang Sheng,杭州市,Hangzhou Shi,建德市,Jiande Shi,平方千米 / 平方公里 square kilometers,7.22,度分秒 DMS (degrees-minutes-seconds),29°41′07.0″N,119°36′05.0″E,没有相关数据 No Available Data,n/a
+0723,查王村志,370302101212,查王村,Chawang Cun,山东省,Shandong Sheng,淄博市,Zibo Shi,淄川区,Zichuan Qu,平方千米 / 平方公里 square kilometers,4,度分秒范围 Range in DMS (degrees-minutes-seconds),36°22'N - 36°45'N,117°41'E - 180°14'E,公里/千米 kilometer,2
+0724,燃灯寺村志,610302100209,燃灯寺村,Randengsi Cun,陕西省,Shanxi Sheng,宝鸡市,Baoji Shi,渭滨区,Weibin Qu,平方千米 / 平方公里 square kilometers,11.931,度分秒 DMS (degrees-minutes-seconds),34°18′N,107°13′E,公里/千米 kilometer,16
+0725,长岭村志,370212003031,长岭村,Changling Cun,山东省,Shandong Sheng,青岛市,Qingdao Shi,崂山区,Laoshan Qu,平方千米 / 平方公里 square kilometers,5.2,度分秒 DMS (degrees-minutes-seconds),36°10′57″N,120°40′59″E,没有相关数据 No Available Data,n/a
+0726,草山岭村志,370102013212,草山岭村,Caoshanling Cun,山东省,Shandong Sheng,济南市,Jinan Shi,历下区,Lixia Qu,平方千米 / 平方公里 square kilometers,6,度分秒范围 Range in DMS (degrees-minutes-seconds),"36°40'01""N - 36°39'14""N","117°07'52""E - 117°06'50""E",没有相关数据 No Available Data,n/a
+0727,大王岭村志,n/a,大王岭村,Dawangling Cun,广东省,Guangdong Sheng,茂名市,Maoming Shi,高州市,Gaozhou Shi,没有相关数据 No Available Data,n/a,没有相关数据 No Available Data,n/a,n/a,没有相关数据 No Available Data,n/a
+0728,安家庄村志,370112102239,安家庄村,Anjiazhuang Cun,山东省,Shandong Sheng,济南市,Jinan Shi,历城区,Licheng Qu,平方千米 / 平方公里 square kilometers,7.2,没有相关数据 No Available Data,n/a,n/a,没有相关数据 No Available Data,n/a
+0729,人民村志,310115140201,人民村,Renmin Cun,上海市,Shanghai Shi,上海市,Shanghai Shi,浦东新区,Pudong Xinqu,平方千米 / 平方公里 square kilometers,4.81,度分秒 DMS (degrees-minutes-seconds),30°52'N,121°49'E,没有相关数据 No Available Data,n/a
+0730,五龙村志,310116101218,五龙村,Wulong Cun,上海市,Shanghai Shi,上海市,Shanghai Shi,金山区,Jinshan Qu,平方千米 / 平方公里 square kilometers,4.61,没有相关数据 No Available Data,n/a,n/a,没有相关数据 No Available Data,n/a
+0731,中角村志,610826203230,中角村,Zhongjiao Cun,陕西省,Shanxi Sheng,榆林市,Yulin Shi,绥德县,Suide Xian,亩 mu,7950,度分秒 DMS (degrees-minutes-seconds),37°36′N,110°31′E,公里/千米 kilometer,40
+0732,九保村志,533122204201,九保村,Jiubao Cun,云南省,Yunnan Sheng,德宏傣族景颇族自治州,Dehong Daizu Jingpozu Zizhizhou,梁河县,Lianghe Xian,平方千米 / 平方公里 square kilometers,6,度分秒范围 Range in DMS (degrees-minutes-seconds),24°49′30″N - 24°51′50″N,98°17′40″E - 98°20′24″E,公里/千米 kilometer,2.5
+0733,森林村志,310115103237,森林村,Senlin Cun,上海市,Shanghai Shi,上海市,Shanghai Shi,浦东新区,Pudong Xinqu,平方千米 / 平方公里 square kilometers,1.19,度分秒范围 Range in DMS (degrees-minutes-seconds),31°08′N - 31°12′N,121°45′E - 121°48′E,没有相关数据 No Available Data,n/a
+0734,白河村志,n/a,白河村,Baihe Cun,贵州省,Guizhou Sheng,黔西南布依族苗族自治州,Qianxi'nan Buyizu Miaozu Zizhizhou,兴义市,Xingyi Shi,平方千米 / 平方公里 square kilometers,10.69,没有相关数据 No Available Data,n/a,n/a,公里/千米 kilometer,15
+0735,凤凰村志,320582105200,凤凰村,Fenghuang Cun,江苏省,Jiangsu Sheng,苏州市,Suzhou Shi,张家港市,Zhangjiagang Shi,平方千米 / 平方公里 square kilometers,5.42,度分秒 DMS (degrees-minutes-seconds),31°35′N,120°30′E,公里/千米 kilometer,18
+0736,北邵洼村志,320582105200,北邵洼村,Beishaowa Cun,北京市,Beijing Shi,北京市,Beijing Shi,昌平区,Changping Qu,平方千米 / 平方公里 square kilometers,1,没有相关数据 No Available Data,n/a,n/a,公里/千米 kilometer,3
+0737,城一村志,370302001002,城一村,Chengyi Cun,山东省,Shandong Sheng,淄博市,Zibo Shi,淄川区,Zichuan Qu,平方千米 / 平方公里 square kilometers,1.1,没有相关数据 No Available Data,n/a,n/a,没有相关数据 No Available Data,n/a
+0738,北关村志,141181002201,北关村,Beiguan Cun,山西省,Shanxi Sheng,吕梁市,Lüliang Shi,孝义市,Xiaoyi Shi,平方千米 / 平方公里 square kilometers,0.9,度分秒 DMS (degrees-minutes-seconds),37°08′N,111°47′E,没有相关数据 No Available Data,n/a
+0739,红星村志,320583105205,红星村,Hongxing Cun,江苏省,Jiangsu Sheng,苏州市,Suzhou Shi,昆山市,Kunshan Shi,平方千米 / 平方公里 square kilometers,5.6061,度分秒 DMS (degrees-minutes-seconds),"31°10'10""N",121°02′05″E,公里/千米 kilometer,30
+0740,民和村志,320583105209,民和村,Minhe Cun,江苏省,Jiangsu Sheng,苏州市,Suzhou Shi,昆山市,Kunshan Shi,平方千米 / 平方公里 square kilometers,6.3,没有相关数据 No Available Data,n/a,n/a,没有相关数据 No Available Data,n/a
+0741,北方平村志,140882101209,北方平村,Beifangping Cun,山西省,Shanxi Sheng,运城市,Yuncheng Shi,河津市,Hejin Shi,没有相关数据 No Available Data,n/a,没有相关数据 No Available Data,n/a,n/a,公里/千米 kilometer,12.5
+0742,文义村志,610125204207,文义村,Wenyi Cun,陕西省,Shanxi Sheng,西安市,Xi'an Shi,户县,Hu Xian,平方千米 / 平方公里 square kilometers,4,没有相关数据 No Available Data,n/a,n/a,公里/千米 kilometer,12.5
+0743,北齐村志,141121105214,北齐村,Beiqi Cun,山西省,Shanxi Sheng,吕梁市,Lüliang Shi,文水县,Wenshui Xian,亩 mu,7675,十进制 DD (decimal degrees),37.28°N,112.071°E,公里/千米 kilometer,23
+0744,金星村志,532901101205,金星村,Jinxing Cun,云南省,Yunnan Sheng,大理白族自治州,Dali Baizu Zizhizhou,大理市,Dali Shi,平方千米 / 平方公里 square kilometers,3,没有相关数据 No Available Data,n/a,n/a,没有相关数据 No Available Data,n/a
+0745,韩圩村志,320723207203,韩圩村,Hanwei Cun,江苏省,Jiangsu Sheng,连云港市,Lianyungang Shi,灌云县,Guanyun Xian,平方千米 / 平方公里 square kilometers,2.43,没有相关数据 No Available Data,n/a,n/a,公里/千米 kilometer,8
+0746,大陵村志,440114001202,大陵村,Daling Cun,广东省,Guangdong Sheng,广州市,Guangzhou Shi,花都区,Huadu Qu,平方千米 / 平方公里 square kilometers,3.403,度分秒 DMS (degrees-minutes-seconds),23°22′N,113°10′E,公里/千米 kilometer,3
+0747,北桑鲁村志,140426103216,北桑鲁村,Beisanglu Cun,山西省,Shanxi Sheng,长治市,Changzhi Shi,黎城县,Licheng Xian,平方千米 / 平方公里 square kilometers,8.5,没有相关数据 No Available Data,n/a,n/a,公里/千米 kilometer,30
+0748,三八村志,310115139203,三八村,Sanba Cun,上海市,Shanghai Shi,上海市,Shanghai Shi,浦东新区,Pudong Xinqu,平方千米 / 平方公里 square kilometers,2.4,没有相关数据 No Available Data,n/a,n/a,没有相关数据 No Available Data,n/a
+0749,梨花村志,530125104215,梨花村,Lihua Cun,云南省,Yunnan Sheng,昆明市,Kunming Shi,宜良县,Yiliang Xian,平方千米 / 平方公里 square kilometers,2.5,度分秒 DMS (degrees-minutes-seconds),24°55′23″N,103°8′24″E,公里/千米 kilometer,18
+0750,金鸭村志,n/a,金鸭村,Jinya Cun,四川省,Sichuan Sheng,巴中市,Bazhong Shi,恩阳区,Enyang Qu,平方千米 / 平方公里 square kilometers,3.6,度分秒 DMS (degrees-minutes-seconds),n/a,n/a,没有相关数据 No Available Data,n/a
+0751,江东村志,530522102203,江东村,Jiangdong Cun,云南省,Yunnan Sheng,保山市,Baoshan Shi,腾冲市,Tengchong Shi,平方千米 / 平方公里 square kilometers,35.42,没有相关数据 No Available Data,n/a,n/a,没有相关数据 No Available Data,n/a
+0752,铁门村志,512021217209,铁门村,Tiemen Cun,四川省,Sichuan Sheng,资阳市,Ziyang Shi,安岳县,Anyue Xian,平方千米 / 平方公里 square kilometers,5,没有相关数据 No Available Data,n/a,n/a,公里/千米 kilometer,30
+0753,黄柳村志,511923102205,黄柳村,Huangliu Cun,四川省,Sichuan Sheng,巴中市,Bazhong Shi,平昌县,Pingchang Xian,平方千米 / 平方公里 square kilometers,8.2,没有相关数据 No Available Data,n/a,n/a,公里/千米 kilometer,34
+0754,乐乌村志,530128213207,乐乌村,Lewu Cun,云南省,Yunnan Sheng,曲靖市,Qujing Shi,富源县,Fuyuan Xian,平方千米 / 平方公里 square kilometers,11.81,没有相关数据 No Available Data,n/a,n/a,没有相关数据 No Available Data,n/a
+0755,六甲村志,530111008201,六甲村,Liujia Cun,云南省,Yunnan Sheng,昆明市,Kunming Shi,官渡区,Guandu Qu,平方千米 / 平方公里 square kilometers,1.37,度分秒范围 Range in DMS (degrees-minutes-seconds),24°54′N - 25°17′10″N,102°38′50″E - 103°03′10″E,公里/千米 kilometer,4
+0756,姜城村志,610302102214,姜城村,Jiangcheng Cun,陕西省,Shanxi Sheng,宝鸡市,Baoji Shi,渭滨区,Weibin Qu,没有相关数据 No Available Data,n/a,没有相关数据 No Available Data,n/a,n/a,没有相关数据 No Available Data,n/a
+0757,井溢村志,610524108215,井溢村,Jingyi Cun,陕西省,Shanxi Sheng,渭南市,Weinan Shi,合阳县,Heyang Xian,平方千米 / 平方公里 square kilometers,2.4,度分秒 DMS (degrees-minutes-seconds),35°10′N,110°13′E,公里/千米 kilometer,5
+0758,王梁村志,610823201203,王梁村,Wangliang Cun,陕西省,Shanxi Sheng,榆林市,Yulin Shi,横山县,Hengshan Xian,平方千米 / 平方公里 square kilometers,14.8221,没有相关数据 No Available Data,n/a,n/a,没有相关数据 No Available Data,n/a
+0759,王家村志,610113002204,王家村,Wangjia Cun,陕西省,Shanxi Sheng,西安市,Xi'an Shi,雁塔区,Yanta Qu,没有相关数据 No Available Data,n/a,没有相关数据 No Available Data,n/a,n/a,没有相关数据 No Available Data,n/a
+0760,梁家河村志,530102401402,梁家河村,Liangjiahe Cun,云南省,Yunnan Sheng,昆明市,Kunming Shi,五华区,Wuhua Qu,平方千米 / 平方公里 square kilometers,2.3,没有相关数据 No Available Data,n/a,n/a,公里/千米 kilometer,1
+0761,姚家弄村志,321181109201,姚家弄村,Yaojialong Cun,江苏省,Jiangsu Sheng,镇江市,Zhenjiang Shi,丹阳市,Danyang Shi,平方千米 / 平方公里 square kilometers,2.03,没有相关数据 No Available Data,n/a,n/a,没有相关数据 No Available Data,n/a
+0762,新巷村志,n/a,新巷村,Xinxiang Cun,江苏省,Jiangsu Sheng,镇江市,Zhenjiang Shi,丹阳市,Danyang Shi,平方千米 / 平方公里 square kilometers,4,没有相关数据 No Available Data,n/a,n/a,没有相关数据 No Available Data,n/a
+0763,新卫村志,310115133203,新卫村,Xinwei Cun,上海市,Shanghai Shi,上海市,Shanghai Shi,浦东新区,Pudong Xinqu,平方千米 / 平方公里 square kilometers,3.21,度分秒 DMS (degrees-minutes-seconds),31°03′N,121°39′E,没有相关数据 No Available Data,n/a
+0764,小圩村志,310115103239,小圩村,Xiaowei Cun,上海市,Shanghai Shi,上海市,Shanghai Shi,浦东新区,Pudong Xinqu,平方千米 / 平方公里 square kilometers,0.96,度分秒范围 Range in DMS (degrees-minutes-seconds),31°08′N - 31°12′N,121°45′E - 121°48′E,没有相关数据 No Available Data,n/a
+0765,贺北村志,320412411200,贺北村,Hebei Cun,江苏省,Jiangsu Sheng,常州市,Changzhou Shi,武进区,Wujin Qu,平方千米 / 平方公里 square kilometers,1.87,度分秒范围 Range in DMS (degrees-minutes-seconds),31°40′N - 31°45′N,119°54′E - 120°01′E,公里/千米 kilometer,4
+0766,横沟村志,320412109221,横沟村,Henggou Cun,江苏省,Jiangsu Sheng,常州市,Changzhou Shi,武进区,Wujin Qu,平方千米 / 平方公里 square kilometers,2.59,度分秒 DMS (degrees-minutes-seconds),31°N,120°E,没有相关数据 No Available Data,n/a
+0767,群楼村志,321181109205,群楼村,Qunlou Cun,江苏省,Jiangsu Sheng,镇江市,Zhenjiang Shi,丹阳市,Danyang Shi,平方千米 / 平方公里 square kilometers,2.82,没有相关数据 No Available Data,n/a,n/a,没有相关数据 No Available Data,n/a
+0768,温河村志,310116101224,温和村,Wenhe Cun,上海市,Shanghai Shi,上海市,Shanghai Shi,金山区,Jinshan Qu,平方千米 / 平方公里 square kilometers,8.82,没有相关数据 No Available Data,n/a,n/a,没有相关数据 No Available Data,n/a
+0769,桑园村志,310116103202,桑园村,Sangyuan Cun,上海市,Shanghai Shi,上海市,Shanghai Shi,金山区,Jinshan Qu,平方千米 / 平方公里 square kilometers,3.11,度分秒 DMS (degrees-minutes-seconds),30°48′N,121°19′E,没有相关数据 No Available Data,n/a
+0770,长命水村志,442000006202,长命水村,Changmingshui Cun,广东省,Guangdong Sheng,中山市,Zhongshan Shi,中山市,Zhongshan Shi,平方千米 / 平方公里 square kilometers,8.36,没有相关数据 No Available Data,n/a,n/a,公里/千米 kilometer,5.5
+0771,长湴村志,440106017001,长湴村,Changban Cun,广东省,Guangdong Sheng,广州市,Guangzhou Shi,天河区,Tianhe Qu,平方千米 / 平方公里 square kilometers,9,度分秒 DMS (degrees-minutes-seconds),23°10′N,113°20′E,没有相关数据 No Available Data,n/a
+0772,新塘村志,310120118210,新塘村,Xintang Cun,上海市,Shanghai Shi,上海市,Shanghai Shi,奉贤区,Fengxian Qu,平方千米 / 平方公里 square kilometers,5.35,度分秒 DMS (degrees-minutes-seconds),30°51′N,120°27′E,没有相关数据 No Available Data,n/a
+0773,富达畲村志,350922101225,富达村,Fuda Cun,福建省,Fujian Sheng,宁德市,Ningde Shi,古田县,Gutian Xian,平方千米 / 平方公里 square kilometers,11.245,度分秒 DMS (degrees-minutes-seconds),27°40′N,119°30′E,公里/千米 kilometer,37
+0774,北年丰村志,110116103204,北年丰村,Beinianfeng Cun,北京市,Beijing Shi,北京市,Beijing Shi,怀柔区,Huairou Qu,平方千米 / 平方公里 square kilometers,1.9,没有相关数据 No Available Data,n/a,n/a,公里/千米 kilometer,7.2
+0775,崔各庄村志,110105038200,崔各庄村,Cuigezhuang Cun,北京市,Beijing Shi,北京市,Beijing Shi,朝阳区,Chaoyang Qu,平方千米 / 平方公里 square kilometers,1.74,没有相关数据 No Available Data,n/a,n/a,没有相关数据 No Available Data,n/a
+0776,城西吕家村志,370685001011,城西吕家村,Chengxilüjia Cun,山东省,Shandong Sheng,烟台市,Yantai Shi,招远市,Zhaoyuan Shi,平方千米 / 平方公里 square kilometers,0.7,度分秒范围 Range in DMS (degrees-minutes-seconds),37°05′N - 37°33′N,120°08′E - 120°38′E,没有相关数据 No Available Data,n/a
+0777,城里村志,370611001008,城里村,Chengli Cun,山东省,Shandong Sheng,烟台市,Yantai Shi,福山区,Fushan Qu,没有相关数据 No Available Data,n/a,没有相关数据 No Available Data,n/a,n/a,没有相关数据 No Available Data,n/a
+0778,马镇村志,610821111200,马镇村,Mazhen Cun,陕西省,Shanxi Sheng,榆林市,Yulin Shi,神木县,Shenmu Xian,平方千米 / 平方公里 square kilometers,15,度分秒 DMS (degrees-minutes-seconds),38°39′14.28″N,110°53′15.35″E,公里/千米 kilometer,52
+0779,岑村村志,440106017004,岑村,Cen Cun,广东省,Guangdong Sheng,广州市,Guangzhou Shi,天河区,Tianhe Qu,平方千米 / 平方公里 square kilometers,15,度分秒 DMS (degrees-minutes-seconds),23°10′N,113°22′E,没有相关数据 No Available Data,n/a
+0780,北谷丰村志,140727100207,北谷丰村,Beigufeng Cun,山西省,Shanxi Sheng,晋中市,Jinzhong Shi,祁县,Qi Xian,平方千米 / 平方公里 square kilometers,4.49,度分秒范围 Range in DMS (degrees-minutes-seconds),37°21′39″N - 37°24′1″N,112°16′20″E - 112°17′22″E,没有相关数据 No Available Data,n/a
+0781,曹口村志,n/a,曹口村,Caokou Cun,山东省,Shandong Sheng,菏泽市,Heze Shi,成武县,Chengwu Xian,没有相关数据 No Available Data,n/a,度分秒 DMS (degrees-minutes-seconds),34°48′N,115°44′E,公里/千米 kilometer,12.5
+0782,车家下庄村志,370212001029,车家下庄村,Chejiaxiazhuang Cun,山东省,Shandong Sheng,青岛市,Qingdao Shi,崂山区,Laoshan Qu,没有相关数据 No Available Data,n/a,度分秒范围 Range in DMS (degrees-minutes-seconds),36°07′01″N - 36°07′25″N,120°26′01″E - 120°26′49″E,公里/千米 kilometer,3
+0783,城北村志,370687002219,城北村,Chengbei Cun,山东省,Shandong Sheng,烟台市,Yantai Shi,海阳市,Haiyang Shi,没有相关数据 No Available Data,n/a,度分秒 DMS (degrees-minutes-seconds),36°47′N,121°9′E,没有相关数据 No Available Data,n/a
+0784,车陂村志,440106003023,车陂村,Chebei Cun,广东省,Guangdong Sheng,广州市,Guangzhou Shi,天河区,Tianhe Qu,没有相关数据 No Available Data,n/a,没有相关数据 No Available Data,n/a,n/a,没有相关数据 No Available Data,n/a
+0785,北坡村志,140525112211,北坡村,Beipo Cun,山西省,Shanxi Sheng,晋城市,Jincheng Shi,泽州县,Zezhou Xian,平方千米 / 平方公里 square kilometers,2.52,度分秒 DMS (degrees-minutes-seconds),35°22′N,113°05′E,没有相关数据 No Available Data,n/a
+0786,双生村志,522301004203,双生村,Shuangsheng Cun,贵州省,Guizhou Sheng,黔西南布依族苗族自治州,Qianxi'nan Buyizu Miaozu Zizhizhou,兴义市,Xingyi Shi,平方千米 / 平方公里 square kilometers,9.86,没有相关数据 No Available Data,n/a,n/a,没有相关数据 No Available Data,n/a
+0787,路口村志,350505106213,路口村,Lukou Cun,福建省,Fujian Sheng,泉州市,Quanzhou Shi,泉港区,Quangang Qu,平方千米 / 平方公里 square kilometers,9.08,没有相关数据 No Available Data,n/a,n/a,没有相关数据 No Available Data,n/a
+0788,茶塘村志,440114107217,茶塘村,Chatang Cun,广东省,Guangdong Sheng,广州市,Guangzhou Shi,花都区,Huadu Qu,平方千米 / 平方公里 square kilometers,3.13,没有相关数据 No Available Data,n/a,n/a,没有相关数据 No Available Data,n/a
+0789,东埔村志,350802100206,东埔村,Dongbu Cun,福建省,Fujian Sheng,龙岩市,Longyan Shi,新罗区,Xinluo Shi,平方千米 / 平方公里 square kilometers,3.53,没有相关数据 No Available Data,n/a,n/a,没有相关数据 No Available Data,n/a
+0790,新盛村志,n/a,新盛村,Xinsheng Cun,上海市,Shanghai Shi,上海市,Shanghai Shi,浦东新区,Pudong Xinqu,平方千米 / 平方公里 square kilometers,2.43,度分秒 DMS (degrees-minutes-seconds),31°11′N,121°40′E,没有相关数据 No Available Data,n/a
+0791,鞍山村志,n/a,鞍山村,Anshan Cun,浙江省,Zhejiang Sheng,宁波市,Ningbo Shi,江北区,Jiangbei Qu,平方千米 / 平方公里 square kilometers,3.66,度分秒 DMS (degrees-minutes-seconds),30°11′N,119°49′E,没有相关数据 No Available Data,n/a
+0792,北固碾村志,140108005200,北固碾村,Beigunian Cun,山西省,Shanxi Sheng,太原市,Taiyuan Shi,尖草坪区,Jiancaoping Qu,平方千米 / 平方公里 square kilometers,4.3,度分秒 DMS (degrees-minutes-seconds),37°58′15″N,112°31′36″E,没有相关数据 No Available Data,n/a
+0793,曹各庄村志,110105036212,曹各庄村,Caogezhuang Cun,北京市,Beijing Shi,北京市,Beijing Shi,朝阳区,Chaoyang Qu,亩 mu,5000,度分秒 DMS (degrees-minutes-seconds),39°58′52.28″N,116°36′27.13″E,公里/千米 kilometer,20
+0794,北马房村志,110105036205,北马房村,Beimafang Cun,北京市,Beijing Shi,北京市,Beijing Shi,朝阳区,Chaoyang Qu,平方千米 / 平方公里 square kilometers,3.741,没有相关数据 No Available Data,n/a,n/a,没有相关数据 No Available Data,n/a
+0795,西小营村志,110108104204,西小营村,Xixiaoying Cun,北京市,Beijing Shi,北京市,Beijing Shi,海淀区,Haidian Qu,平方千米 / 平方公里 square kilometers,4.2,度分秒 DMS (degrees-minutes-seconds),37°N,109°E,没有相关数据 No Available Data,n/a
+0796,西贺家石村志,610826201203,西贺家石村,Xihejiashi Cun,陕西省,Shanxi Sheng,榆林市,Yulin Shi,绥德县,Suide Xian,没有相关数据 No Available Data,n/a,度分秒范围 Range in DMS (degrees-minutes-seconds),37°26′N - 37°27′N,110°16′E - 110°18′E,公里/千米 kilometer,10
+0797,东小景村志,141181204200,东小景村,Dongxiaojing Cun,山西省,Shanxi Sheng,吕梁市,Lüliang Shi,孝义市,Xiaoyi Shi,亩 mu,3000,度分秒 DMS (degrees-minutes-seconds),36°N,111°E,没有相关数据 No Available Data,n/a
+0798,旧飞鹅村村志,441900118207,旧飞鹅村,Jiufeie Cun,广东省,Guangdong Sheng,东莞市,Dongguan Shi,东莞市,Dongguan Shi,平方千米 / 平方公里 square kilometers,4,度分秒 DMS (degrees-minutes-seconds),22°51′N,113°48′E,没有相关数据 No Available Data,n/a
+0799,门头村志,110108102212,门头村,Mentou Cun,北京市,Beijing Shi,北京市,Beijing Shi,海淀区,Haidian Qu,平方千米 / 平方公里 square kilometers,10,没有相关数据 No Available Data,n/a,n/a,没有相关数据 No Available Data,n/a
+0800,水朗村志,441900118218,水朗村,Shuilang Cun,广东省,Guangdong Sheng,东莞市,Dongguan Shi,东莞市,Dongguan Shi,平方千米 / 平方公里 square kilometers,4.5,度分秒 DMS (degrees-minutes-seconds),22°52′N,113°48′E,没有相关数据 No Available Data,n/a
+0801,星光村志,310115139207,星光村,Xingguang Cun,上海市,Shanghai Shi,上海市,Shanghai Shi,浦东新区,Pudong Xinqu,平方千米 / 平方公里 square kilometers,2.7,度分秒 DMS (degrees-minutes-seconds),30°02′N,121°12′E,没有相关数据 No Available Data,n/a
+0802,北平村志,141025101200,北平村,Beiping Cun,山西省,Shanxi Sheng,临汾市,Linfen Shi,古县,Gu Xian,平方千米 / 平方公里 square kilometers,4.2,度分秒范围 Range in DMS (degrees-minutes-seconds),36°31′52.3″N - 36°33′49.8″N,112°03′16.1″E - 112°04′56.5″E,公里/千米 kilometer,45
+0803,北七家庄村志,110114115202,北七家庄村,Beiqijiazhuang Cun,北京市,Beijing Shi,北京市,Beijing Shi,昌平区,Changping Qu,亩 mu,3200,没有相关数据 No Available Data,n/a,n/a,公里/千米 kilometer,22.2
+0804,北岭头村志,140421202212,北岭头村,Beilingtou Cun,山西省,Shanxi Sheng,长治市,Changzhi Shi,长治县,Changzhi Xian,公顷 hectares,125.22,没有相关数据 No Available Data,n/a,n/a,没有相关数据 No Available Data,n/a
+0805,北台上村志,110116004207,北台上村,Beitaishang Cun,北京市,Beijing Shi,北京市,Beijing Shi,怀柔区,Huairou Qu,没有相关数据 No Available Data,n/a,没有相关数据 No Available Data,n/a,n/a,没有相关数据 No Available Data,n/a
+0806,一都村志,330185201227,一都村,Yidu Cun,浙江省,Zhejiang Sheng,杭州市,Hangzhou Shi,临安市,Lin'an Shi,没有相关数据 No Available Data,n/a,没有相关数据 No Available Data,n/a,n/a,没有相关数据 No Available Data,n/a
+0807,水库村志,310116112216,水库村,Shuiku Cun,上海市,Shanghai Shi,上海市,Shanghai Shi,金山区,Jinshan Qu,平方千米 / 平方公里 square kilometers,4.16,没有相关数据 No Available Data,n/a,n/a,没有相关数据 No Available Data,n/a
+0808,阮巷村志,310116112209,阮巷村,Ruanxiang Cun,上海市,Shanghai Shi,上海市,Shanghai Shi,金山区,Jinshan Qu,公顷 hectares,500.23,没有相关数据 No Available Data,n/a,n/a,没有相关数据 No Available Data,n/a
+0809,沙坪寺村志,610821109219,沙坪寺村,Shapingsi Cun,陕西省,Shanxi Sheng,榆林市,Yulin Shi,神木县,Shenmu Xian,没有相关数据 No Available Data,n/a,没有相关数据 No Available Data,n/a,n/a,公里/千米 kilometer,130
+0810,讲武殿村志,610112009211,讲武殿村,Jiangwudian Cun,陕西省,Shanxi Sheng,西安市,Xi'an Shi,未央区,Weiyang Qu,没有相关数据 No Available Data,n/a,没有相关数据 No Available Data,n/a,n/a,没有相关数据 No Available Data,n/a
+0811,党家庄村志,130105101206,党家庄村,Dangjiazhuang Cun,河北省,Hebei Sheng,石家庄市,Shijiazhuang Shi,新华区,Xinhua Qu,没有相关数据 No Available Data,n/a,没有相关数据 No Available Data,n/a,n/a,没有相关数据 No Available Data,n/a
+0812,沙坝村志,530502101202,沙坝村,Shaba Cun,云南省,Yunnan Sheng,保山市,Baoshan Shi,隆阳区,Longyang Qu,平方千米 / 平方公里 square kilometers,12.6,度分秒 DMS (degrees-minutes-seconds),25°13′37″N,99°13′20″E,没有相关数据 No Available Data,n/a
+0813,八方村志,410185103209,八方村,Bafang Cun,河南省,Henan Sheng,郑州市,Zhengzhou Shi,登封市,Dengfeng Shi,亩 mu,3823.58,度分秒 DMS (degrees-minutes-seconds),34°24′N,113°71′E,公里/千米 kilometer,12
+0814,鳌头村志,410482103215,关庙村,Guanmiao Cun,河南省,Henan Sheng,平顶山市,Pingdingshan Shi,汝州市,Ruzhou Shi,平方千米 / 平方公里 square kilometers,10.2,度分秒范围 Range in DMS (degrees-minutes-seconds),33°56′N - 34°20′N,112°31′E - 113°07′E,公里/千米 kilometer,35
+0815,龙泉村志,530524101207,龙泉村,Longquan Cun,云南省,Yunnan Sheng,保山市,Baoshan Shi,昌宁县,Changning Xian,平方千米 / 平方公里 square kilometers,16.25,度分秒 DMS (degrees-minutes-seconds),24°49′N,99°38′E,公里/千米 kilometer,2.5
+0816,土堆村志,530112007007,土堆村,Tudui Cun,云南省,Yunnan Sheng,昆明市,Kunming Shi,西山区,Xishan Qu,亩 mu,1900,没有相关数据 No Available Data,n/a,n/a,没有相关数据 No Available Data,n/a
+0818,东营村志,410482103223,东营村,Dongying Cun,河南省,Henan Sheng,平顶山市,Pingdingshan Shi,汝州市,Ruzhou Shi,亩 mu,8496,度分秒 DMS (degrees-minutes-seconds),34°15′30″N,112°37′15″E,公里/千米 kilometer,22
+0819,北胡庄村志,130185104211,北胡庄村,Beihuzhuang Cun,河北省,Hebei Sheng,石家庄市,Shijiazhuang Shi,鹿泉市,Luquan Shi,没有相关数据 No Available Data,n/a,没有相关数据 No Available Data,n/a,n/a,公里/千米 kilometer,12
+0820,白洋村志,330621106218,白洋村,Baiyang Cun,浙江省,Zhejiang Sheng,绍兴市,Shaoxing Shi,绍兴县,Shaoxing Xian,平方千米 / 平方公里 square kilometers,2.1,度分秒范围 Range in DMS (degrees-minutes-seconds),30°9′30″N - 30°9′53″N,120°29′E - 120°30′90″E,没有相关数据 No Available Data,5
+0821,慈峪村志,130126104201,慈峪村,Ciyu Cun,河北省,Hebei Sheng,石家庄市,Shijiazhuang Shi,灵寿县,Lingshou Xian,平方千米 / 平方公里 square kilometers,9,没有相关数据 No Available Data,n/a,n/a,公里/千米 kilometer,17.5
+0822,东白仓村志,410902001008,东白仓村,Dongbaicang Cun,河南省,Henan Sheng,濮阳市,Puyang Shi,华龙区,Hualong Qu,平方华里 square huali,8,度分秒 DMS (degrees-minutes-seconds),35°41′N,114°53′E,没有相关数据 No Available Data,n/a
+0823,福永村志,440306004012,福永村,Fuyong Cun,广东省,Guangdong Sheng,深圳市,Shenzhen Shi,宝安区,Baoan Qu,平方千米 / 平方公里 square kilometers,1.2,度分秒 DMS (degrees-minutes-seconds),22°36′N,113°49′E,公里/千米 kilometer,13
+0824,东八村村志,130982500203,东八村,Dongba Cun,河北省,Hebei Sheng,沧州市,Cangzhou Shi,任丘市,Renqiu Shi,没有相关数据 No Available Data,n/a,没有相关数据 No Available Data,n/a,n/a,没有相关数据 No Available Data,n/a
+0825,东升村志,441481129213,东升村,Dongsheng Cun,广东省,Guangdong Sheng,梅州市,Meizhou Shi,兴宁市,Xingning Shi,平方千米 / 平方公里 square kilometers,5.35,度分秒范围 Range in DMS (degrees-minutes-seconds),24°10′N,115°55′E - 115°56′E,没有相关数据 No Available Data,n/a
+0826,东皇墓村志,410581105237,东皇墓村,Donghuangmu Cun,河南省,Henan Sheng,安阳市,Anyang Shi,林州市,Linzhou Shi,平方千米 / 平方公里 square kilometers,36,没有相关数据 No Available Data,n/a,n/a,公里/千米 kilometer,15
+0827,营前村志,310115103235,营前村,Yingqian Cun,上海市,Shanghai Shi,上海市,Shanghai Shi,浦东新区,Pudong Xinqu,平方千米 / 平方公里 square kilometers,1.5,度分秒范围 Range in DMS (degrees-minutes-seconds),31°08′N - 31°12′N,121°45′E - 121°48′E,没有相关数据 No Available Data,n/a
+0828,大谈村志,130104010201,大谈村,Datan Cun,河北省,Hebei Sheng,石家庄市,Shijiazhuang Shi,桥西区,Qiaoxi Qu,平方千米 / 平方公里 square kilometers,3,度分秒 DMS (degrees-minutes-seconds),38°71′N,114°27′E,没有相关数据 No Available Data,n/a
+0829,鸡翅岭村志,441900118205,鸡翅岭村,Jichiling Cun,广东省,Guangdong Sheng,东莞市,Dongguan Shi,东莞市,Dongguan Shi,平方千米 / 平方公里 square kilometers,4.5,度分秒范围 Range in DMS (degrees-minutes-seconds),22°55′N - 22°51′N,113°49′E - 113°50′E,没有相关数据 No Available Data,n/a
+0830,袁山贝村志,441900110205,袁山贝村,Yuanshanbei Cun,广东省,Guangdong Sheng,东莞市,Dongguan Shi,东莞市,Dongguan Shi,没有相关数据 No Available Data,n/a,没有相关数据 No Available Data,n/a,n/a,没有相关数据 No Available Data,n/a
+0831,沿南村志,310115136206,沿南村,Yannan Cun,上海市,Shanghai Shi,上海市,Shanghai Shi,浦东新区,Pudong Xinqu,平方千米 / 平方公里 square kilometers,2.92,度分秒 DMS (degrees-minutes-seconds),31°09′N,121°39′E,没有相关数据 No Available Data,n/a
+0832,白坟村志,410122105209,白坟村,Baifen Cun,河南省,Henan Sheng,郑州市,Zhengzhou Shi,中牟县,Zhongmu Xian,平方千米 / 平方公里 square kilometers,0.266,度分秒范围 Range in DMS (degrees-minutes-seconds),34°26′N - 34°56′N,113°46′E - 114°12′E,公里/千米 kilometer,15
+0833,营房村志,310116112204,营房村,Yingfang Cun,上海市,Shanghai Shi,上海市,Shanghai Shi,金山区,Jinshan Qu,平方千米 / 平方公里 square kilometers,3.81,没有相关数据 No Available Data,n/a,n/a,没有相关数据 No Available Data,n/a
+0834,张桥村志,310116109223,张桥村,Zhangqiao cun,上海市,Shanghai Shi,上海市,Shanghai Shi,金山区,Jinshan Qu,平方千米 / 平方公里 square kilometers,5.42,没有相关数据 No Available Data,n/a,n/a,没有相关数据 No Available Data,n/a
+0835,岸上村志,410527203227,岸上村,Anshang Cun,河南省,Henan Sheng,安阳市,Anyang Shi,内黄县,Neihuang Xian,平方千米 / 平方公里 square kilometers,3.91,度分秒范围 Range in DMS (degrees-minutes-seconds),35°39′N - 36°09′N,114°35′E - 114°59′E,公里/千米 kilometer,18.5
+0836,枫深村志,441622103207,枫深村,Fengshen Cun,广东省,Guangdong Sheng,河源市,Heyuan Shi,龙川县,Longchuan Xian,平方千米 / 平方公里 square kilometers,25,没有相关数据 No Available Data,n/a,n/a,公里/千米 kilometer,9
+0839,赤水垟志,n/a,赤水垟村,Chishuiyang Cun,浙江省,Zhejiang Sheng,温州市,Wenzhou Shi,乐清市,Yueqing Shi,没有相关数据 No Available Data,n/a,度分秒 DMS (degrees-minutes-seconds),28°08′50″N,120°51′10″E,没有相关数据 No Available Data,n/a
+0840,侨乡村志,441421131209,侨乡村,Qiaoxiang Cun,广东省,Guangdong Sheng,梅州市,Meizhou Shi,梅县区,Meixian Qu,平方千米 / 平方公里 square kilometers,1.5,度分秒范围 Range in DMS (degrees-minutes-seconds),24°16′13.94″N - 24°16′56″N,115°58′55.04″E - 115°59′20.75″E,公里/千米 kilometer,12
+0841,北薛庄村志,130185200202,北薛庄村,Beixuezhuang Cun,河北省,Hebei Sheng,石家庄市,Shijiazhuang Shi,鹿泉市,Luquan Shi,没有相关数据 No Available Data,n/a,没有相关数据 No Available Data,n/a,n/a,没有相关数据 No Available Data,n/a
+0842,美林村志,350525104204,美林村,Meilin Cun,福建省,Fujian Sheng,泉州市,Quanzhou Shi,永春县,Yongchun Xian,平方千米 / 平方公里 square kilometers,2.5,没有相关数据 No Available Data,n/a,n/a,公里/千米 kilometer,30
+0843,蔡和村志,n/a,蔡和村,Caihe Cun,浙江省,Zhejiang Sheng,丽水市,Lishui Shi,遂昌县,Suichang Xian,没有相关数据 No Available Data,n/a,度分秒 DMS (degrees-minutes-seconds),28°27′N,118°56′E,公里/千米 kilometer,52
+0844,十里·大桥村志,530111004005,十里社区,Shili Shequ,云南省,Yunnan Sheng,昆明市,Kunming Shi,官渡区,Guandu Qu,平方千米 / 平方公里 square kilometers,0.9,度分秒 DMS (degrees-minutes-seconds),25°0′58.70″N,102°52′41.83″E,没有相关数据 No Available Data,n/a
+0845,峒峪村志,610122106211,峒峪村,Dongyu Cun,陕西省,Shanxi Sheng,西安市,Xi'an Shi,蓝田县,Lantian Xian,没有相关数据 No Available Data,n/a,没有相关数据 No Available Data,n/a,n/a,公里/千米 kilometer,20
+0846,葭芦都三甲李氏村志,n/a,李氏村,Lishi Cun,陕西省,Shanxi Sheng,榆林市,Yulin Shi,神木县,Shenmu Xian,没有相关数据 No Available Data,n/a,没有相关数据 No Available Data,n/a,n/a,公里/千米 kilometer,70
+0847,牛薛沟村志,n/a,牛薛沟村,Niuxuegou Cun,陕西省,Shanxi Sheng,榆林市,Yulin Shi,子洲县,Zizhou Xian,平方千米 / 平方公里 square kilometers,10,度分秒范围 Range in DMS (degrees-minutes-seconds),37°38′N - 37°40′N,109°53′E - 109°56′E,公里/千米 kilometer,12
+0848,邓村村志,130185104218,邓村,Deng Cun,河北省,Hebei Sheng,石家庄市,Shijiazhuang Shi,鹿泉市,Luquan Shi,没有相关数据 No Available Data,n/a,没有相关数据 No Available Data,n/a,n/a,没有相关数据 No Available Data,n/a
+0849,碧龙村志,331181106206,碧龙村,Bilong Cun,浙江省,Zhejiang Sheng,丽水市,Lishui Shi,龙泉市,Longquan Shi,没有相关数据 No Available Data,n/a,度分秒 DMS (degrees-minutes-seconds),28°23′95″N,118°83′40″E,公里/千米 kilometer,90
+0850,永联村志,310116109204,永联村,Yonglian Cun,上海市,Shanghai Shi,上海市,Shanghai Shi,金山区,Jinshan Qu,平方千米 / 平方公里 square kilometers,5.25,没有相关数据 No Available Data,n/a,n/a,没有相关数据 No Available Data,n/a
+0851,北焦村志,130127202213,北焦村,Beijiao Cun,河北省,Hebei Sheng,石家庄市,Shijiazhuang Shi,高邑县,Gaoyi Xian,没有相关数据 No Available Data,n/a,没有相关数据 No Available Data,n/a,n/a,公里/千米 kilometer,9.6
+0852,北海山村志,130185100225,北海山村,Beihaishan Cun,河北省,Hebei Sheng,石家庄市,Shijiazhuang Shi,鹿泉市,Luquan Shi,没有相关数据 No Available Data,n/a,度分秒 DMS (degrees-minutes-seconds),38°02′N,114°28′E,没有相关数据 No Available Data,n/a
+0853,坂田村志,330624102204,坂田村,Bantian Cun,浙江省,Zhejiang Sheng,绍兴市,Shaoxing Shi,嵊州市,Shengzhou Shi,亩 mu,1045.8,度分秒 DMS (degrees-minutes-seconds),29°37′N,120°52′E,公里/千米 kilometer,7
+0854,塘头村志,440604010202,塘头村,Tangtou Cun,广东省,Guangdong Sheng,佛山市,Foshan Shi,禅城区,Chancheng Qu,平方千米 / 平方公里 square kilometers,n/a,度分秒 DMS (degrees-minutes-seconds),22°59′34″N,113°5′22″E,没有相关数据 No Available Data,n/a
+0855,梨川村志,441900003014,梨川村,Lichuan Cun,广东省,Guangdong Sheng,东莞市,Dongguan Shi,东莞市,Dongguan Shi,没有相关数据 No Available Data,n/a,没有相关数据 No Available Data,n/a,n/a,没有相关数据 No Available Data,n/a
+0856,南皋村志,110105038208,南皋村,Nan'gao Cun,北京市,Beijing Shi,北京市,Beijing Shi,朝阳区,Chaoyang Qu,平方千米 / 平方公里 square kilometers,0.7,没有相关数据 No Available Data,n/a,n/a,没有相关数据 No Available Data,n/a
+0857,下邽志村志,610502103213,新店村,Xindian Cun,陕西省,Shanxi Sheng,渭南市,Weinan Shi,临渭区,Linwei Qu,没有相关数据 No Available Data,n/a,没有相关数据 No Available Data,n/a,n/a,没有相关数据 No Available Data,n/a
+0858,安善坊村志,610125101200,安善坊村,Anshanfang Cun,陕西省,Shanxi Sheng,西安市,Xi'an Shi,户县,Hu Xian,平方千米 / 平方公里 square kilometers,1.8,没有相关数据 No Available Data,n/a,n/a,公里/千米 kilometer,6
+0859,花乡葆台村志,110106202210,葆台村,Baotai Cun,北京市,Beijing Shi,北京市,Beijing Shi,丰台区,Fengtai Qu,平方千米 / 平方公里 square kilometers,1.68,没有相关数据 No Available Data,n/a,n/a,没有相关数据 No Available Data,n/a
+0860,二十里铺村志,410106003201,二十里铺村,Ershilipu Cun,河南省,Henan Sheng,郑州市,Zhengzhou Shi,金水区,Jinshui Qu,亩 mu,1700,没有相关数据 No Available Data,n/a,n/a,没有相关数据 No Available Data,n/a
+0861,东山村志,320582102208,东山村,Dongshan Cun,江苏省,Jiangsu Sheng,苏州市,Suzhou Shi,张家港市,Zhangjiagang Shi,没有相关数据 No Available Data,n/a,度分秒 DMS (degrees-minutes-seconds),31°55′N,120°24′E,没有相关数据 No Available Data,n/a
+0862,王官屯村志,130981203251,王官屯村,Wangguantun Cun,河北省,Hebei Sheng,沧州市,Cangzhou Shi,泊头市,Botou Shi,没有相关数据 No Available Data,n/a,度分秒范围 Range in DMS (degrees-minutes-seconds),37°30′N - 38°57′N,115°42′E - 117°50′E,没有相关数据 No Available Data,n/a
+0863,戴湾村志,410482106211,戴湾村,Daiwan Cun,河南省,Henan Sheng,平顶山市,Pingdingshan Shi,汝州市,Ruzhou Shi,平方千米 / 平方公里 square kilometers,5.45,度分秒范围 Range in DMS (degrees-minutes-seconds),33°45′N - 34°02′N,112°40′E - 112°54′E,没有相关数据 No Available Data,n/a
+0864,柳子圪旦村志,150621105203,柳子圪旦村,Liuzigedan Cun,内蒙古自治区,Neimenggu Zizhiqu,鄂尔多斯市,Eerduosi Shi,达拉特旗,Dalate Qi,平方千米 / 平方公里 square kilometers,20,度分秒范围 Range in DMS (degrees-minutes-seconds),40°28′N - 40°46′N,109°19′E - 109°31′E,没有相关数据 No Available Data,n/a
+0865,理家庄村志,140321201203,理家庄村,Lijiazhuang Cun,山西省,Shanxi Sheng,阳泉市,Yangquan Shi,平定县,Pingding Xian,平方千米 / 平方公里 square kilometers,11.4,度分秒范围 Range in DMS (degrees-minutes-seconds),38°3′17″N - 38°6′10″N,113°40′03″E - 113°42′17″E,公里/千米 kilometer,45
+0866,小车村志,130602200206,小车村,Xiaoche Cun,河北省,Hebei Sheng,保定市,Baoding Shi,竞秀区,Jingxiu Qu,亩 mu,2144.20,度分秒 DMS (degrees-minutes-seconds),38°51′N,115°21′E,公里/千米 kilometer,3.5
+0867,同阁村志,130185104209,同阁村,Tongge Cun,河北省,Hebei Sheng,石家庄市,Shijiazhuang Shi,鹿泉市,Luquan Shi,没有相关数据 No Available Data,n/a,没有相关数据 No Available Data,n/a,n/a,没有相关数据 No Available Data,n/a
+0868,上柳源村志,360302103400,上柳源村,Shangliuyuan Cun,江西省,Jiangxi Sheng,萍江市,Pingjiang Shi,安源区,Anyuan Qu,平方千米 / 平方公里 square kilometers,7,度分秒 DMS (degrees-minutes-seconds),27°41′N,113°46′E,没有相关数据 No Available Data,n/a
+0869,库城村志,140724101204,库城村,Kucheng Cun,山西省,Shanxi Sheng,晋中市,Jinzhong Shi,昔阳县,Xiyang Xian,平方千米 / 平方公里 square kilometers,18.87,度分秒 DMS (degrees-minutes-seconds),37°25′N,113°53′E,公里/千米 kilometer,35
+0870,崔家沟村志,140729102202,崔家沟村,Cuijiagou Cun,山西省,Shanxi Sheng,晋中市,Jinzhong Shi,灵石县,Lingshi Xian,平方千米 / 平方公里 square kilometers,4.2,度分秒 DMS (degrees-minutes-seconds),36°56′N,111°47′E,公里/千米 kilometer,2.4
+0871,堆谷山村志,341525108200,堆谷山村,Duigushan Cun,安徽省,Anhui Sheng,六安市,Lu'an Shi,霍山县,Huoshan Xian,平方千米 / 平方公里 square kilometers,56.73,没有相关数据 No Available Data,n/a,n/a,公里/千米 kilometer,75
+0872,三房巷村志,320281108202,三房巷村,Sanfangxiang Cun,江苏省,Jiangsu Sheng,无锡市,Wuxi Shi,江阴市,Jiangyin Shi,平方千米 / 平方公里 square kilometers,9.86,度分秒 DMS (degrees-minutes-seconds),31°50′40″N,120°23′58″E,公里/千米 kilometer,15
+0873,余川村志,341824103201,余川村,Yuchuan Cun,安徽省,Anhui Sheng,宣城市,Xuancheng Shi,绩溪县,Jixi Xian,万平方米 10K square meters,9.7,度分秒范围 Range in DMS (degrees-minutes-seconds),30°07′25″N - 30°07′36″N,118°25′34″E - 118°25′46″E,没有相关数据 No Available Data,n/a
+0874,大打白狐村志,211004101202,大打白狐村,Dadabaihu Cun,辽宁省,Liaoning Sheng,辽阳市,Liaoyang Shi,宏伟区,Hongwei Qu,亩 mu,7549,没有相关数据 No Available Data,n/a,n/a,没有相关数据 No Available Data,n/a
+0875,海口里仁村志,530112009002,里仁村,Liren Cun,云南省,Yunnan Sheng,昆明市,Kunming Shi,西山区,Xishan Qu,平方千米 / 平方公里 square kilometers,17.4,度分秒 DMS (degrees-minutes-seconds),24°47′41″N,102°35′10″E,没有相关数据 No Available Data,n/a
+0876,永清村志,610302100205,永清村,Yongqing Cun,陕西省,Shanxi Sheng,宝鸡市,Baoji Shi,渭滨区,Weibin Qu,平方千米 / 平方公里 square kilometers,2.7,度分秒 DMS (degrees-minutes-seconds),34°18′N,107°14′E,没有相关数据 No Available Data,n/a
+0877,杨沟湾村志,630102100204,杨沟湾村,Yanggouwan Cun,青海省,Qinghai Sheng,西宁市,Xining Shi,城东区,Chengdong Qu,没有相关数据 No Available Data,n/a,十进制 DD (decimal degrees),36.33°N,101.53°E,没有相关数据 No Available Data,n/a
+0878,姜湾村志,420302002202,姜湾村,Jiangwan Cun,湖北省,Hubei Sheng,十堰市,Shiyan Shi,茅箭区,Maojian Qu,亩 mu,1787.68,度分秒范围 Range in DMS (degrees-minutes-seconds),32°57′N - 32°62′N,110°76′E - 110°78′E,公里/千米 kilometer,20
+0879,恬庄村志,320582105208,恬庄村,Tianzhuang Cun,江苏省,Jiangsu Sheng,苏州市,Suzhou Shi,张家港市,Zhangjiagang Shi,平方千米 / 平方公里 square kilometers,5.16,十进制 DD (decimal degrees),31.01°N,120.33°E,没有相关数据 No Available Data,n/a
+0880,新海坝村志,320582107204,新海坝村,Xinhaiba Cun,江苏省,Jiangsu Sheng,苏州市,Suzhou Shi,张家港市,Zhangjiagang Shi,平方千米 / 平方公里 square kilometers,3.1,没有相关数据 No Available Data,n/a,n/a,公里/千米 kilometer,20
+0881,后山村志,331123105214,后山村,Houshan Cun,浙江省,Zhejiang Sheng,台州市,Taizhou Shi,遂昌县,Suichang Xian,公顷 hectares,62.76,没有相关数据 No Available Data,n/a,n/a,公里/千米 kilometer,17.5
+0882,桃子溪村志,433127115202,桃子溪村,Taozixi Cun,湖南省,Hunan Sheng,吉首市,Jishou Shi,永顺县,Yongshun Xian,平方千米 / 平方公里 square kilometers,12,度分秒范围 Range in DMS (degrees-minutes-seconds),29°06′22″N - 29°17′41″N,109°11′12″E - 109°26′21″E,没有相关数据 No Available Data,n/a
+0883,栗子坪村志,420529203215,栗子坪村,Liziping Cun,湖北省,Hubei Sheng,宜昌市,Yichang Shi,五峰土家族自治县,Wufeng Tujiazu Zizhixian,平方千米 / 平方公里 square kilometers,10.86,度分秒范围 Range in DMS (degrees-minutes-seconds),29°56′N - 30°25′N,110°15′E - 111°25′E,没有相关数据 No Available Data,n/a
+0884,栗林河村志,420506101204,栗林河村,Lilinhe Cun,湖北省,Hubei Sheng,宜昌市,Yichang Shi,夷陵区,Yiling Qu,平方千米 / 平方公里 square kilometers,36.5,没有相关数据 No Available Data,n/a,n/a,公里/千米 kilometer,115
+0885,歙县三阳村志,341021205200,三阳村,Sanyang Cun,安徽省,Anhui Sheng,黄山市,Huangshan Shi,歙县,She Xian,没有相关数据 No Available Data,n/a,度分秒 DMS (degrees-minutes-seconds),30°02′N,118°47′E,公里/千米 kilometer,48
+0886,大峡谷村志,341524103210,大峡谷村,Daxiagu Cun,安徽省,Anhui Sheng,六安市,Lu'an Shi,金寨县,Jinzhai Xian,平方千米 / 平方公里 square kilometers,28.68,度分秒 DMS (degrees-minutes-seconds),31°15′54″N,115°54′32″E,没有相关数据 No Available Data,n/a
+0887,胡家坟村志,330212110264,胡家坟村,Hujiafen Cun,浙江省,Zhejiang Sheng,宁波市,Ningbo Shi,鄞州区,Yinzhou Qu,平方千米 / 平方公里 square kilometers,1.19,度分秒 DMS (degrees-minutes-seconds),29°44′N,121°29′E,没有相关数据 No Available Data,n/a
+0888,云家码头村志,610828206205,云家码头村,Yunjiamatou Cun,陕西省,Shanxi Sheng,榆林市,Yulin Shi,佳县,Jia Xian,平方千米 / 平方公里 square kilometers,3.75,度分秒 DMS (degrees-minutes-seconds),38°20′56.904″N,110°23′38.472″E,没有相关数据 No Available Data,n/a
+0889,杓袁村志,410105101207,杓袁村,Shaoyuan Cun,河南省,Henan Sheng,郑州市,Zhengzhou Shi,金水区,Jinshui Qu,没有相关数据 No Available Data,n/a,没有相关数据 No Available Data,n/a,n/a,没有相关数据 No Available Data,n/a
+0890,西河村志,370302116218,西河村,Xihe Cun,山东省,Shandong Sheng,淄博市,Zibo Shi,淄川区,Zichuan Qu,平方千米 / 平方公里 square kilometers,1.651,度分秒 DMS (degrees-minutes-seconds),36°43′N,117°56′E,公里/千米 kilometer,10
+0891,昝村志,610581105205,昝村,Zan Cun,陕西省,Shanxi Sheng,渭南市,Weinan Shi,韩城市,Hancheng Shi,没有相关数据 No Available Data,n/a,没有相关数据 No Available Data,n/a,n/a,没有相关数据 No Available Data,n/a
+0892,良陌村志,141023102221,良陌村,Liangmo Cun,山西省,Shanxi Sheng,临汾市,Linfen Shi,襄汾县,Xiangfen Xian,平方千米 / 平方公里 square kilometers,3.2,十进制 DD (decimal degrees),35.818°N,111.27357°E,公里/千米 kilometer,20
+0893,东桃村志,330621105209,东桃村,Dongtao Cun,浙江省,Zhejiang Sheng,绍兴市,Shaoxing Shi,绍兴县,Shaoxing Xian,平方千米 / 平方公里 square kilometers,6.846,没有相关数据 No Available Data,n/a,n/a,没有相关数据 No Available Data,n/a
+0894,小㘵村志,440114104205,小㘵村,Xiaobu Cun,广东省,Guangdong Sheng,广州市,Guangzhou Shi,花都区,Huadu Qu,平方千米 / 平方公里 square kilometers,3.343,没有相关数据 No Available Data,n/a,n/a,公里/千米 kilometer,6
+0895,祝陵村志,320282100209,祝陵村,Zhuling Cun,江苏省,Jiangsu Sheng,无锡市,Wuxi Shi,宜兴市,Yixing Shi,平方千米 / 平方公里 square kilometers,13.95,度分秒 DMS (degrees-minutes-seconds),31°17′N,119°39′E,公里/千米 kilometer,25
+0896,西九水村志,370212002034,西九水村,Xijiushui Cun,山东省,Shandong Sheng,青岛市,Qingdao Shi,崂山区,Laoshan Qu,亩 mu,9836,度分秒范围 Range in DMS (degrees-minutes-seconds),36°09′32″N - 36°10′22″N,120°31′26″E - 120°32′13″E,没有相关数据 No Available Data,n/a
+0897,高拱桥村志,422801208210,高拱桥村,Gaogongqiao Cun,湖北省,Hubei Sheng,恩施土家族苗族自治州,Enshi Tujiazu Miaozu Zizhizhou,恩施市,Enshi Shi,平方千米 / 平方公里 square kilometers,24.4,度分秒 DMS (degrees-minutes-seconds),30°10′27″N,109°26′18″E,公里/千米 kilometer,10
+0898,大白登村志,140221102200,大白登村,Dabaideng Cun,山西省,Shanxi Sheng,大同市,Datong Shi,阳高县,Yanggao Xian,亩 mu,15000,度分秒 DMS (degrees-minutes-seconds),40°17′7″N,113°48′40″E,公里/千米 kilometer,10
+0899,放羊坪村志,430703114218,放羊坪村,Fangyangping Cun,湖南省,Hunan Sheng,常德市,Changde Shi,鼎城区,Dingcheng Qu,平方千米 / 平方公里 square kilometers,6.3,度分秒范围 Range in DMS (degrees-minutes-seconds),28°33′N - 29°21′N,110°32′E - 112°13′E,公里/千米 kilometer,14
+0900,欧桥村志,320582101204,欧桥村,Ouqiao Cun,江苏省,Jiangsu Sheng,苏州市,Suzhou Shi,张家港市,Zhangjiagang Shi,没有相关数据 No Available Data,n/a,没有相关数据 No Available Data,n/a,n/a,没有相关数据 No Available Data,n/a
+0901,钱家山村志,330212109212,金山村,Jinshan Cun,浙江省,Zhejiang Sheng,宁波市,Ningbo Shi,鄞州区,Yinzhou Qu,平方千米 / 平方公里 square kilometers,2.3,度分秒 DMS (degrees-minutes-seconds),29°28′N,121°34′E,没有相关数据 No Available Data,n/a
+0902,陈家墕村志,610828105241,陈家墕村,Chenjiayan Cun,陕西省,Shanxi Sheng,榆林市,Yulin Shi,佳县,Jia Xian,平方千米 / 平方公里 square kilometers,6.8,度分秒 DMS (degrees-minutes-seconds),38°4′N,110°30′E,公里/千米 kilometer,20
+0903,木头峪村志,610828202200,木头峪村,Mutouyu Cun,陕西省,Shanxi Sheng,榆林市,Yulin Shi,佳县,Jia Xian,亩 mu,3580,度分秒范围 Range in DMS (degrees-minutes-seconds),37°55′16″N - 38°21′N,110°35′16″E - 110°45′E,里 li,40
+0904,大胜村志,441423126204,大胜村,Dasheng Cun,广东省,Guangdong Sheng,梅州市,Meizhou Shi,丰顺县,Fengshun Xian,平方千米 / 平方公里 square kilometers,27,十进制 DD (decimal degrees),24°N,116.5°E,没有相关数据 No Available Data,n/a
+0905,西上庄村志,370305102245,西上庄村,Xishangzhuang Cun,山东省,Shandong Sheng,淄博市,Zibo Shi,临淄区,Linzi Qu,平方千米 / 平方公里 square kilometers,2.6,没有相关数据 No Available Data,n/a,n/a,公里/千米 kilometer,25
+0906,龙泉村志,310116104202,龙泉村,Longquan Cun,上海市,Shanghai Shi,上海市,Shanghai Shi,金山区,Jinshan Qu,平方千米 / 平方公里 square kilometers,4.5618,没有相关数据 No Available Data,n/a,n/a,没有相关数据 No Available Data,n/a
+0907,黄家崴子村志,220621104204,黄家崴子村,Huangjiawaizi Cun,吉林省,Jilin Sheng,白山市,Baishan Shi,抚松县,Fusong Xian,平方千米 / 平方公里 square kilometers,26,度分秒 DMS (degrees-minutes-seconds),41°06′N,127°12′E,公里/千米 kilometer,21
+0908,黄岭村志,441622110208,黄岭村,Huangling Cun,广东省,Guangdong Sheng,汕尾市,Shanwei Shi,龙川县,Longchuan Xian,平方千米 / 平方公里 square kilometers,14.3,度分秒 DMS (degrees-minutes-seconds),23°51′N,115°04′E,没有相关数据 No Available Data,n/a
+0909,西水磨村志,370523102247,西水磨村,Xishuimo Cun,山东省,Shandong Sheng,东营市,Dongying Shi,广饶县,Guangrao Xian,平方千米 / 平方公里 square kilometers,1.035,度分秒 DMS (degrees-minutes-seconds),36°50′N,118°30′E,公里/千米 kilometer,12.5
+0910,江浦村志,n/a,江浦村,Jiangpu Cun,江苏省,Jiangsu Sheng,连云港市,Lianyungang Shi,海州区,Haizhou Qu,平方千米 / 平方公里 square kilometers,9.3,没有相关数据 No Available Data,n/a,n/a,没有相关数据 No Available Data,n/a
+0911,张家塔村志,610821107210,张家塔村,Zhangjiata Cun,陕西省,Shanxi Sheng,榆林市,Yulin Shi,神木县,Shenmu Xian,平方千米 / 平方公里 square kilometers,8,没有相关数据 No Available Data,n/a,n/a,公里/千米 kilometer,50
+0912,渡桥村志,320506107209,渡桥村,Duqiao Cun,江苏省,Jiangsu Sheng,苏州市,Suzhou Shi,吴中区,Wuzhong Qu,平方千米 / 平方公里 square kilometers,4,没有相关数据 No Available Data,n/a,n/a,没有相关数据 No Available Data,n/a
+0913,西台村志,370212003002,西台村,Xitai Cun,山东省,Shandong Sheng,青岛市,Qingdao Shi,崂山区,Laoshan Qu,平方千米 / 平方公里 square kilometers,2,度分秒 DMS (degrees-minutes-seconds),36°18′N - 36°19′N,120°35′E - 120°36′E,没有相关数据 No Available Data,n/a
+0914,吴兴村志,130123103202,吴兴村,Wuxing Cun,河北省,Hebei Sheng,石家庄市,Shijiazhuang Shi,正定县,Zhengding Xian,平方千米 / 平方公里 square kilometers,6.22,度分秒 DMS (degrees-minutes-seconds),38°12′53.45″N,114°34′25.93″E,公里/千米 kilometer,7
+0915,桃王庄村志,130121205225,桃王庄村,Taowangzhuang Cun,河北省,Hebei Sheng,石家庄市,Shijiazhuang Shi,井陉县,Jingxing Xian,没有相关数据 No Available Data,n/a,没有相关数据 No Available Data,n/a,n/a,公里/千米 kilometer,25
+0916,上鲁塘村志,431002102203,上鲁塘村,Shanglutang Cun,湖南省,Hunan Sheng,郴州市,Chenzhou Shi,北湖区,Beihu Qu,没有相关数据 No Available Data,n/a,度分秒 DMS (degrees-minutes-seconds),25°33′27″N,112°43′00″E,没有相关数据 No Available Data,n/a
+0917,安乐村志,440306001020,安乐村,Anle Cun,广东省,Guangdong Sheng,深圳市,Shenzhen Shi,宝安区,Baoan Qu,没有相关数据 No Available Data,n/a,没有相关数据 No Available Data,n/a,n/a,没有相关数据 No Available Data,n/a
+0918,赵官屯村志,120223101208,赵官屯村,Zhaoguantun Cun,天津市,Tianjin Shi,天津市,Tianjin Shi,静海县,Jinghai Xian,没有相关数据 No Available Data,n/a,十进制 DD (decimal degrees),38.47°N,116.53°E,公里/千米 kilometer,25
+0919,劳动村志,310114109219,劳动村,Laodong Cun,上海市,Shanghai Shi,上海市,Shanghai Shi,嘉定区,Jiading Qu,平方千米 / 平方公里 square kilometers,4.5,没有相关数据 No Available Data,n/a,n/a,没有相关数据 No Available Data,n/a
+0920,和平村志,310116105215,和平村,Heping Cun,上海市,Shanghai Shi,上海市,Shanghai Shi,金山区,Jinshan Qu,平方千米 / 平方公里 square kilometers,7.76,没有相关数据 No Available Data,n/a,n/a,公里/千米 kilometer,18
+0921,桂南村志,442000006203,桂南村,Guinan Cun,广东省,Guangdong Sheng,中山市,Zhongshan Shi,中山市,Zhongshan Shi,平方千米 / 平方公里 square kilometers,19.37,没有相关数据 No Available Data,n/a,n/a,公里/千米 kilometer,8
+0922,建农村志,310116103212,建农村,Jiannong Cun,上海市,Shanghai Shi,上海市,Shanghai Shi,金山区,Jinshan Qu,平方千米 / 平方公里 square kilometers,3.21,度分秒 DMS (degrees-minutes-seconds),30°46′46″N,121°17′21″E,公里/千米 kilometer,8
+0923,王安堡村志,130421202204,王安堡村,Wang'anbu Cun,河北省,Hebei Sheng,邯郸市,Handan Shi,邯郸县,Handan Xian,平方千米 / 平方公里 square kilometers,2.73,度分秒范围 Range in DMS (degrees-minutes-seconds),36°28′24″N - 36°44′0″N,114°11′50″E - 114°38′48″E,公里/千米 kilometer,3
+0924,川口村志,411282200211,川口村,Chuankou Cun,河南省,Henan Sheng,三门峡市,Sanmenxia Shi,灵宝市,Lingbao Shi,平方千米 / 平方公里 square kilometers,3.271,度分秒范围 Range in DMS (degrees-minutes-seconds),34°37′N - 34°26′N,110°6′E - 111°55′E,公里/千米 kilometer,6
+0925,上官村志,610528202200,上官村,Shangguan Cun,陕西省,Shanxi Sheng,渭南市,Weinan Shi,富平县,Fuping Xian,没有相关数据 No Available Data,n/a,没有相关数据 No Available Data,n/a,n/a,没有相关数据 No Available Data,n/a
+0926,东六合村志,370503200234,东六合村,Dongliuhe Cun,山东省,Shandong Sheng,东营市,Dongying Shi,河口区,Hekou Qu,万亩 10K mu,5.6,没有相关数据 No Available Data,n/a,n/a,没有相关数据 No Available Data,n/a
+0927,光明村志,310120101232,光明村,Guangming Cun,上海市,Shanghai Shi,上海市,Shanghai Shi,奉贤区,Fengxian Qu,平方千米 / 平方公里 square kilometers,2.35,度分秒 DMS (degrees-minutes-seconds),30°56′N,121°27′E,没有相关数据 No Available Data,n/a
+0928,甲岸村志,440306001018,甲岸村,Jiaan Cun,广东省,Guangdong Sheng,深圳市,Shenzhen Shi,宝安区,Baoan Qu,平方千米 / 平方公里 square kilometers,0.3,没有相关数据 No Available Data,n/a,n/a,没有相关数据 No Available Data,n/a
+0929,赵村村志,n/a,赵村,Zhao Cun,陕西省,Shanxi Sheng,渭南市,Weinan Shi,韩城市,Hancheng Shi,平方千米 / 平方公里 square kilometers,2.88,十进制 DD (decimal degrees),35.30°N,110.26°E,没有相关数据 No Available Data,n/a
+0930,兴朱村志,n/a,兴朱村,Xingzhu Cun,山东省,Shandong Sheng,滨州市,Binzhou Shi,博兴县,Boxing Xian,亩 mu,105.87,度分秒 DMS (degrees-minutes-seconds),37°01′N,118°14′E,公里/千米 kilometer,20
+0931,小许庄村志,130922200206,小许庄村,Xiaoxuzhuang Cun,河北省,Hebei Sheng,沧州市,Cangzhou Shi,青县,Qing Xian,没有相关数据 No Available Data,n/a,度分秒 DMS (degrees-minutes-seconds),38°29′32″N,116°55′36″E,公里/千米 kilometer,15
+0932,邢庄村志,120111100206,邢庄村,Xingzhuang Cun,山东省,Shandong Sheng,德州市,Dezhou Shi,齐河县,Qihe Xian,亩 mu,644,度分秒 DMS (degrees-minutes-seconds),36°30′N,116°31′E,公里/千米 kilometer,40
+0933,无为庄村志,131022102213,无为庄村,Wuweizhuang Cun,河北省,Hebei Sheng,廊坊市,Langfang Shi,固安县,Gu'an Xian,平方千米 / 平方公里 square kilometers,1.78,没有相关数据 No Available Data,n/a,n/a,公里/千米 kilometer,12
+0934,微水村志,130121100201,微水村,Weishui Cun,河北省,Hebei Sheng,石家庄市,Shijiazhuang Shi,井陉县,Jingxing Xian,平方千米 / 平方公里 square kilometers,0.86,度分秒范围 Range in DMS (degrees-minutes-seconds),37°41′35″N - 38°12′35″N,113°48′18″E - 114°17′50″E,没有相关数据 No Available Data,n/a
+0935,拦车村志,140525105203,拦车村,Lanche Cun,山西省,Shanxi Sheng,晋城市,Jincheng Shi,泽州县,Zezhou Xian,平方千米 / 平方公里 square kilometers,7.91,度分秒 DMS (degrees-minutes-seconds),35°19′N,112°50′E,公里/千米 kilometer,37.5
+0936,蒋庄村志,310116112211,蒋庄村,Jiangzhuang Cun,上海市,Shanghai Shi,上海市,Shanghai Shi,金山区,Jinshan Qu,平方千米 / 平方公里 square kilometers,6.98,没有相关数据 No Available Data,n/a,n/a,没有相关数据 No Available Data,n/a
+0937,赤社村志,140802201203,赤社村,Chishe Cun,山西省,Shanxi Sheng,运城市,Yuncheng Shi,盐湖区,Yanhu Qu,平方千米 / 平方公里 square kilometers,4.3,度分秒 DMS (degrees-minutes-seconds),35°N,110°31′E,没有相关数据 No Available Data,n/a
+0938,交丙坛村志,445281109214,交丙坛村,Jiaobingtan Cun,广东省,Guangdong Sheng,揭阳市,Jieyang Shi,普宁市,Puning Shi,平方千米 / 平方公里 square kilometers,3.5,度分秒 DMS (degrees-minutes-seconds),23°17′40″N,116°13′50″E,公里/千米 kilometer,6
+0939,邢寨村志,370481108241,邢寨村,Xingzhai Cun,山东省,Shandong Sheng,枣庄市,Zaozhuang Shi,滕州市,Tengzhou Shi,亩 mu,2616,度分秒 DMS (degrees-minutes-seconds),34°58′N,117°7′E,没有相关数据 No Available Data,n/a
+0940,西林西村志,n/a,西林西村,Xilinxi Cun,山东省,Shandong Sheng,济宁市,Jining Shi,曲阜市,Qufu Shi,亩 mu,324.9,度分秒范围 Range in DMS (degrees-minutes-seconds),35°29′N - 35°49′N,116°51′E - 117°13′E,没有相关数据 No Available Data,n/a
+0941,金红村志,n/a,金红村,Jinhong Cun,上海市,Shanghai Shi,上海市,Shanghai Shi,闵行区,Minhang Qu,平方千米 / 平方公里 square kilometers,3.9,没有相关数据 No Available Data,n/a,n/a,公里/千米 kilometer,15
+0942,西古现村志,370687104217,西古现村,Xiguxian Cun,山东省,Shandong Sheng,烟台市,Yantai Shi,海阳市,Haiyang Shi,平方千米 / 平方公里 square kilometers,5,度分秒 DMS (degrees-minutes-seconds),37°05′N,120°08′E,没有相关数据 No Available Data,n/a
+0943,崔家庄村志,140921203205,崔家庄村,Cuijiazhuang Cun,山西省,Shanxi Sheng,忻州市,Xinzhou Shi,定襄县,Dingxiang Xian,平方千米 / 平方公里 square kilometers,7.13,度分秒 DMS (degrees-minutes-seconds),38°32′N,113°34′,公里/千米 kilometer,4
+0944,聪子峪村志,140431203201,聪子峪村,Congziyu Cun,山西省,Shanxi Sheng,长治市,Changzhi Shi,沁源县,Qinyuan Xian,平方千米 / 平方公里 square kilometers,15,度分秒 DMS (degrees-minutes-seconds),36°46′47.28″N,112°22′58.75″E,公里/千米 kilometer,46
+0945,大北村志,140121100205,大北村,Dabei Cun,山西省,Shanxi Sheng,太原市,Taiyuan Shi,清徐县,Qingxu Xian,亩 mu,4331.19,十进制范围 Range in DD (decimal degrees),37.27°N - 37.47°N,112.9°E - 112.38°E,公里/千米 kilometer,2
+0946,金建村志,310115133202,金建村,Jinjian Cun,上海市,Shanghai Shi,上海市,Shanghai Shi,浦东新区,Pudong Xinqu,平方千米 / 平方公里 square kilometers,3.6,度分秒 DMS (degrees-minutes-seconds),31°03′N,121°39′E,没有相关数据 No Available Data,n/a
+0947,大望京村志,n/a,大望京村,Dawangjing Cun,北京市,Beijing Shi,北京市,Beijing Shi,朝阳区,Chaoyang Qu,公顷 hectares,105.6,度分秒 DMS (degrees-minutes-seconds),39°59′N,116°29′E,公里/千米 kilometer,11.1
+0949,西王村志,371626109242,西王村,Xiwang Cun,山东省,Shandong Sheng,滨州市,Binzhou Shi,邹平县,Zouping Xian,万平方米 10K square meters,40,度分秒 DMS (degrees-minutes-seconds),37°N,114°E,公里/千米 kilometer,7
+0950,西马村志,370306003203,西马村,Xima Cun,山东省,Shandong Sheng,淄博市,Zibo Shi,周村区,Zhoucun Qu,万平方米 10K square meters,47.1,度分秒 DMS (degrees-minutes-seconds),36°48′10″N,117°50′20″E,公里/千米 kilometer,2
+0951,两坂村志,141022103240,两坂村,Liangban Cun,山西省,Shanxi Sheng,临汾市,Linfen Shi,翼城县,Yicheng Xian,平方千米 / 平方公里 square kilometers,5,没有相关数据 No Available Data,n/a,n/a,公里/千米 kilometer,12
+0952,李堡村志,140426203214,李堡村,Lipu Cun,山西省,Shanxi Sheng,长治市,Changzhi Shi,黎城县,Licheng Xian,平方千米 / 平方公里 square kilometers,1.5,度分秒 DMS (degrees-minutes-seconds),36°25′N,110°23′E,公里/千米 kilometer,3
+0953,后郭村志,350303100201,后郭村,Houguo Cun,福建省,Fujian Sheng,莆田市,Putian Shi,涵江区,Hanjiang Qu,没有相关数据 No Available Data,n/a,没有相关数据 No Available Data,n/a,n/a,没有相关数据 No Available Data,n/a
+0954,辛庄村志,370112005205,辛庄村,Xinzhuang Cun,山东省,Shandong Sheng,济南市,Jinan Shi,历城区,Licheng Qu,平方千米 / 平方公里 square kilometers,0.4,度分秒 DMS (degrees-minutes-seconds),36°41′N,117°18′E,没有相关数据 No Available Data,n/a
+0955,和平村志,440306004005,和平村,Heping Cun,广东省,Guangdong Sheng,深圳市,Shenzhen Shi,宝安区,Baoan Qu,平方千米 / 平方公里 square kilometers,9.8,没有相关数据 No Available Data,n/a,n/a,没有相关数据 No Available Data,n/a
+0956,城南村志,140426100229,城南村,Chengnan Cun,山西省,Shanxi Sheng,长治市,Changzhi Shi,黎城县,Licheng Xian,平方千米 / 平方公里 square kilometers,4,度分秒范围 Range in DMS (degrees-minutes-seconds),36°N - 36°29′N,113°E - 113°21′E,公里/千米 kilometer,4
+0957,城东村志,140581002001,城东村,Chengdong Cun,山西省,Shanxi Sheng,晋城市,Jincheng Shi,高平市,Gaoping Shi,平方千米 / 平方公里 square kilometers,2.3,没有相关数据 No Available Data,n/a,n/a,没有相关数据 No Available Data,n/a
+0958,城内村志,140921100200,城内村,Chengnei Cun,山西省,Shanxi Sheng,忻州市,Xinzhou Shi,定襄县,Dingxiang Xian,平方米 square meters,1830249,度分秒 DMS (degrees-minutes-seconds),38°29′N,112°56′E,没有相关数据 No Available Data,n/a
+0959,潢涌村志,441900128200,潢涌村,Huangchong Cun,广东省,Guangdong Sheng,东莞市,Dongguan Shi,东莞市,Dongguan Shi,平方千米 / 平方公里 square kilometers,9.7,度分秒 DMS (degrees-minutes-seconds),23°7′52″N,113°43′28″E,没有相关数据 No Available Data,n/a
+0960,环山村志,440114107219,环山村,Huanshan Cun,广东省,Guangdong Sheng,广州市,Guangzhou Shi,花都区,Huadu Qu,平方千米 / 平方公里 square kilometers,4.5,度分秒 DMS (degrees-minutes-seconds),23°18′N,113°05′E,没有相关数据 No Available Data,18
+0961,西董铺村志,130124100231,西董铺村,Xidongpu Cun,河北省,Hebei Sheng,石家庄市,Shijiazhuang Shi,栾城区,Luancheng Qu,没有相关数据 No Available Data,n/a,度分秒范围 Range in DMS (degrees-minutes-seconds),37°54′22″N - 37°54′32″N,114°37′01″E - 114°37′16″E,公里/千米 kilometer,2
+0962,冼村村志,440106014001,冼村,Xian Cun,广东省,Guangdong Sheng,广州市,Guangzhou Shi,天河区,Tianhe Qu,万平方米 10K square meters,18.41,度分秒 DMS (degrees-minutes-seconds),23°12′84.45″N,113°32′57.98″E,没有相关数据 No Available Data,n/a
+0963,楚寨村志,411082002007,楚寨村,Chuzhai Cun,河南省,Henan Sheng,许昌市,Xuchang Shi,长葛市,Changge Shi,没有相关数据 No Available Data,n/a,没有相关数据 No Available Data,n/a,n/a,没有相关数据 No Available Data,n/a
+0964,鱼河湾村志,610802104207,鱼河湾村,Yuhewan Cun,陕西省,Shanxi Sheng,榆林市,Yulin Shi,榆阳区,Yuyang Qu,平方千米 / 平方公里 square kilometers,12,度分秒范围 Range in DMS (degrees-minutes-seconds),37°49′N - 38°58′N,108°58′E - 110°24′E,没有相关数据 No Available Data,n/a
+0965,崔楼村志,411524102218,崔楼村,Cuilou Cun,河南省,Henan Sheng,信阳市,Xinyang Shi,商城县,Shangcheng Xian,平方千米 / 平方公里 square kilometers,5.4,度分秒 DMS (degrees-minutes-seconds),32°1′19″N,115°19′35″E,公里/千米 kilometer,34
+0966,酒务村志,140581101235,酒务村,Jiuwu Cun,山西省,Shanxi Sheng,晋城市,Jincheng Shi,高平市,Gaoping Shi,平方千米 / 平方公里 square kilometers,2.5,度分秒 DMS (degrees-minutes-seconds),35°47′N,112°59′E,公里/千米 kilometer,6.5
+0967,卜居头村志,410522203209,卜居头村,Bujutou Cun,河南省,Henan Sheng,安阳市,Anyang Shi,安阳县,Anyang Xian,平方千米 / 平方公里 square kilometers,8,度分秒 DMS (degrees-minutes-seconds),36°20′N,114°03′E,没有相关数据 No Available Data,n/a
+0968,保宁村志,610524201208,保宁村,Baoning Cun,陕西省,Shanxi Sheng,渭南市,Weinan Shi,合阳县,Heyang Xian,平方千米 / 平方公里 square kilometers,3.2,没有相关数据 No Available Data,n/a,n/a,公里/千米 kilometer,32
+0969,南窑头村志,610113007223,南窑头村,Nanyaotou Cun,陕西省,Shanxi Sheng,西安市,Xi'an Shi,雁塔区,Yanta Qu,没有相关数据 No Available Data,n/a,没有相关数据 No Available Data,n/a,n/a,没有相关数据 No Available Data,n/a
+0970,涧塘村志,330522100217,涧塘村,Jiantang Cun,江苏省,Jiangsu Sheng,湖州市,Huzhou Shi,长兴县,Changxing Xian,平方千米 / 平方公里 square kilometers,7.5,没有相关数据 No Available Data,n/a,n/a,里 li,10
+0971,朱麻硷村志,610826107213,朱麻硷村,Zhumajian Cun,陕西省,Shanxi Sheng,榆林市,Yulin Shi,绥德县,Suide Xian,没有相关数据 No Available Data,n/a,度分秒 DMS (degrees-minutes-seconds),37°40′N,110°18′E,没有相关数据 No Available Data,n/a
+0972,李街村志,140522102219,李街村,Lijie Cun,山东省,Shandong Sheng,晋城市,Jincheng Shi,阳城县,Yangcheng Xian,平方千米 / 平方公里 square kilometers,4.5,度分秒 DMS (degrees-minutes-seconds),35°32′31″N,112°32′59″E,没有相关数据 No Available Data,n/a
+0974,箭泾村志,320506104202,箭泾村,Jianjing Cun,江苏省,Jiangsu Sheng,苏州市,Suzhou Shi,吴中区,Wuzhong Qu,平方千米 / 平方公里 square kilometers,8.25,没有相关数据 No Available Data,n/a,n/a,没有相关数据 No Available Data,n/a
+0975,崔庄村志,410105015007,崔庄村,Cuizhuang Cun,河南省,Henan Sheng,郑州市,Zhengzhou Shi,郑东新区,Zhengdong Xinqu,没有相关数据 No Available Data,n/a,没有相关数据 No Available Data,n/a,n/a,没有相关数据 No Available Data,n/a
+0976,陈堡村志,410704100209,陈堡村,Chenbao Cun,河南省,Henan Sheng,新乡市,Xinxiang Shi,凤泉区,Fengquan Qu,万平方米 10K square meters,78.5,没有相关数据 No Available Data,n/a,n/a,没有相关数据 No Available Data,n/a
+0977,郑各庄村志,110114115214,郑各庄村,Zhenggezhuang Cun,北京市,Beijing Shi,北京市,Beijing Shi,昌平区,Changping Qu,亩 mu,4332,度分秒 DMS (degrees-minutes-seconds),40°0.6′22.7″N,116°22′0.02″E,公里/千米 kilometer,16.66
+0978,驼房营村志,110105023201,驼房营村,Tuofangying Cun,北京市,Beijing Shi,北京市,Beijing Shi,朝阳区,Chaoyang Qu,平方千米 / 平方公里 square kilometers,5.8,度分秒 DMS (degrees-minutes-seconds),39°58′08″N,116°30′19″E,没有相关数据 No Available Data,7
+0979,四合庄村志,110106202214,四合庄村,Sihezhuang Cun,北京市,Beijing Shi,北京市,Beijing Shi,丰台区,Fengtai Qu,亩 mu,1000,度分秒 DMS (degrees-minutes-seconds),39°52′N,116°17′E,没有相关数据 No Available Data,n/a
+0980,卢沟桥村志,110106201218,卢沟桥村,Lugouqiao Cun,北京市,Beijing Shi,北京市,Beijing Shi,丰台区,Fengtai Qu,平方千米 / 平方公里 square kilometers,7.38,没有相关数据 No Available Data,n/a,n/a,没有相关数据 No Available Data,n/a
+0981,广川街村志,131127102201,广川街村,Guangchuanjie Cun,河北省,Hebei Sheng,衡水市,Hengshui Shi,景县,Jing Xian,亩 mu,3746,度分秒 DMS (degrees-minutes-seconds),37°34′N,115°55′E,公里/千米 kilometer,33.2
+0982,车厂村志,110111009216,车厂村,Chechang Cun,北京市,Beijing Shi,北京市,Beijing Shi,房山区,Fangshan Qu,平方千米 / 平方公里 square kilometers,10.8,十进制 DD (decimal degrees),39.763°N,115.913°E,公里/千米 kilometer,22
+0983,兴复村志,320583105202,兴复村,Xingfu Cun,江苏省,Jiangsu Sheng,苏州市,Suzhou Shi,昆山市,Kunshan Shi,公顷 hectares,530.64,没有相关数据 No Available Data,n/a,n/a,没有相关数据 No Available Data,n/a
+0984,黄皮村志,430524207219,黄皮村,Huangpi Cun,湖南省,Hunan Sheng,邵阳市,Shaoyang Shi,隆回县,Longhui Xian,平方千米 / 平方公里 square kilometers,4.3,度分秒范围 Range in DMS (degrees-minutes-seconds),27°22.27′N - 27°37.18′N,110°56′E - 111°4′E,公里/千米 kilometer,43
+0986,大楚留村志,370686104213,大楚留村,Dachuliu Cun,山东省,Shandong Sheng,烟台市,Yantai Shi,栖霞市,Qixia Shi,平方米 square meters,2054778,没有相关数据 No Available Data,n/a,n/a,没有相关数据 No Available Data,n/a
+0987,华新村志,320206003006,华新村,Huaxin Cun,江苏省,Jiangsu Sheng,无锡市,Wuxi Shi,惠山区,Huishan Qu,平方千米 / 平方公里 square kilometers,3.63,没有相关数据 No Available Data,n/a,n/a,没有相关数据 No Available Data,n/a
+0988,老道井村志,410704200205,老道井村,Laodaojing Cun,河南省,Henan Sheng,新乡市,Xinxiang Shi,凤泉区,Fengquan Qu,亩 mu,960,度分秒 DMS (degrees-minutes-seconds),35°40′N,113°91′E,公里/千米 kilometer,3.5
+0989,新新村志,310116102216,新新村,Xinxin Cun,上海市,Shanghai Shi,上海市,Shanghai Shi,金山区,Jinshan Qu,平方千米 / 平方公里 square kilometers,4.61,没有相关数据 No Available Data,n/a,n/a,没有相关数据 No Available Data,n/a
+0990,城子村志,110109103202,城子村,Chengzi Cun,北京市,Beijing Shi,北京市,Beijing Shi,门头沟区,Mentougou Qu,平方千米 / 平方公里 square kilometers,4,没有相关数据 No Available Data,n/a,n/a,没有相关数据 No Available Data,n/a
+0991,花园村志,320582101210,花园村,Huayuan Cun,江苏省,Jiangsu Sheng,苏州市,Suzhou Shi,张家港市,Zhangjiagang Shi,平方千米 / 平方公里 square kilometers,5.59,没有相关数据 No Available Data,n/a,n/a,没有相关数据 No Available Data,n/a
+0992,故城村志,130132101206,故城村,Gucheng Cun,河北省,Hebei Sheng,石家庄市,Shijiazhuang Shi,元氏区,Yuanshi Qu,亩 mu,2938.9,度分秒 DMS (degrees-minutes-seconds),37°82′N,114°46′E,公里/千米 kilometer,8.6
+0993,都康村志,350823102215,都康村,Dukang Cun,福建省,Fujian Sheng,龙岩市,Longyan Shi,上杭县,Shanghang Xian,平方千米 / 平方公里 square kilometers,9,没有相关数据 No Available Data,n/a,n/a,没有相关数据 No Available Data,n/a
+0994,廖家林村志,420583101218,廖家林村,Liaojialin Cun,湖北省,Hubei Sheng,宜昌市,Yichang Shi,枝江市,Zhijiang Shi,平方千米 / 平方公里 square kilometers,43.7,度分秒 DMS (degrees-minutes-seconds),28°N,115°E,没有相关数据 No Available Data,n/a
+0995,关虎屯村志,410105008010,关虎屯村,Guanhutun Cun,河南省,Henan Sheng,郑州市,Zhengzhou Shi,金水区,Jinshui Qu,平方千米 / 平方公里 square kilometers,6,度分秒范围 Range in DMS (degrees-minutes-seconds),34°50′N - 34°51′N,113°40′E - 113°41′E,没有相关数据 No Available Data,n/a
+0996,江姐村志,510304100204,江姐村,Jiangjie Cun,四川省,Sichuan Sheng,自贡市,Zigong Shi,大安区,Daan Qu,平方千米 / 平方公里 square kilometers,4.33,度分秒范围 Range in DMS (degrees-minutes-seconds),28°55′N - 29°38′N,104°02′E - 105°16′E,没有相关数据 No Available Data,n/a
+0997,葛寨村志,n/a,葛寨村,Gezhai Cun,河南省,Henan Sheng,郑州市,Zhengzhou Shi,高新区,Gaoxin Qu,平方千米 / 平方公里 square kilometers,70,没有相关数据 No Available Data,n/a,n/a,没有相关数据 No Available Data,n/a
+0998,崔家村志,370702005213,崔家村,Cuijia Cun,山东省,Shandong Sheng,潍坊市,Weifang Shi,潍城区,Weicheng Qu,平方米 square meters,269730,没有相关数据 No Available Data,n/a,n/a,没有相关数据 No Available Data,n/a
+0999,篁墩村志,341002100203,篁墩村,Huangdun Cun,安徽省,Anhui Sheng,黄山市,Huangshan Shi,屯溪区,Tunxi Qu,平方千米 / 平方公里 square kilometers,3,度分秒 DMS (degrees-minutes-seconds),30°N,118°E,没有相关数据 No Available Data,n/a
+1000,兰寨村志,n/a,兰寨村,Lanzhai Cun,河南省,Henan Sheng,郑州市,Zhengzhou Shi,高新区,Gaoxin Qu,平方千米 / 平方公里 square kilometers,1.5,没有相关数据 No Available Data,n/a,n/a,没有相关数据 No Available Data,n/a
