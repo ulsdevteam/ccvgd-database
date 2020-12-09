@@ -1,0 +1,10 @@
+id,name,parentId
+1,受教育程度 Highest Level of Education,NULL
+2,中专高中 High School,1
+3,初中 Junior High School,1
+4,大专以上 College/University or Higher,1
+5,小学 Elementary School,1
+6,文盲 Illiterate,1
+7,小学在校生 Elementary School Students,NULL
+8,小学老师 Elementary School Teachers,NULL
+9,新入学生 - 大学 Initial Student Enrollment - College/University,NULL

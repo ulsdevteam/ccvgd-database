@@ -8,72 +8,61 @@ id,name,parentId
 7,服务业 Hospitality and Service,5
 8,种植业 Agriculture,1
 9,粮食 Grain,8
-10,种植业,8
-11,水果 Fruit,8
-12,蔬菜 Vegetables,8
-13,林业 Forestry,1
-14,牧业 Animal Husbandry,1
-15,副业 Miscellaneous,1
-16,运输业 Shipping,15
-17,仓储业 Warehouse,15
-18,建筑业 Construction,15
-19,渔业 Fishery,1
-20,集体经济收入 Collective Economic Income,NULL
-21,总 Total,20
-22,第一产业 Raw Materials,20
-23,第二产业 Secondary Industry,20
-24,第三产业 Service,20
-25,商饮 Grocery,24
-26,服务业 Hospitality and Service,24
-27,种植业 Agriculture,20
-28,粮食 Grain,27
-29,种植业,27
-30,水果 Fruit,27
-31,蔬菜 Vegetables,27
-32,林业 Forestry,20
-33,牧业 Animal Husbandry,20
-34,副业 Miscellaneous,20
-35,运输业 Shipping,34
-36,仓储业 Warehouse,34
-37,建筑业 Construction,34
-38,渔业 Fishery,20
-39,耕地面积 Cultivated Area,NULL
-40,粮食总产量 Total Grain Output,NULL
-41,人均收入 Per Capita Income,NULL
-42,人均居住面积 Per Capita Living Space,NULL
-43,电价 Electricity Price,NULL
-44,General,43
-45,生活 Household,43
-46,全村 village,45
-47,每户 per household,45
-48,每人 per person,45
-49,农业 Agricultural,43
-50,工业 Industrial,43
-51,商业 Commercial,43
-52,用电量 Electricity Consumption,NULL
-53,General,52
-54,生活 Household,52
-55,全村 village,54
-56,每户 per household,54
-57,每人 per person,54
-58,农业 Agricultural,52
-59,工业 Industrial,52
-60,商业 Commercial,52
-61,水价 Water Price,NULL
-62,General,61
-63,生活 Household,61
-64,全村 village,63
-65,每户 per household,63
-66,每人 per person,63
-67,农业 Agricultural,61
-68,工业 Industrial,61
-69,商业 Commercial,61
-70,用水量 Water Consumption,NULL
-71,General,70
-72,生活 Household,70
-73,全村 village,72
-74,每户 per household,72
-75,每人 per person,72
-76,农业 Agricultural,70
-77,工业 Industrial,70
-78,商业 Commercial,70
+10,水果 Fruit,8
+11,蔬菜 Vegetables,8
+12,林业 Forestry,1
+13,牧业 Animal Husbandry,1
+14,副业 Miscellaneous,1
+15,运输业 Shipping,14
+16,仓储业 Warehouse,14
+17,建筑业 Construction,14
+18,渔业 Fishery,1
+19,集体经济收入 Collective Economic Income,NULL
+20,总 Total,19
+21,第一产业 Raw Materials,19
+22,第二产业 Secondary Industry,19
+23,第三产业 Service,19
+24,商饮 Grocery,23
+25,服务业 Hospitality and Service,23
+26,种植业 Agriculture,19
+27,粮食 Grain,26
+28,水果 Fruit,26
+29,蔬菜 Vegetables,26
+30,林业 Forestry,19
+31,牧业 Animal Husbandry,19
+32,副业 Miscellaneous,19
+33,运输业 Shipping,32
+34,仓储业 Warehouse,32
+35,建筑业 Construction,32
+36,渔业 Fishery,19
+37,耕地面积 Cultivated Area,NULL
+38,粮食总产量 Total Grain Output,NULL
+39,人均收入 Per Capita Income,NULL
+40,人均居住面积 Per Capita Living Space,NULL
+41,电价 Electricity Price,NULL
+42,General,41
+43,生活 Household,41
+44,农业 Agricultural,41
+45,工业 Industrial,41
+46,商业 Commercial,41
+47,用电量 Electricity Consumption,NULL
+48,General,47
+49,生活 Household,47
+50,全村 village,49
+51,每户 per household,49
+52,每人 per person,49
+53,农业 Agricultural,47
+54,工业 Industrial,47
+55,商业 Commercial,47
+56,水价 Water Price,NULL
+57,General,56
+58,生活 Household,56
+59,农业 Agricultural,56
+60,工业 Industrial,56
+61,商业 Commercial,56
+62,用水量 Water Consumption,NULL
+63,General,62
+64,生活 Household,62
+65,农业 Agricultural,62
+66,工业 Industrial,62
+67,商业 Commercial,62

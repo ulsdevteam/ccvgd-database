@@ -70,11 +70,11 @@ CATEGORIES['economyCategory_经济类'] = {
 
 CATEGORIES["educationCategory_教育类"] = {
     "受教育程度 Highest Level of Education": {
-        "中专高中 High School": {'人数 number of people': None, '百分比 (%) percentage': None},
-        '初中 Junior High School': {'人数 number of people': None, '百分比 (%) percentage': None},
-        '大专以上 College/University or Higher': {'人数 number of people': None, '百分比 (%) percentage': None},
-        '小学 Elementary School': {'人数 number of people': None, '百分比 (%) percentage': None},
-        '文盲 Illiterate': {'人数 number of people': None, '百分比 (%) percentage': None}
+        "中专高中 High School": None,
+        '初中 Junior High School': None,
+        '大专以上 College/University or Higher': None,
+        '小学 Elementary School': None,
+        '文盲 Illiterate': None
     },
     '小学在校生 Elementary School Students': None,
     '小学老师 Elementary School Teachers': None,
@@ -164,4 +164,154 @@ CATEGORIES["naturalDisastersCategory_自然灾害类"] = {
     "风灾 Windstorm": None,
     "龙卷风 Tornado": None,
     "雪崩 Avalanche": None
+}
+
+# categories that exist in population.csv(2020 version)
+CATEGORIES["populationcategory_人口类"] = {
+    "人口 Population": {
+        "总人口 Total Population": None,
+        "男性人口 Male Population": None,
+        "女性人口 Female Population": None
+    },
+    "农转非 Agricultural to Non-Agricultural Hukou / Change of Residency Status": {
+        "户数 number of households": None,
+        "人数 number of people": None
+    },
+    "出生人数 Number of Births": None,
+    "户数 Number of Households": None,
+    "死亡人数 Number of Deaths": None,
+    "死亡率 Death Rate (%)": None,
+    "死亡率 Death Rate (‰)": None,
+    "残疾人数 Disabled Population": {
+        "精神残疾 Mental Disabilities": None,
+        "听力语言残疾 Hearing and Speech Disabilities": None,
+        "残疾人总数 Total Disabled Population": None,
+        "肢体残疾 Amputation and/or Paralysis": None,
+        "智力残疾 Intellectual Disabilities": None,
+        "视力残疾 Blindness": None,
+    },
+    "流动人口/暂住人口 Migratory/Temporary Population": None,
+    "自然出生率 Birth Rate (%)": None,
+    "自然出生率 Birth Rate (‰)": None,
+    "自然增长率 Natural Population Growth Rate (%)": None,
+    "自然增长率 Natural Population Growth Rate (‰)": None,
+    "迁入 Migration In": {
+        "知识青年 Educated Youth": None,
+        "户数 number of households": None,
+        "人数 number of people": None
+    },
+    "迁出 Migration Out": {
+        "知识青年 Educated Youth": None,
+        "户数 number of households": None,
+        "人数 number of people": None
+    }
+
+}
+
+# categories that exist in military.csv(2020 version)
+CATEGORIES["militarycategory_军事类"] = {
+    "村民纠纷 Number of Civil Mediations": None,
+    "共产党员 CCP Membership": {
+        "女 Female": None,
+        "总 Total": None,
+        "男 Male": None,
+        "少数民族 Ethnic Minorities": None
+    },
+    "阶级成分 Class Status": {
+        "中农 Middle Peasant": None,
+        "地主 Landlord": None,
+        "富农 Rich Peasant": None,
+        "贫下中农 Poor and Lower Middle Peasant": None
+
+    },
+    "入伍 Military Enlistment": None,
+    "新党员 New CCP Membership": {
+        "女 Female": None,
+        "总 Total": None,
+        "男 Male": None,
+        "少数民族 Ethnic Minorities": None
+    },
+    "刑事案件 Number of Reported Crimes": None
+}
+
+# categories that exist in military.csv(2020 version)
+CATEGORIES["militarycategory_军事类"] = {
+    "村民纠纷 Number of Civil Mediations": None,
+    "共产党员 CCP Membership": {
+        "女 Female": None,
+        "总 Total": None,
+        "男 Male": None,
+        "少数民族 Ethnic Minorities": None
+    },
+    "阶级成分 Class Status": {
+        "中农 Middle Peasant": None,
+        "地主 Landlord": None,
+        "富农 Rich Peasant": None,
+        "贫下中农 Poor and Lower Middle Peasant": None
+
+    },
+    "入伍 Military Enlistment": None,
+    "新党员 New CCP Membership": {
+        "女 Female": None,
+        "总 Total": None,
+        "男 Male": None,
+        "少数民族 Ethnic Minorities": None
+    },
+    "刑事案件 Number of Reported Crimes": None
+}
+
+# categories that exist in familyplanning.csv(2020 version)
+CATEGORIES["famliyplanningcategory_计划生育类"] = {
+    "计划生育率 (%) Planned Birth Rate (%)": None,
+    "节育率 (%) Rate of Contraception": None,
+    "结扎总数 Total Number of Vasectomies and Tubal Ligations": None,
+    "领取独生子女证 (人数) Certified Commitment to One Child Policy (number of people)": None,
+    "男性结扎 Vasectomies": None,
+    "女性结扎 Tubal Ligations": None,
+    "人工流产 Abortions": None,
+    "上环 Use of Intrauterine Device (IUD)": None,
+    "引产 Late-term Abortions": None,
+    "育龄妇女人口 Number of Women of Childbearing Age": None,
+    "绝育手术 Sterilization Surgeries": None
+}
+
+# categories that exist in military.csv(2020 version)
+CATEGORIES["militarycategory_军事类"] = {
+    "村民纠纷 Number of Civil Mediations": None,
+    "共产党员 CCP Membership": {
+        "女 Female": None,
+        "总 Total": None,
+        "男 Male": None,
+        "少数民族 Ethnic Minorities": None
+    },
+    "阶级成分 Class Status": {
+        "中农 Middle Peasant": None,
+        "地主 Landlord": None,
+        "富农 Rich Peasant": None,
+        "贫下中农 Poor and Lower Middle Peasant": None
+
+    },
+    "入伍 Military Enlistment": None,
+    "新党员 New CCP Membership": {
+        "女 Female": None,
+        "总 Total": None,
+        "男 Male": None,
+        "少数民族 Ethnic Minorities": None
+    },
+    "刑事案件 Number of Reported Crimes": None
+}
+
+# categories that exist in Natural Environment.csv(2020 version)
+CATEGORIES["naturalenvironmentcategory_自然环境类"] = {
+    "海拔 (米) Altitude": None,
+    "平均降水量 Average Yearly Precipitation Amount": None,
+    "平均温度 Average Yearly Temperature": None
+}
+
+# geography categories that exist in Village Information.csv(2020 version)
+CATEGORIES["villagegeographycategory_村庄地理类"] = {
+    "村庄总面积 Total Area": None,
+    "纬度 Latitude": None,
+    "经度 Longitude": None,
+    "距隶属县城距离 Distance to Affiliated to the county town": None,
 }

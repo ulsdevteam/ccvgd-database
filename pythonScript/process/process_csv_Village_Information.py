@@ -1,6 +1,5 @@
 import pandas as pd
 
-pd._version
 def validate_pinyin(group_by_result):
     """
     find provinces/cities/counties that have different pinyin recorded.

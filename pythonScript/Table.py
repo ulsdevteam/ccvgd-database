@@ -182,7 +182,7 @@ class Table:
 
     TABLES['educationUnit'] = ("CREATE TABLE `educationUnit_教育单位` ("
                                "  `unitId_单位代码` int(11) NOT NULL,"
-                               "  `name` varchar(100) DEFAULT NULL,"
+                               "  `name_名称` varchar(100) DEFAULT NULL,"
                                "  PRIMARY KEY (`unitId_单位代码`)"
                                ") ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;")
 

@@ -1,0 +1,5 @@
+id,name,parentId
+1,村庄总面积 Total Area,NULL
+2,纬度 Latitude,NULL
+3,经度 Longitude,NULL
+4,距隶属县城距离 Distance to Affiliated to the county town,NULL

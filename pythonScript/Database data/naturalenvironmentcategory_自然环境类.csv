@@ -1,0 +1,4 @@
+id,name,parentId
+1,海拔 (米) Altitude,NULL
+2,平均降水量 Average Yearly Precipitation Amount,NULL
+3,平均温度 Average Yearly Temperature,NULL

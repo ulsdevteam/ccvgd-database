@@ -1,7 +1,7 @@
 import pandas as pd
 import math
 import sys
-from validate_csv_data import  check_yearly_records, check_range_records, mapping_id
+from process.validate_csv_data import check_yearly_records, check_range_records, mapping_id
 
 
 def create_csv_economy_economyUnit(read_path, output_path, yearly_file, range_file):
@@ -38,6 +38,7 @@ def create_csv_economy_economyUnit(read_path, output_path, yearly_file, range_fi
         sys.exit("Correct records first.")
     else:
         print("Finish validate.")
+
     # create level1, level2, and level3 category
     for column in ['Division1', 'Division2', 'Subdivision - Agri.', 'Subdivision - Misc.', 'Subdivision - Service','Subdivision - Household']:
         yearly_df[column] = yearly_df[column].where(yearly_df[column].notnull(), "")

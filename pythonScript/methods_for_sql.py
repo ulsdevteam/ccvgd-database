@@ -35,18 +35,27 @@ def insert_into_table(insert_sql, data, cnx):
     """
     incorrect_records = []
     # insert records into table
+    count = 0
     for one_record in data:
         cursor = cnx.cursor()
         try:
             cursor.execute(insert_sql, one_record)
         except mysql.connector.Error as error:
+            # skip error for duplicate record
+            if error.errno == 1062:
+                cnx.rollback()
+                continue
+            # process other errors
             print(error)
-            # print("{} does not insert successfully".format(one_record))
             incorrect_records.append(one_record)
             cnx.rollback()
         else:
             cnx.commit()
         cursor.close()
+        count += 1
+        if count % 5000 == 0:
+            print("finish {} records".format(count))
+
     print("Finished inserting data.")
     return incorrect_records
 

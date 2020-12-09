@@ -1,0 +1,19 @@
+id,name,parentId
+1,村民纠纷 Number of Civil Mediations,NULL
+2,共产党员 CCP Membership,NULL
+3,女 Female,2
+4,总 Total,2
+5,男 Male,2
+6,少数民族 Ethnic Minorities,2
+7,阶级成分 Class Status,NULL
+8,中农 Middle Peasant,7
+9,地主 Landlord,7
+10,富农 Rich Peasant,7
+11,贫下中农 Poor and Lower Middle Peasant,7
+12,入伍 Military Enlistment,NULL
+13,新党员 New CCP Membership,NULL
+14,女 Female,13
+15,总 Total,13
+16,男 Male,13
+17,少数民族 Ethnic Minorities,13
+18,刑事案件 Number of Reported Crimes,NULL

@@ -1,0 +1,21 @@
+id,name,parentId
+1,冰凌 Icestorm,NULL
+2,冰雹 Hailstorm,NULL
+3,台风 Typhoon,NULL
+4,地震 Earthquake,NULL
+5,寒潮 Cold Wave,NULL
+6,山火 Wildfire,NULL
+7,旱灾 Drought,NULL
+8,暴风雨 Severe Storm,NULL
+9,暴风雪 Blizzard,NULL
+10,水灾 Flood,NULL
+11,沙尘暴 Sandstorm,NULL
+12,海啸 Tsunami,NULL
+13,涝灾 Waterlogging,NULL
+14,滑坡和泥石流 Landslide and Debris Flow,NULL
+15,虫害 Pestilence,NULL
+16,雷雨 Thunderstorm,NULL
+17,霜冻 Frost Damage,NULL
+18,风灾 Windstorm,NULL
+19,龙卷风 Tornado,NULL
+20,雪崩 Avalanche,NULL

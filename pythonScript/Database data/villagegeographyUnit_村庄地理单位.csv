@@ -1,0 +1,15 @@
+unit_id,name
+1,没有相关数据 No Available Data
+2,平方千米 / 平方公里 square kilometers
+3,平方华里 square huali
+4,亩 mu
+5,平方米 square meters
+6,公顷 hectares
+7,万亩 10K mu
+8,万平方米 10K square meters
+9,度分秒 DMS (degrees-minutes-seconds)
+10,十进制 DD (decimal degrees)
+11,度分秒范围 Range in DMS (degrees-minutes-seconds)
+12,十进制范围 Range in DD (decimal degrees)
+13,公里/千米 kilometer
+14,里 li

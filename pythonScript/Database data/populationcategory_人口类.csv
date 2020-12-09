@@ -1,0 +1,33 @@
+id,name,parentId
+1,人口 Population,NULL
+2,总人口 Total Population,1
+3,男性人口 Male Population,1
+4,女性人口 Female Population,1
+5,农转非 Agricultural to Non-Agricultural Hukou / Change of Residency Status,NULL
+6,户数 number of households,5
+7,人数 number of people,5
+8,出生人数 Number of Births,NULL
+9,户数 Number of Households,NULL
+10,死亡人数 Number of Deaths,NULL
+11,死亡率 Death Rate (%),NULL
+12,死亡率 Death Rate (‰),NULL
+13,残疾人数 Disabled Population,NULL
+14,精神残疾 Mental Disabilities,13
+15,听力语言残疾 Hearing and Speech Disabilities,13
+16,残疾人总数 Total Disabled Population,13
+17,肢体残疾 Amputation and/or Paralysis,13
+18,智力残疾 Intellectual Disabilities,13
+19,视力残疾 Blindness,13
+20,流动人口/暂住人口 Migratory/Temporary Population,NULL
+21,自然出生率 Birth Rate (%),NULL
+22,自然出生率 Birth Rate (‰),NULL
+23,自然增长率 Natural Population Growth Rate (%),NULL
+24,自然增长率 Natural Population Growth Rate (‰),NULL
+25,迁入 Migration In,NULL
+26,知识青年 Educated Youth,25
+27,户数 number of households,25
+28,人数 number of people,25
+29,迁出 Migration Out,NULL
+30,知识青年 Educated Youth,29
+31,户数 number of households,29
+32,人数 number of people,29

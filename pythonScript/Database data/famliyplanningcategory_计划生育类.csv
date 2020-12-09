@@ -1,0 +1,12 @@
+id,name,parentId
+1,计划生育率 (%) Planned Birth Rate (%),NULL
+2,节育率 (%) Rate of Contraception,NULL
+3,结扎总数 Total Number of Vasectomies and Tubal Ligations,NULL
+4,领取独生子女证 (人数) Certified Commitment to One Child Policy (number of people),NULL
+5,男性结扎 Vasectomies,NULL
+6,女性结扎 Tubal Ligations,NULL
+7,人工流产 Abortions,NULL
+8,上环 Use of Intrauterine Device (IUD),NULL
+9,引产 Late-term Abortions,NULL
+10,育龄妇女人口 Number of Women of Childbearing Age,NULL
+11,绝育手术 Sterilization Surgeries,NULL

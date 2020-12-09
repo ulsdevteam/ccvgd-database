@@ -22,8 +22,7 @@ create_tables(TABLES, cnx)
 
 read_path = "Database data"
 write_path = "incorrect_records"
-
-for file, name, sql in zip(files_name, tables_name, sqls):
-    load_data_into_table(file,name,sql,cnx,read_path,write_path)
+for file, table_name, sql in zip(files_name, tables_name, sqls):
+    load_data_into_table(file,table_name,sql,cnx,read_path,write_path)
 
 cnx.close()
