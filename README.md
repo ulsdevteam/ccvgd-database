@@ -6,6 +6,9 @@
 ## Purpose
 This project reorganizes that raw data into a relational database and a web-based presentation of the data.
 
+## Project folders Overview
+* `pythonScript`: Contains python scripts that will load the recorded 18 csv file into existing MySQL database. For details please read the README file inside `pythonScript` folder
+
 ## Authorship and License
 This is a work of the University of Pittsburgh.
 
@@ -13,9 +16,5 @@ Student work supervised by [Daqing He](http://www.pitt.edu/~dah44/), in collabor
 * Qi Xin
 * Nuoqi Zeng
 * Nianyun Qi
-
-## Project folders Overview
-* `pythonScript`: Contains python scripts that will load the recorded 18 csv file into existing MySQL database. For details please read the README file inside `pythonScript` folder
-
 
 Original work in this repo is licensed under the MIT-license.  Included works retain their respective licenses.

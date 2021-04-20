@@ -1,7 +1,7 @@
 ## To run scripts:
 1. Create config.txt, put it directly under pythonScript directory.
 2. Put all csv files under "All Datasets and Data Dictionary" directory.(Please make sure records are the most new version, and mistake records are fixed.)
-3. Create empty directory "incorrect_records" under "pythonScript" to store incorrect records that can not be loaded into database.
+3. Ensure directory "incorrect_records" under "pythonScript" is empty to store incorrect records that can not be loaded into database.
 4. Run ```main_process.py``` to process original csv files.
 5. Run ```main_load.py``` to load processed csv files into database.
 
