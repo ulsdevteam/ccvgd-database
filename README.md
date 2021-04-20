@@ -8,6 +8,9 @@ This project reorganizes that raw data into a relational database and a web-base
 
 ## Project folders Overview
 * `UX_Nuoqi`: Contains an AXURE RP prototyping file and HTML representation of the proposed web UI.
+* `day10_bootstrap` : Contains an early prototype for the UI presentation.
+* `process_data`: Contains early Jupyter notebooks for building the database.
+* `some codes to build database`: Contains early SQLs used to restructure the database.
 * `pythonScript`: Contains python scripts that will load the recorded 18 csv file into existing MySQL database. For details please read the README file inside `pythonScript` folder
 
 ## Authorship and License
