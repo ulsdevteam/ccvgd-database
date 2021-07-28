@@ -19,7 +19,7 @@ class Table:
                          "  PRIMARY KEY (`villageInnerId_村庄内部代码`,`gazetteerId_村志代码`),"
                          "  KEY `gazetteerId_index` (`gazetteerId_村志代码`),"
                          "  KEY `villageInnerId_index` (`villageInnerId_村庄内部代码`),"
-                         "  CONSTRAINT `village_村_ibfk_1` FOREIGN KEY (`gazetteerId_村志代码`) REFERENCES `gazetteerinformation_村志信息` (`gazetteerid_村志代码`)"
+                         "  CONSTRAINT `village_村_ibfk_1` FOREIGN KEY (`gazetteerId_村志代码`) REFERENCES `gazetteerInformation_村志信息` (`gazetteerId_村志代码`)"
                          ") ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;")
 
     TABLES['city'] = ("CREATE TABLE `city_市` ("
@@ -54,10 +54,10 @@ class Table:
                                            "  KEY `cityId_市代码` (`cityId_市代码`),"
                                            "  KEY `provinceId_省代码` (`provinceId_省代码`),"
                                            "  KEY `villagecountycityprovince_村县市省_ibfk_2` (`countyDistrictId_县或区代码`),"
-                                           "  CONSTRAINT `villagecountycityprovince_村县市省_ibfk_1` FOREIGN KEY (`gazetteerId_村志代码`) REFERENCES `village_村` (`gazetteerid_村志代码`),"
-                                           "  CONSTRAINT `villagecountycityprovince_村县市省_ibfk_2` FOREIGN KEY (`countyDistrictId_县或区代码`) REFERENCES `county_县` (`countydistrictid_县或区代码`),"
-                                           "  CONSTRAINT `villagecountycityprovince_村县市省_ibfk_3` FOREIGN KEY (`cityId_市代码`) REFERENCES `city_市` (`cityid_市代码`),"
-                                           "  CONSTRAINT `villagecountycityprovince_村县市省_ibfk_4` FOREIGN KEY (`provinceId_省代码`) REFERENCES `province_省` (`provinceid_省代码`)"
+                                           "  CONSTRAINT `villagecountycityprovince_村县市省_ibfk_1` FOREIGN KEY (`gazetteerId_村志代码`) REFERENCES `village_村` (`gazetteerId_村志代码`),"
+                                           "  CONSTRAINT `villagecountycityprovince_村县市省_ibfk_2` FOREIGN KEY (`countyDistrictId_县或区代码`) REFERENCES `county_县` (`countydistrictId_县或区代码`),"
+                                           "  CONSTRAINT `villagecountycityprovince_村县市省_ibfk_3` FOREIGN KEY (`cityId_市代码`) REFERENCES `city_市` (`cityId_市代码`),"
+                                           "  CONSTRAINT `villagecountycityprovince_村县市省_ibfk_4` FOREIGN KEY (`provinceId_省代码`) REFERENCES `province_省` (`provinceId_省代码`)"
                                            ") ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;")
 
     TABLES['naturalEnvironmentCategory'] = ("CREATE TABLE `naturalEnvironmentCategory_自然环境类` ("
@@ -84,10 +84,10 @@ class Table:
                                     "  KEY `unitId_单位代码` (`unitId_单位代码`),"
                                     "  KEY `gazetteerId_村志代码` (`gazetteerId_村志代码`),"
                                     "  KEY `naturalenvironment_自然环境_ibfk_4_idx` (`villageInnerId_村庄内部代码`),"
-                                    "  CONSTRAINT `naturalenvironment_自然环境_ibfk_1` FOREIGN KEY (`categoryId_类别代码`) REFERENCES `naturalenvironmentcategory_自然环境类` (`categoryid_类别代码`),"
-                                    "  CONSTRAINT `naturalenvironment_自然环境_ibfk_2` FOREIGN KEY (`unitId_单位代码`) REFERENCES `naturalenvironmentunit_自然环境单位` (`unitid_单位代码`),"
-                                    "  CONSTRAINT `naturalenvironment_自然环境_ibfk_3` FOREIGN KEY (`gazetteerId_村志代码`) REFERENCES `gazetteerinformation_村志信息` (`gazetteerid_村志代码`),"
-                                    "  CONSTRAINT `naturalenvironment_自然环境_ibfk_4` FOREIGN KEY (`villageInnerId_村庄内部代码`) REFERENCES `village_村` (`villageinnerid_村庄内部代码`)"
+                                    "  CONSTRAINT `naturalenvironment_自然环境_ibfk_1` FOREIGN KEY (`categoryId_类别代码`) REFERENCES `naturalEnvironmentCategory_自然环境类` (`categoryId_类别代码`),"
+                                    "  CONSTRAINT `naturalenvironment_自然环境_ibfk_2` FOREIGN KEY (`unitId_单位代码`) REFERENCES `naturalEnvironmentUnit_自然环境单位` (`unitId_单位代码`),"
+                                    "  CONSTRAINT `naturalenvironment_自然环境_ibfk_3` FOREIGN KEY (`gazetteerId_村志代码`) REFERENCES `gazetteerInformation_村志信息` (`gazetteerId_村志代码`),"
+                                    "  CONSTRAINT `naturalenvironment_自然环境_ibfk_4` FOREIGN KEY (`villageInnerId_村庄内部代码`) REFERENCES `village_村` (`villageInnerId_村庄内部代码`)"
                                     ") ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;")
 
     TABLES['firstAvailabilityorPurchaseCategory'] = ("CREATE TABLE `firstAvailabilityorPurchaseCategory_第一次购买或拥有年份类` ("
@@ -106,9 +106,9 @@ class Table:
                                              "  KEY `categoryId_类别代码` (`categoryId_类别代码`),"
                                              "  KEY `gazetteerId_村志代码` (`gazetteerId_村志代码`),"
                                              "  KEY `firstavailabilityorpurchase_第一次购买或拥有年份__idx` (`villageInnerId_村庄内部代码`),"
-                                             "  CONSTRAINT `firstavailabilityorpurchase_第一次购买或拥有年份_ibfk_1` FOREIGN KEY (`categoryId_类别代码`) REFERENCES `firstavailabilityorpurchasecategory_第一次购买或拥有年份类` (`categoryid_类别代码`),"
-                                             "  CONSTRAINT `firstavailabilityorpurchase_第一次购买或拥有年份_ibfk_2` FOREIGN KEY (`gazetteerId_村志代码`) REFERENCES `gazetteerinformation_村志信息` (`gazetteerid_村志代码`),"
-                                             "  CONSTRAINT `firstavailabilityorpurchase_第一次购买或拥有年份_ibfk_3` FOREIGN KEY (`villageInnerId_村庄内部代码`) REFERENCES `village_村` (`villageinnerid_村庄内部代码`)"
+                                             "  CONSTRAINT `firstavailabilityorpurchase_第一次购买或拥有年份_ibfk_1` FOREIGN KEY (`categoryId_类别代码`) REFERENCES `firstAvailabilityorPurchaseCategory_第一次购买或拥有年份类` (`categoryId_类别代码`),"
+                                             "  CONSTRAINT `firstavailabilityorpurchase_第一次购买或拥有年份_ibfk_2` FOREIGN KEY (`gazetteerId_村志代码`) REFERENCES `gazetteerInformation_村志信息` (`gazetteerId_村志代码`),"
+                                             "  CONSTRAINT `firstavailabilityorpurchase_第一次购买或拥有年份_ibfk_3` FOREIGN KEY (`villageInnerId_村庄内部代码`) REFERENCES `village_村` (`villageInnerId_村庄内部代码`)"
                                              ") ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;")
 
     TABLES['familyPlanningCategory'] = ("CREATE TABLE `familyplanningcategory_计划生育类` ("
@@ -136,10 +136,10 @@ class Table:
                                 "  KEY `ethnicgroups_计划生育_ibfk_1_idx` (`categoryId_类别代码`),"
                                 "  KEY `ethnicgroups_计划生育_ibfk_2_idx` (`unitId_单位代码`),"
                                 "  KEY `ethnicgroups_计划生育_ibfk_4_idx` (`villageInnerId_村庄内部代码`),"
-                                "  CONSTRAINT `ethnicgroups_计划生育_ibfk_2` FOREIGN KEY (`unitId_单位代码`) REFERENCES `familyplanningunit_计划生育单位` (`unitid_单位代码`),"
-                                "  CONSTRAINT `ethnicgroups_计划生育_ibfk_3` FOREIGN KEY (`gazetteerId_村志代码`) REFERENCES `gazetteerinformation_村志信息` (`gazetteerid_村志代码`),"
-                                "  CONSTRAINT `ethnicgroups_计划生育_ibfk_4` FOREIGN KEY (`villageInnerId_村庄内部代码`) REFERENCES `village_村` (`villageinnerid_村庄内部代码`),"
-                                "  CONSTRAINT `familyplanning_计划生育_ibfk_1` FOREIGN KEY (`categoryId_类别代码`) REFERENCES `familyplanningcategory_计划生育类` (`categoryid_类别代码`)"
+                                "  CONSTRAINT `ethnicgroups_计划生育_ibfk_2` FOREIGN KEY (`unitId_单位代码`) REFERENCES `familyplanningunit_计划生育单位` (`unitId_单位代码`),"
+                                "  CONSTRAINT `ethnicgroups_计划生育_ibfk_3` FOREIGN KEY (`gazetteerId_村志代码`) REFERENCES `gazetteerInformation_村志信息` (`gazetteerId_村志代码`),"
+                                "  CONSTRAINT `ethnicgroups_计划生育_ibfk_4` FOREIGN KEY (`villageInnerId_村庄内部代码`) REFERENCES `village_村` (`villageInnerId_村庄内部代码`),"
+                                "  CONSTRAINT `familyplanning_计划生育_ibfk_1` FOREIGN KEY (`categoryId_类别代码`) REFERENCES `familyplanningcategory_计划生育类` (`categoryId_类别代码`)"
                                 ") ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;")
 
     TABLES['militaryCategory'] = ("CREATE TABLE `militarycategory_军事类` ("
@@ -167,10 +167,10 @@ class Table:
                           "  KEY `military_军事_ibfk_1_idx` (`categoryId_类别代码`),"
                           "  KEY `military_军事_ibfk_2_idx` (`unitId_单位代码`),"
                           "  KEY `military_军事_ibfk_4_idx` (`villageInnerId_村庄内部代码`),"
-                          "  CONSTRAINT `military_军事_ibfk_1` FOREIGN KEY (`categoryId_类别代码`) REFERENCES `militarycategory_军事类` (`categoryid_类别代码`),"
-                          "  CONSTRAINT `military_军事_ibfk_2` FOREIGN KEY (`unitId_单位代码`) REFERENCES `militaryunit_军事单位` (`unitid_单位代码`),"
-                          "  CONSTRAINT `military_军事_ibfk_3` FOREIGN KEY (`gazetteerId_村志代码`) REFERENCES `gazetteerinformation_村志信息` (`gazetteerid_村志代码`),"
-                          "  CONSTRAINT `military_军事_ibfk_4` FOREIGN KEY (`villageInnerId_村庄内部代码`) REFERENCES `village_村` (`villageinnerid_村庄内部代码`)"
+                          "  CONSTRAINT `military_军事_ibfk_1` FOREIGN KEY (`categoryId_类别代码`) REFERENCES `militarycategory_军事类` (`categoryId_类别代码`),"
+                          "  CONSTRAINT `military_军事_ibfk_2` FOREIGN KEY (`unitId_单位代码`) REFERENCES `militaryunit_军事单位` (`unitId_单位代码`),"
+                          "  CONSTRAINT `military_军事_ibfk_3` FOREIGN KEY (`gazetteerId_村志代码`) REFERENCES `gazetteerInformation_村志信息` (`gazetteerId_村志代码`),"
+                          "  CONSTRAINT `military_军事_ibfk_4` FOREIGN KEY (`villageInnerId_村庄内部代码`) REFERENCES `village_村` (`villageInnerId_村庄内部代码`)"
                           ") ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;")
 
     TABLES['educationCategory'] = ("CREATE TABLE `educationCategory_教育类` ("
@@ -199,10 +199,10 @@ class Table:
                            "  KEY `gazetteerId_村志代码` (`gazetteerId_村志代码`),"
                            "  KEY `education_教育_ibfk_3_idx` (`unitId_单位代码`),"
                            "  KEY `education_教育_ibfk_4_idx` (`villageInnerId_村庄内部代码`),"
-                           "  CONSTRAINT `education_教育_ibfk_1` FOREIGN KEY (`categoryId_类别代码`) REFERENCES `educationcategory_教育类` (`categoryid_类别代码`),"
-                           "  CONSTRAINT `education_教育_ibfk_2` FOREIGN KEY (`gazetteerId_村志代码`) REFERENCES `gazetteerinformation_村志信息` (`gazetteerid_村志代码`),"
-                           "  CONSTRAINT `education_教育_ibfk_3` FOREIGN KEY (`unitId_单位代码`) REFERENCES `educationunit_教育单位` (`unitid_单位代码`),"
-                           "  CONSTRAINT `education_教育_ibfk_4` FOREIGN KEY (`villageInnerId_村庄内部代码`) REFERENCES `village_村` (`villageinnerid_村庄内部代码`)"
+                           "  CONSTRAINT `education_教育_ibfk_1` FOREIGN KEY (`categoryId_类别代码`) REFERENCES `educationCategory_教育类` (`categoryId_类别代码`),"
+                           "  CONSTRAINT `education_教育_ibfk_2` FOREIGN KEY (`gazetteerId_村志代码`) REFERENCES `gazetteerInformation_村志信息` (`gazetteerId_村志代码`),"
+                           "  CONSTRAINT `education_教育_ibfk_3` FOREIGN KEY (`unitId_单位代码`) REFERENCES `educationUnit_教育单位` (`unitId_单位代码`),"
+                           "  CONSTRAINT `education_教育_ibfk_4` FOREIGN KEY (`villageInnerId_村庄内部代码`) REFERENCES `village_村` (`villageInnerId_村庄内部代码`)"
                            ") ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;")
 
     TABLES['villageGeographyCategory'] = ("CREATE TABLE `villageGeographyCategory_村庄地理类` ("
@@ -229,10 +229,10 @@ class Table:
                                   "  KEY `categoryId_类别代码` (`categoryId_类别代码`),"
                                   "  KEY `villagegeography_村庄地理_ibfk_3_idx` (`unitId_单位代码`),"
                                   "  KEY `villagegeography_村庄地理_ibfk_4_idx` (`villageInnerId_村庄内部代码`),"
-                                  "  CONSTRAINT `villagegeography_村庄地理_ibfk_1` FOREIGN KEY (`gazetteerId_村志代码`) REFERENCES `gazetteerinformation_村志信息` (`gazetteerid_村志代码`),"
-                                  "  CONSTRAINT `villagegeography_村庄地理_ibfk_2` FOREIGN KEY (`categoryId_类别代码`) REFERENCES `villagegeographycategory_村庄地理类` (`categoryid_类别代码`),"
-                                  "  CONSTRAINT `villagegeography_村庄地理_ibfk_3` FOREIGN KEY (`unitId_单位代码`) REFERENCES `villagegeographyunit_村庄地理单位` (`unitid_单位代码`),"
-                                  "  CONSTRAINT `villagegeography_村庄地理_ibfk_4` FOREIGN KEY (`villageInnerId_村庄内部代码`) REFERENCES `village_村` (`villageinnerid_村庄内部代码`)"
+                                  "  CONSTRAINT `villagegeography_村庄地理_ibfk_1` FOREIGN KEY (`gazetteerId_村志代码`) REFERENCES `gazetteerInformation_村志信息` (`gazetteerId_村志代码`),"
+                                  "  CONSTRAINT `villagegeography_村庄地理_ibfk_2` FOREIGN KEY (`categoryId_类别代码`) REFERENCES `villageGeographyCategory_村庄地理类` (`categoryId_类别代码`),"
+                                  "  CONSTRAINT `villagegeography_村庄地理_ibfk_3` FOREIGN KEY (`unitId_单位代码`) REFERENCES `villageGeographyUnit_村庄地理单位` (`unitId_单位代码`),"
+                                  "  CONSTRAINT `villagegeography_村庄地理_ibfk_4` FOREIGN KEY (`villageInnerId_村庄内部代码`) REFERENCES `village_村` (`villageInnerId_村庄内部代码`)"
                                   ") ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;")
 
     TABLES['naturalDisastersCategory'] = ("CREATE TABLE `naturalDisastersCategory_自然灾害类` ("
@@ -251,9 +251,9 @@ class Table:
                                   "  KEY `categoryId_类别代码` (`categoryId_类别代码`),"
                                   "  KEY `gazetteerId_村志代码` (`gazetteerId_村志代码`),"
                                   "  KEY `naturaldisasters_自然灾害_ibfk_2_idx` (`villageInnerId_村庄内部代码`),"
-                                  "  CONSTRAINT `naturaldisasters_自然灾害_ibfk_1` FOREIGN KEY (`gazetteerId_村志代码`) REFERENCES `gazetteerinformation_村志信息` (`gazetteerid_村志代码`),"
-                                  "  CONSTRAINT `naturaldisasters_自然灾害_ibfk_2` FOREIGN KEY (`categoryId_类别代码`) REFERENCES `naturaldisasterscategory_自然灾害类` (`categoryid_类别代码`),"
-                                  "  CONSTRAINT `naturaldisasters_自然灾害_ibfk_3` FOREIGN KEY (`villageInnerId_村庄内部代码`) REFERENCES `village_村` (`villageinnerid_村庄内部代码`)"
+                                  "  CONSTRAINT `naturaldisasters_自然灾害_ibfk_1` FOREIGN KEY (`gazetteerId_村志代码`) REFERENCES `gazetteerInformation_村志信息` (`gazetteerId_村志代码`),"
+                                  "  CONSTRAINT `naturaldisasters_自然灾害_ibfk_2` FOREIGN KEY (`categoryId_类别代码`) REFERENCES `naturalDisastersCategory_自然灾害类` (`categoryId_类别代码`),"
+                                  "  CONSTRAINT `naturaldisasters_自然灾害_ibfk_3` FOREIGN KEY (`villageInnerId_村庄内部代码`) REFERENCES `village_村` (`villageInnerId_村庄内部代码`)"
                                   ") ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;")
 
     TABLES['populationCategory'] = ("CREATE TABLE `populationcategory_人口类` ("
@@ -281,10 +281,10 @@ class Table:
                             "  KEY `population_人口_ibfk_1_idx` (`categoryId_类别代码`),"
                             "  KEY `population_人口_ibfk_2_idx` (`unitId_单位代码`),"
                             "  KEY `population_人口_ibfk_4_idx` (`villageInnerId_村庄内部代码`),"
-                            "  CONSTRAINT `population_人口_ibfk_1` FOREIGN KEY (`categoryId_类别代码`) REFERENCES `populationcategory_人口类` (`categoryid_类别代码`),"
-                            "  CONSTRAINT `population_人口_ibfk_2` FOREIGN KEY (`unitId_单位代码`) REFERENCES `populationunit_人口单位` (`unitid_单位代码`),"
-                            "  CONSTRAINT `population_人口_ibfk_3` FOREIGN KEY (`gazetteerId_村志代码`) REFERENCES `gazetteerinformation_村志信息` (`gazetteerid_村志代码`),"
-                            "  CONSTRAINT `population_人口_ibfk_4` FOREIGN KEY (`villageInnerId_村庄内部代码`) REFERENCES `village_村` (`villageinnerid_村庄内部代码`)"
+                            "  CONSTRAINT `population_人口_ibfk_1` FOREIGN KEY (`categoryId_类别代码`) REFERENCES `populationcategory_人口类` (`categoryId_类别代码`),"
+                            "  CONSTRAINT `population_人口_ibfk_2` FOREIGN KEY (`unitId_单位代码`) REFERENCES `populationunit_人口单位` (`unitId_单位代码`),"
+                            "  CONSTRAINT `population_人口_ibfk_3` FOREIGN KEY (`gazetteerId_村志代码`) REFERENCES `gazetteerInformation_村志信息` (`gazetteerId_村志代码`),"
+                            "  CONSTRAINT `population_人口_ibfk_4` FOREIGN KEY (`villageInnerId_村庄内部代码`) REFERENCES `village_村` (`villageInnerId_村庄内部代码`)"
                             ") ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;")
 
     TABLES['ethnicCategory'] = ("CREATE TABLE `ethnicGroupsCategory_民族类` ("
@@ -313,10 +313,10 @@ class Table:
                         "  KEY `unitId_单位代码` (`unitId_单位代码`),"
                         "  KEY `categoryId_类别代码_idx` (`categoryId_类别代码`),"
                         "  KEY `ethnicgroups_民族_ibfk_4_idx` (`villageInnerId_村庄内部代码`),"
-                        "  CONSTRAINT `ethnicgroups_民族_ibfk_1` FOREIGN KEY (`categoryId_类别代码`) REFERENCES `ethnicgroupscategory_民族类` (`categoryid_类别代码`),"
-                        "  CONSTRAINT `ethnicgroups_民族_ibfk_2` FOREIGN KEY (`gazetteerId_村志代码`) REFERENCES `gazetteerinformation_村志信息` (`gazetteerid_村志代码`),"
-                        "  CONSTRAINT `ethnicgroups_民族_ibfk_3` FOREIGN KEY (`unitId_单位代码`) REFERENCES `ethnicgroupsunit_民族单位` (`unitid_单位代码`),"
-                        "  CONSTRAINT `ethnicgroups_民族_ibfk_4` FOREIGN KEY (`villageInnerId_村庄内部代码`) REFERENCES `village_村` (`villageinnerid_村庄内部代码`)"
+                        "  CONSTRAINT `ethnicgroups_民族_ibfk_1` FOREIGN KEY (`categoryId_类别代码`) REFERENCES `ethnicGroupsCategory_民族类` (`categoryId_类别代码`),"
+                        "  CONSTRAINT `ethnicgroups_民族_ibfk_2` FOREIGN KEY (`gazetteerId_村志代码`) REFERENCES `gazetteerInformation_村志信息` (`gazetteerId_村志代码`),"
+                        "  CONSTRAINT `ethnicgroups_民族_ibfk_3` FOREIGN KEY (`unitId_单位代码`) REFERENCES `ethnicGroupsUnit_民族单位` (`unitId_单位代码`),"
+                        "  CONSTRAINT `ethnicgroups_民族_ibfk_4` FOREIGN KEY (`villageInnerId_村庄内部代码`) REFERENCES `village_村` (`villageInnerId_村庄内部代码`)"
                         ") ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;")
 
     TABLES['economyCategory'] = ("CREATE TABLE `economyCategory_经济类` ("
@@ -345,9 +345,9 @@ class Table:
                          "  KEY `gazetteerId_村志代码` (`gazetteerId_村志代码`),"
                          "  KEY `categoryId_idx` (`categoryId_类别代码`),"
                          "  KEY `villageInnerId_idx` (`villageInnerId_村庄内部代码`),"
-                         "  CONSTRAINT `categoryId` FOREIGN KEY (`categoryId_类别代码`) REFERENCES `economycategory_经济类` (`categoryid_类别代码`),"
-                         "  CONSTRAINT `gazetteerId` FOREIGN KEY (`gazetteerId_村志代码`) REFERENCES `gazetteerinformation_村志信息` (`gazetteerid_村志代码`),"
-                         "  CONSTRAINT `unitId` FOREIGN KEY (`unitId_单位代码`) REFERENCES `economyunit_经济单位` (`unitid_单位代码`),"
+                         "  CONSTRAINT `categoryId` FOREIGN KEY (`categoryId_类别代码`) REFERENCES `economyCategory_经济类` (`categoryId_类别代码`),"
+                         "  CONSTRAINT `gazetteerId` FOREIGN KEY (`gazetteerId_村志代码`) REFERENCES `gazetteerInformation_村志信息` (`gazetteerId_村志代码`),"
+                         "  CONSTRAINT `unitId` FOREIGN KEY (`unitId_单位代码`) REFERENCES `economyUnit_经济单位` (`unitId_单位代码`),"
                          "  CONSTRAINT `villageInnerId_economy` FOREIGN KEY (`villageInnerId_村庄内部代码`) REFERENCES `village_村` (`villageInnerId_村庄内部代码`)"
                          ") ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;")
 
@@ -375,11 +375,11 @@ class Table:
                           "  KEY `fifthlastNamesId_姓氏代码` (`fifthlastNamesId_姓氏代码`),"
                           "  KEY `gazetteerId_村志代码` (`gazetteerId_村志代码`),"
                           "  KEY `lastname_姓氏_ibfk_7_idx` (`villageInnerId_村庄内部代码`),"
-                          "  CONSTRAINT `lastname_姓氏_ibfk_1` FOREIGN KEY (`firstlastNamesId_姓氏代码`) REFERENCES `lastnamecategory_姓氏类别` (`categoryid_类别代码`),"
-                          "  CONSTRAINT `lastname_姓氏_ibfk_2` FOREIGN KEY (`secondlastNamesId_姓氏代码`) REFERENCES `lastnamecategory_姓氏类别` (`categoryid_类别代码`),"
-                          "  CONSTRAINT `lastname_姓氏_ibfk_3` FOREIGN KEY (`thirdlastNamesId_姓氏代码`) REFERENCES `lastnamecategory_姓氏类别` (`categoryid_类别代码`),"
-                          "  CONSTRAINT `lastname_姓氏_ibfk_4` FOREIGN KEY (`fourthlastNamesId_姓氏代码`) REFERENCES `lastnamecategory_姓氏类别` (`categoryid_类别代码`),"
-                          "  CONSTRAINT `lastname_姓氏_ibfk_5` FOREIGN KEY (`fifthlastNamesId_姓氏代码`) REFERENCES `lastnamecategory_姓氏类别` (`categoryid_类别代码`),"
-                          "  CONSTRAINT `lastname_姓氏_ibfk_6` FOREIGN KEY (`gazetteerId_村志代码`) REFERENCES `gazetteerinformation_村志信息` (`gazetteerid_村志代码`),"
-                          "  CONSTRAINT `lastname_姓氏_ibfk_7` FOREIGN KEY (`villageInnerId_村庄内部代码`) REFERENCES `village_村` (`villageinnerid_村庄内部代码`)"
+                          "  CONSTRAINT `lastname_姓氏_ibfk_1` FOREIGN KEY (`firstlastNamesId_姓氏代码`) REFERENCES `lastNameCategory_姓氏类别` (`categoryId_类别代码`),"
+                          "  CONSTRAINT `lastname_姓氏_ibfk_2` FOREIGN KEY (`secondlastNamesId_姓氏代码`) REFERENCES `lastNameCategory_姓氏类别` (`categoryId_类别代码`),"
+                          "  CONSTRAINT `lastname_姓氏_ibfk_3` FOREIGN KEY (`thirdlastNamesId_姓氏代码`) REFERENCES `lastNameCategory_姓氏类别` (`categoryId_类别代码`),"
+                          "  CONSTRAINT `lastname_姓氏_ibfk_4` FOREIGN KEY (`fourthlastNamesId_姓氏代码`) REFERENCES `lastNameCategory_姓氏类别` (`categoryId_类别代码`),"
+                          "  CONSTRAINT `lastname_姓氏_ibfk_5` FOREIGN KEY (`fifthlastNamesId_姓氏代码`) REFERENCES `lastNameCategory_姓氏类别` (`categoryId_类别代码`),"
+                          "  CONSTRAINT `lastname_姓氏_ibfk_6` FOREIGN KEY (`gazetteerId_村志代码`) REFERENCES `gazetteerInformation_村志信息` (`gazetteerId_村志代码`),"
+                          "  CONSTRAINT `lastname_姓氏_ibfk_7` FOREIGN KEY (`villageInnerId_村庄内部代码`) REFERENCES `village_村` (`villageInnerId_村庄内部代码`)"
                           ") ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;")

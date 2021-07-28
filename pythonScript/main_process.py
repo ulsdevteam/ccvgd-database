@@ -2,7 +2,7 @@ from Category import CATEGORIES
 import process
 
 read_csv_dirct = "All Datasets and Data Dictionary"
-output_csv_dirct = "Database Data"
+output_csv_dirct = "Database data"
 
 print("---------------")
 process.create_csv_gazetteerInformation(read_csv_dirct, output_csv_dirct, input_file="Gazetteer Information.csv")
